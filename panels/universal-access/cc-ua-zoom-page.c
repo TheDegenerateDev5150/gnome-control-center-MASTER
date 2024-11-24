@@ -39,6 +39,8 @@
 #include "cc-ua-macros.h"
 #include "cc-ua-zoom-page.h"
 
+#include <math.h>
+
 struct _CcUaZoomPage
 {
   AdwNavigationPage   parent_instance;
@@ -302,6 +304,55 @@ ua_zoom_contrast_value_changed_cb (CcUaZoomPage *self)
   g_settings_set_double (self->magnifier_settings, "contrast-blue", value);
 }
 
+#define CROSSHAIR_LEN_MIN 20
+#define CROSSHAIR_LEN_MAX 4096
+#define CROSSHAIR_LEN_ADJ_MAX 100.0
+
+static double
+crosshair_adj_to_len (double   value,
+                      gboolean invert)
+{
+  double prefactor, scale;
+
+  /* We use the formula "setting = prefactor * 2^(scale * adjustment)", with inverse
+   * "adjustment = log2 (setting / prefactor) / scale".
+   * We can calculate the constants, knowing the minimum and maximum values */
+  prefactor = CROSSHAIR_LEN_MIN;
+  scale = log2 (CROSSHAIR_LEN_MAX / prefactor) / CROSSHAIR_LEN_ADJ_MAX;
+
+  if (invert)
+    return log2 (value / prefactor) / scale;
+
+  return prefactor * pow (2.0, scale * value);
+}
+
+static gboolean
+crosshair_len_get_mapping (GValue   *value,
+                           GVariant *variant,
+                           gpointer  user_data)
+{
+  int settings_value;
+
+  /* Use inverse formula to convert to adjustment value */
+  settings_value = g_variant_get_int32 (variant);
+  g_value_set_double (value, crosshair_adj_to_len (settings_value, TRUE));
+
+  return TRUE;
+}
+
+static GVariant *
+crosshair_len_set_mapping (const GValue       *value,
+                           const GVariantType *expected_type,
+                           gpointer            user_data)
+{
+  double adjustment_value;
+
+  /* Use rounded forward formula to convert to integer settings value */
+  adjustment_value = g_value_get_double (value);
+
+  return g_variant_new_int32 (round (crosshair_adj_to_len (adjustment_value, FALSE)));
+}
+
 static void
 cc_ua_zoom_page_dispose (GObject *object)
 {
@@ -382,9 +433,11 @@ cc_ua_zoom_page_init (CcUaZoomPage *self)
   g_settings_bind (self->magnifier_settings, "cross-hairs-thickness",
                    gtk_range_get_adjustment (GTK_RANGE (self->crosshair_thickness_scale)), "value",
                    G_SETTINGS_BIND_DEFAULT);
-  g_settings_bind (self->magnifier_settings, "cross-hairs-length",
-                   gtk_range_get_adjustment (GTK_RANGE (self->crosshair_length_scale)), "value",
-                   G_SETTINGS_BIND_DEFAULT);
+  g_settings_bind_with_mapping (self->magnifier_settings, "cross-hairs-length",
+                                gtk_range_get_adjustment (GTK_RANGE (self->crosshair_length_scale)), "value",
+                                G_SETTINGS_BIND_DEFAULT,
+                                crosshair_len_get_mapping, crosshair_len_set_mapping,
+                                NULL, NULL);
 
   /* Cross hairs effects */
   g_settings_bind (self->magnifier_settings, "invert-lightness",

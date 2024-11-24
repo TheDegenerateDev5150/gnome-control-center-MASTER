@@ -139,20 +139,19 @@ template $CcUaZoomPage: Adw.NavigationPage {
             use-underline: true;
 
             [suffix]
+            /* This scale is nonlinearly mapped, changing these values requires C code changes too. */
             Scale crosshair_length_scale {
               marks [
                 /* Translators: This is a mark in the Crosshair Length scale */
-                mark (20, bottom, _("Short")),
+                mark (0, bottom, _("Short")),
                 /* Translators: This is a mark in the Crosshair Length scale */
-                mark (4096, bottom, _("Long")),
+                mark (100, bottom, _("Long")),
               ]
 
               adjustment: Adjustment {
-                lower: 20;
-                upper: 4096;
-                value: 4096;
+                upper: 100;
                 step-increment: 1;
-                page-increment: 100;
+                page-increment: 10;
               };
             }
           }
