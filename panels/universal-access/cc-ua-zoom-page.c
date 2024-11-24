@@ -305,7 +305,9 @@ ua_zoom_contrast_value_changed_cb (CcUaZoomPage *self)
 }
 
 #define CROSSHAIR_LEN_MIN 20
-#define CROSSHAIR_LEN_MAX 4096
+#define CROSSHAIR_LEN_DEFAULT 4096
+#define CROSSHAIR_LEN_MAX (CROSSHAIR_LEN_DEFAULT - 1) /* We cannot use the default value */
+#define CROSSHAIR_LEN_ADJ_DEFAULT 20.0
 #define CROSSHAIR_LEN_ADJ_MAX 100.0
 
 static double
@@ -438,6 +440,14 @@ cc_ua_zoom_page_init (CcUaZoomPage *self)
                                 G_SETTINGS_BIND_DEFAULT,
                                 crosshair_len_get_mapping, crosshair_len_set_mapping,
                                 NULL, NULL);
+  /* Set old default to our custom crosshair length default, but only if zoom is not currently active */
+  if (!g_settings_get_boolean (self->application_settings, KEY_SCREEN_MAGNIFIER_ENABLED) &&
+      g_settings_get_int (self->magnifier_settings, "cross-hairs-length") == CROSSHAIR_LEN_DEFAULT)
+      {
+        /* The mapping will convert this to a default setting */
+        gtk_adjustment_set_value (gtk_range_get_adjustment (GTK_RANGE (self->crosshair_length_scale)),
+                                  CROSSHAIR_LEN_ADJ_DEFAULT);
+      }
 
   /* Cross hairs effects */
   g_settings_bind (self->magnifier_settings, "invert-lightness",
