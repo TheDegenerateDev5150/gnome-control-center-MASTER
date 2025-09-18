@@ -67,7 +67,7 @@ template $CcUaSeeingPage: Adw.NavigationPage {
           title: _("_Text Size");
           use-underline: true;
           show-arrow: true;
-          activated => $adw_dialog_present(text_size_dialog);
+          activated => $ua_text_size_row_activated_cb(template);
         }
 
         $CcListRow cursor_size_row {

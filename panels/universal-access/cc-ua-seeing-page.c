@@ -223,6 +223,16 @@ ua_cursor_row_activated_cb (CcUaSeeingPage *self)
 }
 
 static void
+ua_text_size_row_activated_cb (CcUaSeeingPage *self)
+{
+  /* Intiialize scale with the current value. */
+  gtk_range_set_value (GTK_RANGE (self->text_size_scale),
+                       g_settings_get_double (self->interface_settings,
+                                              KEY_TEXT_SCALING_FACTOR));
+  adw_dialog_present (self->text_size_dialog, GTK_WIDGET (self));
+}
+
+static void
 orca_show_preferences_cb (GObject      *source_object,
                           GAsyncResult *res,
                           gpointer      data)
@@ -292,6 +302,7 @@ cc_ua_seeing_page_class_init (CcUaSeeingPageClass *klass)
   gtk_widget_class_bind_template_child (widget_class, CcUaSeeingPage, configure_screen_reader_row);
 
   gtk_widget_class_bind_template_callback (widget_class, ua_cursor_row_activated_cb);
+  gtk_widget_class_bind_template_callback (widget_class, ua_text_size_row_activated_cb);
   gtk_widget_class_bind_template_callback (widget_class, configure_screen_reader_activated_cb);
   gtk_widget_class_bind_template_child (widget_class, CcUaSeeingPage, text_size_dialog);
   gtk_widget_class_bind_template_child (widget_class, CcUaSeeingPage, text_size_preview_label);
@@ -329,6 +340,9 @@ cc_ua_seeing_page_init (CcUaSeeingPage *self)
                                 NULL);
 
   /* Text Size */
+  gtk_range_set_value (GTK_RANGE (self->text_size_scale),
+                       g_settings_get_double (self->interface_settings,
+                                              KEY_TEXT_SCALING_FACTOR));
   g_signal_connect (GTK_RANGE (self->text_size_scale), "change-value",
                     G_CALLBACK (ua_text_size_change_value), self);
   update_text_size_row_label (self);
