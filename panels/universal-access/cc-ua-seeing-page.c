@@ -77,7 +77,7 @@ static void
 update_text_size_row_label (CcUaSeeingPage *self)
 {
   const gchar *label = NULL;
-  gdouble text_scaling_factor;
+  double text_scaling_factor;
 
   text_scaling_factor = g_settings_get_double (self->interface_settings,
                                                KEY_TEXT_SCALING_FACTOR);
@@ -95,13 +95,12 @@ apply_text_size_changes (CcUaSeeingPage *self)
   update_text_size_row_label (self);
 }
 
-static gboolean
-ua_text_size_change_value (GtkRange      *text_size_range,
-                           GtkScrollType *scroll,
-                           gdouble        value,
-                           gpointer       user_data)
+static void
+ua_text_size_value_changed (GtkRange      *text_size_range,
+                            gpointer       user_data)
 {
   CcUaSeeingPage *self = CC_UA_SEEING_PAGE (user_data);
+  double value = gtk_range_get_value (text_size_range);
   gdouble rounded_value = round (value / 0.05) * 0.05;
   PangoAttrList *new_attrs = pango_attr_list_new ();
   PangoAttribute *attr = pango_attr_size_new_absolute ((int)(15 * PANGO_SCALE * rounded_value));
@@ -112,8 +111,6 @@ ua_text_size_change_value (GtkRange      *text_size_range,
   pango_attr_list_insert (new_attrs, attr);
   gtk_label_set_attributes (GTK_LABEL (self->text_size_preview_label), new_attrs);
   pango_attr_list_unref (new_attrs);
-
-  return TRUE;
 }
 
 static void
@@ -343,8 +340,8 @@ cc_ua_seeing_page_init (CcUaSeeingPage *self)
   gtk_range_set_value (GTK_RANGE (self->text_size_scale),
                        g_settings_get_double (self->interface_settings,
                                               KEY_TEXT_SCALING_FACTOR));
-  g_signal_connect (GTK_RANGE (self->text_size_scale), "change-value",
-                    G_CALLBACK (ua_text_size_change_value), self);
+  g_signal_connect (GTK_RANGE (self->text_size_scale), "value-changed",
+                    G_CALLBACK (ua_text_size_value_changed), self);
   update_text_size_row_label (self);
 
   /* Sound Keys */
