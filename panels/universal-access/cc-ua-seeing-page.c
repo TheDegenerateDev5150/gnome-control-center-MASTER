@@ -102,15 +102,14 @@ ua_text_size_value_changed (GtkRange      *text_size_range,
   CcUaSeeingPage *self = CC_UA_SEEING_PAGE (user_data);
   double value = gtk_range_get_value (text_size_range);
   gdouble rounded_value = round (value / 0.05) * 0.05;
-  PangoAttrList *new_attrs = pango_attr_list_new ();
-  PangoAttribute *attr = pango_attr_size_new_absolute ((int)(15 * PANGO_SCALE * rounded_value));
+  g_autoptr(PangoAttrList) new_attrs = pango_attr_list_new ();
+  g_autoptr(PangoAttribute) attr = pango_attr_size_new_absolute ((int)(15 * PANGO_SCALE * rounded_value));
 
   /* Always round to 0.05 multiples */
   gtk_range_set_value (text_size_range, rounded_value);
 
-  pango_attr_list_insert (new_attrs, attr);
+  pango_attr_list_insert (new_attrs, g_steal_pointer (&attr));
   gtk_label_set_attributes (GTK_LABEL (self->text_size_preview_label), new_attrs);
-  pango_attr_list_unref (new_attrs);
 }
 
 static void
