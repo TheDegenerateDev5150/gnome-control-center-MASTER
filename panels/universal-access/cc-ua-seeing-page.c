@@ -64,6 +64,8 @@ struct _CcUaSeeingPage
 
   AdwDialog          *text_size_dialog;
   GtkLabel           *text_size_preview_label;
+  GtkLabel           *text_size_label_small;
+  GtkLabel           *text_size_label_large;
 
   GSettings          *kb_settings;
   GSettings          *interface_settings;
@@ -335,6 +337,8 @@ cc_ua_seeing_page_class_init (CcUaSeeingPageClass *klass)
   gtk_widget_class_bind_template_callback (widget_class, configure_screen_reader_activated_cb);
   gtk_widget_class_bind_template_child (widget_class, CcUaSeeingPage, text_size_dialog);
   gtk_widget_class_bind_template_child (widget_class, CcUaSeeingPage, text_size_preview_label);
+  gtk_widget_class_bind_template_child (widget_class, CcUaSeeingPage, text_size_label_small);
+  gtk_widget_class_bind_template_child (widget_class, CcUaSeeingPage, text_size_label_large);
 
   gtk_widget_class_bind_template_callback (widget_class, apply_text_size_changes);
 }
@@ -375,6 +379,8 @@ cc_ua_seeing_page_init (CcUaSeeingPage *self)
   g_signal_connect (GTK_RANGE (self->text_size_scale), "value-changed",
                     G_CALLBACK (ua_text_size_value_changed), self);
   update_text_size_row_label (self);
+  set_label_scale (self, self->text_size_label_small, 1.0);
+  set_label_scale (self, self->text_size_label_large, 2.0);
 
   /* Sound Keys */
   g_settings_bind (self->kb_settings, KEY_TOGGLEKEYS_ENABLED,
