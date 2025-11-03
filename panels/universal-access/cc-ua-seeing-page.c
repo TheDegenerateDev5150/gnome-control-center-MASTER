@@ -140,11 +140,10 @@ ua_text_size_value_changed (GtkRange      *text_size_range,
 {
   CcUaSeeingPage *self = CC_UA_SEEING_PAGE (user_data);
   double value = gtk_range_get_value (text_size_range);
-  gdouble rounded_value = round (value / 0.01) * 0.01;   /* Always round to 0.01 multiples */
 
-  gtk_range_set_value (text_size_range, rounded_value);
+  gtk_range_set_value (text_size_range, value);
 
-  set_label_scale (self, self->text_size_preview_label, rounded_value);
+  set_label_scale (self, self->text_size_preview_label, value);
 }
 
 static void
