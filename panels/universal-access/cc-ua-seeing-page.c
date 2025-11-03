@@ -74,6 +74,43 @@ struct _CcUaSeeingPage
 G_DEFINE_TYPE (CcUaSeeingPage, cc_ua_seeing_page, ADW_TYPE_NAVIGATION_PAGE)
 
 static void
+set_label_scale (CcUaSeeingPage *self,
+                 GtkLabel       *label,
+                 double          scale)
+{
+  PangoContext *pango_ctx;
+  PangoFontDescription *font_desc;
+  double default_font_size;
+  g_autoptr(PangoAttribute) attr = NULL;
+  g_autoptr(PangoAttrList) new_attrs = NULL;
+
+  pango_ctx = gtk_widget_get_pango_context (GTK_WIDGET (label));
+  font_desc = pango_context_get_font_description (pango_ctx);
+
+  if (font_desc)
+    {
+      default_font_size = pango_font_description_get_size (font_desc);
+
+      /* We need absolute size without text scaling applied */
+      if (pango_font_description_get_size_is_absolute (font_desc))
+        default_font_size /= g_settings_get_double (self->interface_settings,
+                                                    KEY_TEXT_SCALING_FACTOR);
+      else
+        default_font_size *= 96.0 / 72; /* 96 dpi */
+    }
+  else
+    {
+      default_font_size = 11 * PANGO_SCALE * 96.0 / 72; /* Assuming 11 pt, 96 dpi */
+    }
+
+  attr = pango_attr_size_new_absolute (round (scale * default_font_size));
+  new_attrs = pango_attr_list_new ();
+  pango_attr_list_insert (new_attrs, g_steal_pointer (&attr));
+
+  gtk_label_set_attributes (label, new_attrs);
+}
+
+static void
 update_text_size_row_label (CcUaSeeingPage *self)
 {
   const gchar *label = NULL;
@@ -102,13 +139,10 @@ ua_text_size_value_changed (GtkRange      *text_size_range,
   CcUaSeeingPage *self = CC_UA_SEEING_PAGE (user_data);
   double value = gtk_range_get_value (text_size_range);
   gdouble rounded_value = round (value / 0.01) * 0.01;   /* Always round to 0.01 multiples */
-  g_autoptr(PangoAttrList) new_attrs = pango_attr_list_new ();
-  g_autoptr(PangoAttribute) attr = pango_attr_size_new_absolute ((int)(15 * PANGO_SCALE * rounded_value));
 
   gtk_range_set_value (text_size_range, rounded_value);
 
-  pango_attr_list_insert (new_attrs, g_steal_pointer (&attr));
-  gtk_label_set_attributes (GTK_LABEL (self->text_size_preview_label), new_attrs);
+  set_label_scale (self, self->text_size_preview_label, rounded_value);
 }
 
 static void
