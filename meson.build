@@ -211,6 +211,20 @@ subproject('libgxdp',
   ],
 )
 
+gmobile_dep = dependency(
+  'gmobile',
+  version: '>= 0.6.0',
+  fallback: ['gmobile', 'gmobile_dep'],
+  default_options: [
+    'examples=false',
+    'introspection=false',
+    'gtk_doc=false',
+    'tests=false',
+    'vapi=false',
+    'hwdb=false',
+  ],
+)
+
 accounts_dep = dependency('accountsservice', version: '>= 23.11.69')
 colord_dep = dependency('colord', version: '>= 0.1.34')
 gdk_pixbuf_dep = dependency('gdk-pixbuf-2.0', version: '>= 2.23.0')
