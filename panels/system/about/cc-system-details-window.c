@@ -35,6 +35,8 @@
 #include <glibtop/sysinfo.h>
 #include <udisks/udisks.h>
 #include <gudev/gudev.h>
+#define GMOBILE_USE_UNSTABLE_API
+#include <gmobile.h>
 
 #include <gdk/gdk.h>
 
@@ -409,16 +411,31 @@ get_hardware_model_string (void)
 {
   g_autofree char *vendor_string = NULL;
   g_autofree char *model_string = NULL;
+  g_auto (GStrv) compatibles = gm_device_tree_get_compatibles (NULL, NULL);
+  g_autoptr (GmDeviceInfo) info = NULL;
+  const char *name;
+  GmDisplayPanel *panel;
 
   vendor_string = cc_hostname_get_property (cc_hostname_get_default (), "HardwareVendor");
-  if (!vendor_string || g_strcmp0 (vendor_string, "") == 0)
-    return NULL;
-
   model_string = cc_hostname_get_property (cc_hostname_get_default (), "HardwareModel");
-  if (!model_string || g_strcmp0 (model_string, "") == 0)
+
+  if (vendor_string && g_strcmp0 (vendor_string, "") &&
+      vendor_string && g_strcmp0 (vendor_string, ""))
+    return g_strdup_printf ("%s %s", vendor_string, model_string);
+
+  if (gm_strv_is_null_or_empty (compatibles))
     return NULL;
 
-  return g_strdup_printf ("%s %s", vendor_string, model_string);
+  info = gm_device_info_new ((const char * const *)compatibles);
+  panel = gm_device_info_get_display_panel (info);
+  if (!panel)
+    return NULL;
+
+  name = gm_display_panel_get_name (panel);
+  if (name)
+    return g_strdup (name);
+
+  return g_strdup (compatibles[0]);
 }
 
 static char *

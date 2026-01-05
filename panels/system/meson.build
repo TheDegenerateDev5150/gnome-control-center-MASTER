@@ -100,6 +100,7 @@ deps = common_deps + [
   accounts_dep,
   gcr_dep,
   gdk_pixbuf_dep,
+  gmobile_dep,
   gnome_desktop_dep,
   gnutls_dep,
   gudev_dep,
