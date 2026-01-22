@@ -35,8 +35,10 @@
 #include <glibtop/sysinfo.h>
 #include <udisks/udisks.h>
 #include <gudev/gudev.h>
+#ifdef HAVE_GMOBILE
 #define GMOBILE_USE_UNSTABLE_API
 #include <gmobile.h>
+#endif
 
 #include <gdk/gdk.h>
 
@@ -406,22 +408,14 @@ get_primary_disk_info (void)
   return NULL;
 }
 
-char *
-get_hardware_model_string (void)
+#ifdef HAVE_GMOBILE
+static char *
+get_hardware_model_string_from_device_tree (void)
 {
-  g_autofree char *vendor_string = NULL;
-  g_autofree char *model_string = NULL;
   g_auto (GStrv) compatibles = gm_device_tree_get_compatibles (NULL, NULL);
   g_autoptr (GmDeviceInfo) info = NULL;
   const char *name;
   GmDisplayPanel *panel;
-
-  vendor_string = cc_hostname_get_property (cc_hostname_get_default (), "HardwareVendor");
-  model_string = cc_hostname_get_property (cc_hostname_get_default (), "HardwareModel");
-
-  if (vendor_string && g_strcmp0 (vendor_string, "") &&
-      vendor_string && g_strcmp0 (vendor_string, ""))
-    return g_strdup_printf ("%s %s", vendor_string, model_string);
 
   if (gm_strv_is_null_or_empty (compatibles))
     return NULL;
@@ -436,6 +430,30 @@ get_hardware_model_string (void)
     return g_strdup (name);
 
   return g_strdup (compatibles[0]);
+}
+#endif
+
+char *
+get_hardware_model_string (void)
+{
+  g_autofree char *vendor_string = NULL;
+  g_autofree char *model_string = NULL;
+  g_autofree char *device_tree_string = NULL;
+
+  vendor_string = cc_hostname_get_property (cc_hostname_get_default (), "HardwareVendor");
+  model_string = cc_hostname_get_property (cc_hostname_get_default (), "HardwareModel");
+
+  if (vendor_string && g_strcmp0 (vendor_string, "") != 0 &&
+      model_string && g_strcmp0 (model_string, "") != 0)
+    return g_strdup_printf ("%s %s", vendor_string, model_string);
+
+#ifdef HAVE_GMOBILE
+  device_tree_string = get_hardware_model_string_from_device_tree ();
+  if (device_tree_string)
+    return g_steal_pointer (&device_tree_string);
+#endif
+
+  return NULL;
 }
 
 static char *

@@ -100,7 +100,6 @@ deps = common_deps + [
   accounts_dep,
   gcr_dep,
   gdk_pixbuf_dep,
-  gmobile_dep,
   gnome_desktop_dep,
   gnutls_dep,
   gudev_dep,
@@ -112,6 +111,10 @@ deps = common_deps + [
   pwquality_dep,
   udisks2,
 ]
+
+if gmobile_dep.found()
+  deps += gmobile_dep
+endif
 
 if enable_ibus
   deps += ibus_dep

@@ -214,7 +214,6 @@ subproject('libgxdp',
 gmobile_dep = dependency(
   'gmobile',
   version: '>= 0.6.0',
-  fallback: ['gmobile', 'gmobile_dep'],
   default_options: [
     'examples=false',
     'introspection=false',
@@ -223,7 +222,10 @@ gmobile_dep = dependency(
     'vapi=false',
     'hwdb=false',
   ],
+  required: false,
 )
+config_h.set('HAVE_GMOBILE', gmobile_dep.found(),
+             description: 'Define to 1 if gmobile is available')
 
 accounts_dep = dependency('accountsservice', version: '>= 23.11.69')
 colord_dep = dependency('colord', version: '>= 0.1.34')
