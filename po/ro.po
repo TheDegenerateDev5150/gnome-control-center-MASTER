@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
 "issues\n"
-"POT-Creation-Date: 2026-01-22 10:44+0000\n"
-"PO-Revision-Date: 2026-01-22 11:52+0100\n"
+"POT-Creation-Date: 2026-02-02 08:59+0000\n"
+"PO-Revision-Date: 2026-02-02 11:03+0100\n"
 "Last-Translator: Antonio Marin <gnmer.6qxyg@slmail.me>\n"
 "Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -251,7 +251,7 @@ msgstr "Primește căutările sistemului și trimite rezultatele"
 #: panels/keyboard/keyboard-shortcuts.c:367 panels/network/panel-common.c:336
 #: panels/system/users/cc-user-page.c:368
 #: panels/system/users/cc-user-page.c:753 panels/wwan/cc-wwan-device-page.c:475
-#: subprojects/gvc/gvc-mixer-control.c:1872
+#: subprojects/gvc/gvc-mixer-control.c:1910
 msgid "Disabled"
 msgstr "Dezactivat"
 
@@ -2467,6 +2467,7 @@ msgid "Layout Default"
 msgstr "Aranjament prestabilit"
 
 #: panels/keyboard/cc-keyboard-panel.c:66
+#: panels/universal-access/cc-ua-seeing-page.c:123
 msgid "Default"
 msgstr "Prestabilită"
 
@@ -4119,6 +4120,7 @@ msgid "seconds"
 msgstr "secunde"
 
 #: panels/network/connection-editor/wireguard-peer.blp:227
+#: panels/universal-access/cc-ua-seeing-page.blp:115
 msgid "Apply"
 msgstr "Aplică"
 
@@ -7389,94 +7391,102 @@ msgstr "_24 de ore"
 msgid "AM / _PM"
 msgstr "AM / _PM"
 
-#: panels/system/datetime/cc-datetime-page.blp:158
+#: panels/system/datetime/cc-datetime-page.blp:157
+msgid "F_irst Day of the Week"
+msgstr "Pr_ima zi a săptămânii"
+
+#: panels/system/datetime/cc-datetime-page.blp:168
 msgid "Clock &amp; Calendar"
 msgstr "Ceas și Calendar"
 
-#: panels/system/datetime/cc-datetime-page.blp:159
+#: panels/system/datetime/cc-datetime-page.blp:169
 msgid "Control how the time and date is shown in the top bar"
 msgstr "Stabilește cum sunt afișate ora și data în bara de sus"
 
-#: panels/system/datetime/cc-datetime-page.blp:162
+#: panels/system/datetime/cc-datetime-page.blp:172
 msgid "_Week Day"
 msgstr "Ziua _săptămânii"
 
-#: panels/system/datetime/cc-datetime-page.blp:167
+#: panels/system/datetime/cc-datetime-page.blp:177
 msgid "D_ate"
 msgstr "D_ata"
 
-#: panels/system/datetime/cc-datetime-page.blp:172
+#: panels/system/datetime/cc-datetime-page.blp:182
 msgid "_Seconds"
 msgstr "_Secunde"
 
-#: panels/system/datetime/cc-datetime-page.blp:177
+#: panels/system/datetime/cc-datetime-page.blp:187
 msgid "Week _Numbers"
 msgstr "_Numere săptămâni"
 
-#: panels/system/datetime/cc-datetime-page.blp:178
+#: panels/system/datetime/cc-datetime-page.blp:188
 msgid "Shown in the dropdown calendar"
 msgstr "Vizibil în calendarul desfășurat"
 
-#: panels/system/datetime/cc-datetime-page.blp:211
+#: panels/system/datetime/cc-datetime-page.blp:221
 msgid "January"
 msgstr "Ianuarie"
 
-#: panels/system/datetime/cc-datetime-page.blp:212
+#: panels/system/datetime/cc-datetime-page.blp:222
 msgid "February"
 msgstr "Februarie"
 
-#: panels/system/datetime/cc-datetime-page.blp:213
+#: panels/system/datetime/cc-datetime-page.blp:223
 msgid "March"
 msgstr "Martie"
 
-#: panels/system/datetime/cc-datetime-page.blp:214
+#: panels/system/datetime/cc-datetime-page.blp:224
 msgid "April"
 msgstr "Aprilie"
 
-#: panels/system/datetime/cc-datetime-page.blp:215
+#: panels/system/datetime/cc-datetime-page.blp:225
 msgid "May"
 msgstr "Mai"
 
-#: panels/system/datetime/cc-datetime-page.blp:216
+#: panels/system/datetime/cc-datetime-page.blp:226
 msgid "June"
 msgstr "Iunie"
 
-#: panels/system/datetime/cc-datetime-page.blp:217
+#: panels/system/datetime/cc-datetime-page.blp:227
 msgid "July"
 msgstr "Iulie"
 
-#: panels/system/datetime/cc-datetime-page.blp:218
+#: panels/system/datetime/cc-datetime-page.blp:228
 msgid "August"
 msgstr "August"
 
-#: panels/system/datetime/cc-datetime-page.blp:219
+#: panels/system/datetime/cc-datetime-page.blp:229
 msgid "September"
 msgstr "Septembrie"
 
-#: panels/system/datetime/cc-datetime-page.blp:220
+#: panels/system/datetime/cc-datetime-page.blp:230
 msgid "October"
 msgstr "Octombrie"
 
-#: panels/system/datetime/cc-datetime-page.blp:221
+#: panels/system/datetime/cc-datetime-page.blp:231
 msgid "November"
 msgstr "Noiembrie"
 
-#: panels/system/datetime/cc-datetime-page.blp:222
+#: panels/system/datetime/cc-datetime-page.blp:232
 msgid "December"
 msgstr "Decembrie"
 
+#: panels/system/datetime/cc-datetime-page.c:227
+msgid "Locale Default"
+msgstr "Locală"
+
 #. Translators: This is the full date and time format used in 12-hour mode.
-#: panels/system/datetime/cc-datetime-page.c:237
+#: panels/system/datetime/cc-datetime-page.c:254
 msgid "%e %B %Y, %l:%M %p"
 msgstr "%e %B %Y, %l:%M %p"
 
 #. Translators: This is the full date and time format used in 24-hour mode.
-#: panels/system/datetime/cc-datetime-page.c:242
+#: panels/system/datetime/cc-datetime-page.c:259
 msgid "%e %B %Y, %R"
 msgstr "%e %B %Y, %R"
 
 #. Translators: "city, country"
-#: panels/system/datetime/cc-datetime-page.c:402
+#: panels/system/datetime/cc-datetime-page.c:419
 #, c-format
 msgctxt "timezone loc"
 msgid "%s, %s"
@@ -7484,7 +7494,7 @@ msgstr "%s, %s"
 
 #. Update the timezone on the listbow row
 #. Translators: "timezone (details)"
-#: panels/system/datetime/cc-datetime-page.c:419
+#: panels/system/datetime/cc-datetime-page.c:436
 #, c-format
 msgctxt "timezone desc"
 msgid "%s (%s)"
@@ -8702,7 +8712,7 @@ msgstr "Întârziere pentru clic _dublu"
 #: panels/universal-access/cc-ua-typing-page.blp:118
 #: panels/universal-access/cc-ua-typing-page.blp:163
 #: panels/universal-access/cc-ua-typing-page.blp:203
-#: panels/universal-access/cc-ua-zoom-page.blp:145
+#: panels/universal-access/cc-ua-zoom-page.blp:146
 msgid "Short"
 msgstr "Scurtă"
 
@@ -8713,7 +8723,7 @@ msgstr "Scurtă"
 #: panels/universal-access/cc-ua-typing-page.blp:120
 #: panels/universal-access/cc-ua-typing-page.blp:165
 #: panels/universal-access/cc-ua-typing-page.blp:205
-#: panels/universal-access/cc-ua-zoom-page.blp:147
+#: panels/universal-access/cc-ua-zoom-page.blp:149
 msgid "Long"
 msgstr "Lungă"
 
@@ -8758,6 +8768,7 @@ msgid "Small"
 msgstr "Mică"
 
 #: panels/universal-access/cc-ua-mouse-page.blp:128
+#: panels/universal-access/cc-ua-seeing-page.c:123
 msgid "Large"
 msgstr "Mare"
 
@@ -8839,65 +8850,84 @@ msgstr ""
 "interfața grafică"
 
 #: panels/universal-access/cc-ua-seeing-page.blp:67
-msgid "_Large Text"
-msgstr "_Text mărit"
+msgid "_Text Size"
+msgstr "Mărimea _textului"
 
-#: panels/universal-access/cc-ua-seeing-page.blp:68
-msgid "Increase the size of all text in the user interface"
-msgstr "Mărește tot textul din interfața grafică"
-
-#: panels/universal-access/cc-ua-seeing-page.blp:73
+#: panels/universal-access/cc-ua-seeing-page.blp:74
 msgid "_Cursor Size"
 msgstr "Mărimea _cursorului"
 
-#: panels/universal-access/cc-ua-seeing-page.blp:74
+#: panels/universal-access/cc-ua-seeing-page.blp:75
 msgid "Increase the size of the cursor"
 msgstr "Mărește cursorul"
 
-#: panels/universal-access/cc-ua-seeing-page.blp:80
+#: panels/universal-access/cc-ua-seeing-page.blp:81
 msgid "_Sound Keys"
 msgstr "_Sunet taste"
 
-#: panels/universal-access/cc-ua-seeing-page.blp:81
+#: panels/universal-access/cc-ua-seeing-page.blp:82
 msgid "Beep when Num Lock or Caps Lock are turned on or off"
 msgstr "Bip când Num Lock sau Caps Lock sunt activate sau dezactivate"
 
-#: panels/universal-access/cc-ua-seeing-page.blp:86
+#: panels/universal-access/cc-ua-seeing-page.blp:87
 msgid "Always Show Scroll_bars"
 msgstr "Arată mereu _barele de derulare"
 
-#: panels/universal-access/cc-ua-seeing-page.blp:87
+#: panels/universal-access/cc-ua-seeing-page.blp:88
 msgid "Make scrollbars always visible"
 msgstr "Face ca barele de derulare să fie totdeauna vizibile"
 
+#: panels/universal-access/cc-ua-seeing-page.blp:97
+msgid "Text Size"
+msgstr "Mărimea textului"
+
+#: panels/universal-access/cc-ua-seeing-page.blp:109
+#: panels/wwan/cc-wwan-device-page.c:187
+msgid "Cancel"
+msgstr "Renunță"
+
+#: panels/universal-access/cc-ua-seeing-page.blp:125
+msgid "Use the slider to adjust the size of user interface text"
+msgstr "Folosește cursorul pentru a regla mărimea textului interfeței"
+
+#. Translators: Single letter next to the text size slider
+#: panels/universal-access/cc-ua-seeing-page.blp:137
+#: panels/universal-access/cc-ua-seeing-page.blp:157
+msgid "A"
+msgstr "A"
+
+#: panels/universal-access/cc-ua-seeing-page.blp:168
+msgid "Sample text"
+msgstr "Text exemplu"
+
 #. translators: the labels will read:
 #. * Cursor Size: Default
-#: panels/universal-access/cc-ua-seeing-page.c:165
+#: panels/universal-access/cc-ua-seeing-page.c:215
 msgctxt "cursor size"
 msgid "Default"
 msgstr "Prestabilită"
 
-#: panels/universal-access/cc-ua-seeing-page.c:168
+#: panels/universal-access/cc-ua-seeing-page.c:218
 msgctxt "cursor size"
 msgid "Medium"
 msgstr "Medie"
 
-#: panels/universal-access/cc-ua-seeing-page.c:171
+#: panels/universal-access/cc-ua-seeing-page.c:221
 msgctxt "cursor size"
 msgid "Large"
 msgstr "Mare"
 
-#: panels/universal-access/cc-ua-seeing-page.c:174
+#: panels/universal-access/cc-ua-seeing-page.c:224
 msgctxt "cursor size"
 msgid "Larger"
 msgstr "Mai mare"
 
-#: panels/universal-access/cc-ua-seeing-page.c:177
+#: panels/universal-access/cc-ua-seeing-page.c:227
 msgctxt "cursor size"
 msgid "Largest"
 msgstr "Cea mai mare"
 
-#: panels/universal-access/cc-ua-seeing-page.c:181
+#: panels/universal-access/cc-ua-seeing-page.c:231
 #, c-format
 msgid "%d pixel"
 msgid_plural "%d pixels"
@@ -10083,10 +10113,6 @@ msgstr "Deblochează cardul SIM"
 msgid "Unlock"
 msgstr "Deblochează"
 
-#: panels/wwan/cc-wwan-device-page.c:187
-msgid "Cancel"
-msgstr "Renunță"
-
 #: panels/wwan/cc-wwan-device-page.c:191
 #, c-format
 msgid "Please provide PIN code for SIM %d"
@@ -10355,8 +10381,7 @@ msgstr "[PANEL] [ARGUMENT…]"
 #: shell/cc-application.c:126
 msgid "translator-credits"
 msgstr ""
-"Florentina Mușat <florentina [dot] musat [dot] 28 [at] gmail [dot] com>, "
-"2024\n"
+"Florentina Mușat <florentina [dot] musat [dot] 28 [at] gmail [dot] com>\n"
 "Antonio Marin <gnmer.6qxyg@slmail.me>"
 
 #: shell/cc-application.c:127
@@ -10490,7 +10515,7 @@ msgstr "Anulează căutarea"
 
 #. translators:
 #. * The number of sound outputs on a particular device
-#: subprojects/gvc/gvc-mixer-control.c:1879
+#: subprojects/gvc/gvc-mixer-control.c:1917
 #, c-format
 msgid "%u Output"
 msgid_plural "%u Outputs"
@@ -10500,7 +10525,7 @@ msgstr[2] "%u de ieșiri"
 
 #. translators:
 #. * The number of sound inputs on a particular device
-#: subprojects/gvc/gvc-mixer-control.c:1889
+#: subprojects/gvc/gvc-mixer-control.c:1927
 #, c-format
 msgid "%u Input"
 msgid_plural "%u Inputs"
@@ -10508,6 +10533,6 @@ msgstr[0] "%u intrare"
 msgstr[1] "%u intrări"
 msgstr[2] "%u de intrări"
 
-#: subprojects/gvc/gvc-mixer-control.c:2872
+#: subprojects/gvc/gvc-mixer-control.c:2910
 msgid "System Sounds"
 msgstr "Sunete de sistem"
