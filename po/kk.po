@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/issues\n"
-"POT-Creation-Date: 2026-01-22 10:44+0000\n"
-"PO-Revision-Date: 2026-01-29 22:04+0500\n"
+"POT-Creation-Date: 2026-02-03 08:50+0000\n"
+"PO-Revision-Date: 2026-02-04 21:33+0500\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
 "Language: kk\n"
@@ -22,19 +22,16 @@ msgstr ""
 msgid "Add Keyboard Shortcuts"
 msgstr "Пернетақта жарлықтарын қосу"
 
-#: global-shortcuts-provider/cc-global-shortcut-dialog.blp:17 panels/applications/cc-application-shortcut-dialog.c:147 panels/color/cc-color-calibrate.blp:22 panels/common/cc-language-chooser.blp:17
-#: panels/display/cc-display-panel.blp:28 panels/display/cc-display-panel.blp:139 panels/display/cc-display-panel.blp:186 panels/keyboard/cc-input-chooser.blp:16 panels/keyboard/cc-keyboard-shortcut-dialog.blp:144
-#: panels/keyboard/cc-keyboard-shortcut-editor.blp:13 panels/network/cc-net-proxy-page.blp:15 panels/network/cc-wifi-hotspot-dialog.blp:122 panels/network/cc-wifi-panel.blp:180 panels/network/connection-editor/ce-page-details.c:89
-#: panels/network/connection-editor/connection-editor.blp:17 panels/printers/pp-jobs-dialog.blp:112 panels/printers/pp-new-printer-dialog.ui:65 panels/printers/pp-ppd-selection-dialog.blp:19 panels/privacy/usage/cc-usage-page.blp:114
-#: panels/privacy/usage/cc-usage-page.blp:127 panels/privacy/usage/cc-usage-page.blp:140 panels/system/region/cc-format-chooser.blp:32 panels/system/users/cc-add-user-dialog.blp:19 panels/system/users/cc-avatar-chooser.c:94
-#: panels/system/users/cc-enterprise-login-dialog.blp:39 panels/system/users/cc-fingerprint-dialog.blp:18 panels/system/users/cc-fingerprint-dialog.c:1400 panels/system/users/cc-password-dialog.blp:17
-#: panels/system/users/cc-user-page.blp:197 panels/wwan/cc-wwan-mode-dialog.blp:27 panels/wwan/cc-wwan-network-dialog.blp:95 panels/wwan/cc-wwan-sim-lock-dialog.blp:202
+#: global-shortcuts-provider/cc-global-shortcut-dialog.blp:17 panels/applications/cc-application-shortcut-dialog.c:147 panels/color/cc-color-calibrate.blp:22 panels/common/cc-language-chooser.blp:17 panels/display/cc-display-panel.blp:28 panels/display/cc-display-panel.blp:139 panels/display/cc-display-panel.blp:186
+#: panels/keyboard/cc-input-chooser.blp:16 panels/keyboard/cc-keyboard-shortcut-dialog.blp:144 panels/keyboard/cc-keyboard-shortcut-editor.blp:13 panels/network/cc-net-proxy-page.blp:15 panels/network/cc-wifi-hotspot-dialog.blp:122 panels/network/cc-wifi-panel.blp:180 panels/network/connection-editor/ce-page-details.c:89
+#: panels/network/connection-editor/connection-editor.blp:17 panels/printers/pp-jobs-dialog.blp:112 panels/printers/pp-new-printer-dialog.ui:65 panels/printers/pp-ppd-selection-dialog.blp:19 panels/privacy/usage/cc-usage-page.blp:114 panels/privacy/usage/cc-usage-page.blp:127 panels/privacy/usage/cc-usage-page.blp:140
+#: panels/system/region/cc-format-chooser.blp:32 panels/system/users/cc-add-user-dialog.blp:19 panels/system/users/cc-avatar-chooser.c:94 panels/system/users/cc-enterprise-login-dialog.blp:39 panels/system/users/cc-fingerprint-dialog.blp:18 panels/system/users/cc-fingerprint-dialog.c:1400
+#: panels/system/users/cc-password-dialog.blp:17 panels/system/users/cc-user-page.blp:197 panels/wwan/cc-wwan-mode-dialog.blp:27 panels/wwan/cc-wwan-network-dialog.blp:95 panels/wwan/cc-wwan-sim-lock-dialog.blp:202
 msgid "_Cancel"
 msgstr "Ба_с тарту"
 
-#: global-shortcuts-provider/cc-global-shortcut-dialog.blp:25 panels/color/cc-color-panel.ui:349 panels/keyboard/cc-input-chooser.blp:24 panels/keyboard/cc-keyboard-shortcut-editor.blp:32
-#: panels/network/connection-editor/net-connection-editor.c:653 panels/printers/pp-new-printer-dialog.ui:96 panels/system/users/cc-add-user-dialog.blp:27 panels/system/users/cc-add-user-dialog.blp:134
-#: panels/system/users/cc-add-user-dialog.c:370 panels/system/users/cc-enterprise-login-dialog.blp:47
+#: global-shortcuts-provider/cc-global-shortcut-dialog.blp:25 panels/color/cc-color-panel.ui:349 panels/keyboard/cc-input-chooser.blp:24 panels/keyboard/cc-keyboard-shortcut-editor.blp:32 panels/network/connection-editor/net-connection-editor.c:653 panels/printers/pp-new-printer-dialog.ui:96
+#: panels/system/users/cc-add-user-dialog.blp:27 panels/system/users/cc-add-user-dialog.blp:134 panels/system/users/cc-add-user-dialog.c:370 panels/system/users/cc-enterprise-login-dialog.blp:47
 msgid "_Add"
 msgstr "Қ_осу"
 
@@ -84,13 +81,11 @@ msgstr "Ү_нсіз келісім қолданбалары"
 msgid "Set which apps open links, files, and media"
 msgstr "Сілтемелер, файлдар және тасушыларды ашатын қолданбаларды көрсету"
 
-#: panels/applications/cc-applications-panel.blp:64 panels/keyboard/cc-keyboard-shortcut-dialog.blp:89 panels/printers/cc-printers-panel.blp:96 panels/system/datetime/cc-tz-dialog.blp:37 panels/system/region/cc-format-chooser.blp:114
-#: shell/cc-panel-list.blp:40
+#: panels/applications/cc-applications-panel.blp:64 panels/keyboard/cc-keyboard-shortcut-dialog.blp:89 panels/printers/cc-printers-panel.blp:96 panels/system/datetime/cc-tz-dialog.blp:37 panels/system/region/cc-format-chooser.blp:114 shell/cc-panel-list.blp:40
 msgid "No Results Found"
 msgstr "Нәтижелер табылмады"
 
-#: panels/applications/cc-applications-panel.blp:65 panels/keyboard/cc-keyboard-shortcut-dialog.blp:90 panels/printers/cc-printers-panel.blp:97 panels/system/datetime/cc-tz-dialog.blp:38 panels/system/region/cc-format-chooser.blp:115
-#: shell/cc-panel-list.blp:41
+#: panels/applications/cc-applications-panel.blp:65 panels/keyboard/cc-keyboard-shortcut-dialog.blp:90 panels/printers/cc-printers-panel.blp:97 panels/system/datetime/cc-tz-dialog.blp:38 panels/system/region/cc-format-chooser.blp:115 shell/cc-panel-list.blp:41
 msgid "Try a different search"
 msgstr "Басқа сөздерді іздеп көріңіз"
 
@@ -106,8 +101,7 @@ msgstr "БҚ қолданбасында та_бу"
 msgid "Unable to List Apps"
 msgstr "Қолданбаларды тізіп шығару мүмкін емес"
 
-#. Translators: Parental Controls here refers to the features provided by
-#. 'malcontent'
+#. Translators: Parental Controls here refers to the features provided by 'malcontent'
 #: panels/applications/cc-applications-panel.blp:98
 msgid ""
 "An error has occurred and apps cannot be listed.\n"
@@ -156,9 +150,7 @@ msgstr "Қолданба ақ_параты"
 msgid "Permissions"
 msgstr "Рұқсаттар"
 
-#. Translators: This row shows/sets whether the app shown in this page can add
-#. results to the GNOME Shell search results. Internally this enables/disables
-#. the app's Shell Search Provider
+#. Translators: This row shows/sets whether the app shown in this page can add results to the GNOME Shell search results. Internally this enables/disables the app's Shell Search Provider
 #: panels/applications/cc-applications-panel.blp:218
 msgid "_Search"
 msgstr "І_здеу"
@@ -169,12 +161,12 @@ msgstr "Жүйелік іздеулерді алу және нәтижелерд
 
 #. This label is displayed in a treeview cell displaying
 #. * a disabled accelerator key combination.
+#.
 #. TRANSLATORS: device status
 #. translators:
 #. * The device has been disabled
-#: panels/applications/cc-applications-panel.blp:227 panels/applications/cc-applications-panel.blp:269 panels/applications/cc-applications-panel.blp:290 panels/applications/cc-applications-panel.blp:304
-#: panels/applications/cc-applications-panel.blp:318 panels/keyboard/cc-keyboard-panel.c:87 panels/keyboard/cc-keyboard-shortcut-editor.blp:120 panels/keyboard/keyboard-shortcuts.c:367 panels/network/panel-common.c:336
-#: panels/system/users/cc-user-page.c:368 panels/system/users/cc-user-page.c:753 panels/wwan/cc-wwan-device-page.c:475 subprojects/gvc/gvc-mixer-control.c:1910
+#: panels/applications/cc-applications-panel.blp:227 panels/applications/cc-applications-panel.blp:269 panels/applications/cc-applications-panel.blp:290 panels/applications/cc-applications-panel.blp:304 panels/applications/cc-applications-panel.blp:318 panels/keyboard/cc-keyboard-panel.c:87
+#: panels/keyboard/cc-keyboard-shortcut-editor.blp:120 panels/keyboard/keyboard-shortcuts.c:367 panels/network/panel-common.c:336 panels/system/users/cc-user-page.c:368 panels/system/users/cc-user-page.c:753 panels/wwan/cc-wwan-device-page.c:475 subprojects/gvc/gvc-mixer-control.c:1910
 msgid "Disabled"
 msgstr "Сөндірулі"
 
@@ -366,8 +358,7 @@ msgstr "Құрылғылар"
 msgid "Full access to /dev"
 msgstr "/dev бумасына толық қатынау құқығы"
 
-#: panels/applications/cc-applications-panel.c:881 panels/network/cc-network-panel.blp:7 panels/network/gnome-network-panel.desktop.in:2 panels/network/network-mobile.ui:235 panels/wwan/cc-wwan-device-page.blp:49
-#: panels/wwan/cc-wwan-network-dialog.blp:5
+#: panels/applications/cc-applications-panel.c:881 panels/network/cc-network-panel.blp:7 panels/network/gnome-network-panel.desktop.in:2 panels/network/network-mobile.ui:235 panels/wwan/cc-wwan-device-page.blp:49 panels/wwan/cc-wwan-network-dialog.blp:5
 msgid "Network"
 msgstr "Желі"
 
@@ -526,6 +517,7 @@ msgstr "БҚ CD дискілері үшін қолданбаны таңдау"
 #. * strings, just here to fix capitalization of the English originals.
 #. * If the shared-mime-info translation works for your language,
 #. * simply leave these untranslated.
+#.
 #: panels/applications/cc-removable-media-settings.c:391
 msgid "audio DVD"
 msgstr "аудио DVD"
@@ -826,12 +818,10 @@ msgstr "Шығарылған U2F құрылғыларына оқу/жазу қа
 msgid "Control various app permissions and settings"
 msgstr "Қолданбалардың түрлі рұқсаттарын және баптауларын басқару"
 
-#. Translators: Search terms to find the Apps panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Apps panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/applications/gnome-applications-panel.desktop.in:15
 msgid "application;flatpak;permission;setting;default;preferred;media;autorun;cd;dvd;usb;audio;video;disc;removable;device;system;"
-msgstr ""
-"application;flatpak;permission;setting;default;preferred;media;autorun;cd;dvd;usb;audio;video;disc;removable;device;system;қолданба;рұқсат;баптау;үнсіз келісім;таңдамалы;тасушы;автожөнелту;аудио;видео;диск;ауыстырмалы;құрылғы;жүйе;"
+msgstr "application;flatpak;permission;setting;default;preferred;media;autorun;cd;dvd;usb;audio;video;disc;removable;device;system;қолданба;рұқсат;баптау;үнсіз келісім;таңдамалы;тасушы;автожөнелту;аудио;видео;диск;ауыстырмалы;құрылғы;жүйе;"
 
 #: panels/background/cc-background-chooser.c:169
 msgid "Background removed"
@@ -939,8 +929,7 @@ msgstr "Сыртқы түрі"
 msgid "Change your background image or the UI colors"
 msgstr "Фон суретін немесе интерфейс түстерін өзгерту"
 
-#. Translators: Search terms to find the Appearance panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Appearance panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/background/gnome-background-panel.desktop.in:14
 msgid "Background;Wallpaper;Screen;Desktop;Style;Light;Dark;Appearance;"
 msgstr "Background;Wallpaper;Screen;Desktop;Style;Light;Dark;Appearance;Фон;Түсқағаз;Экран;Жұмыс үстелі;Стиль;Ашық түсті;Қараңғы түсті;Сыртқы түрі;"
@@ -994,8 +983,7 @@ msgstr "Bluetooth"
 msgid "Turn Bluetooth on and off and connect your devices"
 msgstr "Bluetooth-ды іске қосыңыз немесе сөндіріңіз және құрылғыларды байланыстырыңыз"
 
-#. Translators: Search terms to find the Bluetooth panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Bluetooth panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/bluetooth/gnome-bluetooth-panel.desktop.in:14
 msgid "share;sharing;bluetooth;obex;"
 msgstr "share;sharing;bluetooth;obex;бөлісу;"
@@ -1092,14 +1080,12 @@ msgstr "Калибрация сәтсіз аяқталды!"
 msgid "You can remove the calibration device."
 msgstr "Калибрация құрылғысын алып тастауға болады."
 
-#. TRANSLATORS: This refers to the embedded display on e.g. a smartphone, a
-#. laptop, an all-in-one desktop…
+#. TRANSLATORS: This refers to the embedded display on e.g. a smartphone, a laptop, an all-in-one desktop…
 #: panels/color/cc-color-common.c:41
 msgid "Built-In Screen"
 msgstr "Құрамындағы экран"
 
-#. TRANSLATORS: This refers to the embedded webcam on e.g. a smartphone, a
-#. laptop, an all-in-one desktop…
+#. TRANSLATORS: This refers to the embedded webcam on e.g. a smartphone, a laptop, an all-in-one desktop…
 #: panels/color/cc-color-common.c:50
 msgid "Built-In Webcam"
 msgstr "Құрамындағы вебкамера"
@@ -1210,11 +1196,9 @@ msgstr "Өлшеу құрылғысы анықталмады, Оның іске 
 msgid "The device type is not currently supported."
 msgstr "Құрылғының бұл түріне ағымда қолдау жоқ."
 
-#. Translators: This will be presented as the text of a link to the
-#. documentation
+#. Translators: This will be presented as the text of a link to the documentation
 #. translators: Text used in link to privacy policy
-#. Translators: This will be presented as the text of a link to the
-#. documentation
+#. Translators: This will be presented as the text of a link to the documentation
 #: panels/color/cc-color-panel.c:1935 panels/privacy/diagnostics/cc-diagnostics-page.c:122 panels/wacom/cc-wacom-device.c:168
 msgid "learn more"
 msgstr "көбірек білу"
@@ -1546,9 +1530,7 @@ msgstr "Түсті басқару"
 msgid "Calibrate the color of your devices, such as displays, cameras or printers"
 msgstr "Экрандар, камералар және принтерлер сияқты құрылғыларыңыздың түстерін калибрациялаңыз"
 
-#. Translators: Search terms to find the Color Management panel. Do NOT
-#. translate or localize the semicolons! The list MUST also end with a
-#. semicolon!
+#. Translators: Search terms to find the Color Management panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/color/gnome-color-panel.desktop.in:14
 msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
 msgstr "Color;ICC;Profile;Calibrate;Printer;Display;Түс;ICC;Профиль;Калибрациялау;Принтер;Экран;"
@@ -1704,8 +1686,7 @@ msgstr "%s"
 msgid "0 seconds"
 msgstr "0 секунд"
 
-#. translators: This is the default hotspot name, need to be less than
-#. 32-bytes
+#. translators: This is the default hotspot name, need to be less than 32-bytes
 #: panels/common/hostname-helper.c:221
 msgctxt "hotspot"
 msgid "Hotspot"
@@ -1744,8 +1725,7 @@ msgstr "Жоғарғы жолақ пен Белсенділіктерді қам
 msgid "_Primary Display"
 msgstr "Бі_ріншілік экран"
 
-#. Translators: This is the redshift functionality where we suppress blue
-#. light when the sun has gone down
+#. Translators: This is the redshift functionality where we suppress blue light when the sun has gone down
 #: panels/display/cc-display-panel.blp:113 panels/display/cc-night-light-page.blp:63
 msgid "_Night Light"
 msgstr "_Түнгі жарық"
@@ -1877,6 +1857,7 @@ msgstr "%.2lf Гц"
 #. * 1. "Variable" is an adjective that refers to the refresh rate
 #. * 2. The formatting sequence is a range separated by an en-dash
 #. *    (unicode "\u2013"). For example: "Variable (48–144.97 Hz)"
+#.
 #: panels/display/cc-display-settings.c:256
 msgid "Variable (%d–%.2lf Hz)"
 msgstr "Айнымалы (%d–%.2lf Гц)"
@@ -1962,8 +1943,7 @@ msgstr "Бұл қолданылатын графикалық драйверді�
 msgid "Use Night Light and choose how to use connected monitors and projectors"
 msgstr "Түнгі жарықты қолдану және жалғанған мониторлар мен проекторларды қолдану тәсілін таңдау"
 
-#. Translators: Search terms to find the Displays panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Displays panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/display/gnome-display-panel.desktop.in:14
 msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;Night;Light;Blue;redshift;color;sunset;sunrise;"
 msgstr "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;Night;Light;Blue;redshift;color;sunset;sunrise;Панель;Проектор;xrandr;Экран;Ажыратылымдығы;Жаңарту;Монитор;Түн;Жарық;Көк;түс;күннің шығуы;күннің батуы;"
@@ -2053,8 +2033,7 @@ msgid "Home folder"
 msgstr "Үй бумасы"
 
 #. Translators: this is a verb.
-#. Translators: "Search" should be phrased as a verb (in both "Name" and
-#. "Keywords" fields).
+#. Translators: "Search" should be phrased as a verb (in both "Name" and "Keywords" fields).
 #. Translators: this is a verb.
 #: panels/keyboard/01-launchers.xml.in:16 panels/printers/cc-printers-panel.blp:23 panels/search/cc-search-panel.blp:7 panels/search/gnome-search-panel.desktop.in:3 shell/cc-window.blp:29
 msgid "Search"
@@ -2231,7 +2210,7 @@ msgstr "Балама таңбалар пернесін қосымша таңба
 msgid "Layout Default"
 msgstr "Жайманың қалыпты түрі"
 
-#: panels/keyboard/cc-keyboard-panel.c:66
+#: panels/keyboard/cc-keyboard-panel.c:66 panels/universal-access/cc-ua-seeing-page.c:123
 msgid "Default"
 msgstr "Бастапқы"
 
@@ -2275,12 +2254,8 @@ msgid "Compose Key"
 msgstr "Compose пернесі"
 
 #: panels/keyboard/cc-keyboard-panel.c:83
-msgid ""
-"The compose key allows a wide variety of characters to be entered. To use it, press compose then a sequence of characters.  For example, compose key followed by <b>o</b> and <b>c</b> will enter <b>©</b>, <b>a</b> followed by <b>'</"
-"b> will enter <b>á</b>."
-msgstr ""
-"Compose пернесі таңбалардың үлкен жиынтығын енгізуге мүмкіндік береді. Оны қолдану үшін, compose пернесін, содан кейін таңбалар тізбегін басыңыз. Мысалы, compose пернесінен кейін <b>o</b> және <b>c</b> басылса, <b>©</b> "
-"енгізіледі, <b>a</b> кейін <b>'</b> басылса, <b>á</b> енгізіледі."
+msgid "The compose key allows a wide variety of characters to be entered. To use it, press compose then a sequence of characters.  For example, compose key followed by <b>o</b> and <b>c</b> will enter <b>©</b>, <b>a</b> followed by <b>'</b> will enter <b>á</b>."
+msgstr "Compose пернесі таңбалардың үлкен жиынтығын енгізуге мүмкіндік береді. Оны қолдану үшін, compose пернесін, содан кейін таңбалар тізбегін басыңыз. Мысалы, compose пернесінен кейін <b>o</b> және <b>c</b> басылса, <b>©</b> енгізіледі, <b>a</b> кейін <b>'</b> басылса, <b>á</b> енгізіледі."
 
 #: panels/keyboard/cc-keyboard-panel.c:94
 msgctxt "keyboard key"
@@ -2401,8 +2376,7 @@ msgstr "Ешнәрсе"
 msgid "_Set Shortcut…"
 msgstr "Жарлықты ор_нату…"
 
-#. TRANSLATORS: Don't translate/transliterate <b>%s</b>, which is the
-#. accelerator used
+#. TRANSLATORS: Don't translate/transliterate <b>%s</b>, which is the accelerator used
 #: panels/keyboard/cc-keyboard-shortcut-editor.c:373
 #, c-format
 msgid "<b>%s</b> is already being used for %s. If you replace it, %s will be disabled"
@@ -2421,8 +2395,10 @@ msgid "Set Shortcut"
 msgstr "Жарлықты орнату"
 
 #. Setup the top label
+#.
 #. * TRANSLATORS: %s is replaced with a description of the keyboard shortcut,
 #. * don't translate/transliterate <b>%s</b>
+#.
 #: panels/keyboard/cc-keyboard-shortcut-editor.c:543
 #, c-format
 msgid "Enter new shortcut to change <b>%s</b>"
@@ -2446,8 +2422,7 @@ msgstr "_Жарлықты қосу"
 msgid "Change keyboard shortcuts and set your typing preferences, keyboard layouts and input sources"
 msgstr "Пернетақта жарлықтарын өзгерту және теру баптауларын, пернетақта жаймаларын және кіріс қайнар көздерін орнату"
 
-#. Translators: Search terms to find the Keyboard panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Keyboard panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/keyboard/gnome-keyboard-panel.desktop.in:14
 msgid "Shortcut;Workspace;Window;Resize;Zoom;Contrast;Input;Source;Lock;Volume;Hotkey;Compose;Character;"
 msgstr "Shortcut;Workspace;Window;Resize;Zoom;Contrast;Input;Source;Lock;Volume;Hotkey;Compose;Character;Жарлық;Жұмыс орны;Терезе;Өлшемді өзгерту;Масштаб;Контраст;Енгізу;Қайнар көзі;Блоктау;Дыбыс;Ыстық перне;Кешенді теру;Таңба;"
@@ -2472,8 +2447,7 @@ msgstr "_Сол жақ"
 msgid "_Right"
 msgstr "_Оң жақ"
 
-#. Translators: This will be presented as the text of a link to the Mouse &
-#. Touchpad panel
+#. Translators: This will be presented as the text of a link to the Mouse & Touchpad panel
 #: panels/mouse/cc-mouse-panel.blp:92 panels/wacom/cc-wacom-page.c:712
 msgid "Mouse"
 msgstr "Тышқан"
@@ -2646,9 +2620,7 @@ msgstr "Тышқан және тач­пад"
 msgid "Change your mouse or touchpad sensitivity and select right or left-handed"
 msgstr "Тышқан немесе тачпад сезімталдығын өзгертіңіз және оң немесе солақай режимін көрсетіңіз"
 
-#. Translators: Search terms to find the Mouse and Touchpad panel. Do NOT
-#. translate or localize the semicolons! The list MUST also end with a
-#. semicolon!
+#. Translators: Search terms to find the Mouse and Touchpad panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/mouse/gnome-mouse-panel.desktop.in:14
 msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
 msgstr "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;Трекпад;Курсор;Шерту;Тию;Қос;Батырма;Трекбол;Скролл;Айналдыру;"
@@ -2737,8 +2709,7 @@ msgstr "Көптапсырмалылық"
 msgid "Manage preferences for productivity and multitasking"
 msgstr "Өнімділік және көптапсырмалылық баптауларын басқару"
 
-#. Translators: Search terms to find the Search panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Search panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/multitasking/gnome-multitasking-panel.desktop.in:14
 msgid "Multitasking;Multitask;Productivity;Customize;Desktop;Hot;Corner;Workspaces;"
 msgstr "Multitasking;Multitask;Productivity;Customize;Desktop;Hot;Corner;Workspaces;көптапсырмалылық;өнімділік;баптау;жұмыс үстелі;ыстық;бұрыш;жұмыс орындары;"
@@ -2759,8 +2730,8 @@ msgstr "_Желілік прокси"
 msgid "C_onfiguration"
 msgstr "Б_аптаулар"
 
-#: panels/network/cc-net-proxy-page.blp:54 panels/network/cc-net-proxy-page.c:195 panels/network/connection-editor/ip4-page.blp:176 panels/network/connection-editor/ip4-page.blp:231 panels/network/connection-editor/ip6-page.blp:36
-#: panels/network/connection-editor/ip6-page.blp:187 panels/network/connection-editor/ip6-page.blp:242 panels/wacom/cc-wacom-page.c:684
+#: panels/network/cc-net-proxy-page.blp:54 panels/network/cc-net-proxy-page.c:195 panels/network/connection-editor/ip4-page.blp:176 panels/network/connection-editor/ip4-page.blp:231 panels/network/connection-editor/ip6-page.blp:36 panels/network/connection-editor/ip6-page.blp:187
+#: panels/network/connection-editor/ip6-page.blp:242 panels/wacom/cc-wacom-page.c:684
 msgid "Automatic"
 msgstr "Автоматты түрде"
 
@@ -2849,8 +2820,7 @@ msgid "Network Name"
 msgstr "Желі атауы"
 
 #. Translators: This is a password needed for printing.
-#: panels/network/cc-qr-code-dialog.blp:64 panels/network/cc-wifi-hotspot-dialog.blp:79 panels/printers/pp-jobs-dialog.blp:171 panels/printers/pp-new-printer-dialog.ui:300 panels/system/users/cc-add-user-dialog.blp:89
-#: panels/wwan/cc-wwan-apn-dialog.blp:152
+#: panels/network/cc-qr-code-dialog.blp:64 panels/network/cc-wifi-hotspot-dialog.blp:79 panels/printers/pp-jobs-dialog.blp:171 panels/printers/pp-new-printer-dialog.ui:300 panels/system/users/cc-add-user-dialog.blp:89 panels/wwan/cc-wwan-apn-dialog.blp:152
 msgid "Password"
 msgstr "Пароль"
 
@@ -2862,8 +2832,7 @@ msgstr "Желі баптаулары"
 msgid "Forget Network"
 msgstr "Желіні ұмыту"
 
-#. TRANSLATORS: This happens when the connection name does not contain the
-#. SSID.
+#. TRANSLATORS: This happens when the connection name does not contain the SSID.
 #: panels/network/cc-wifi-connection-row.c:222
 #, c-format
 msgctxt "Wi-Fi Connection"
@@ -3029,8 +2998,7 @@ msgstr "Wi-Fi"
 msgid "802.1x _Security"
 msgstr "802.1x қауі_псіздігі"
 
-#: panels/network/connection-editor/bluetooth-page.blp:15 panels/network/connection-editor/ethernet-page.blp:27 panels/network/connection-editor/vpn-page.blp:21 panels/printers/pp-details-dialog.blp:20
-#: panels/system/users/cc-user-page.blp:77
+#: panels/network/connection-editor/bluetooth-page.blp:15 panels/network/connection-editor/ethernet-page.blp:27 panels/network/connection-editor/vpn-page.blp:21 panels/printers/pp-details-dialog.blp:20 panels/system/users/cc-user-page.blp:77
 msgid "_Name"
 msgstr "_Аты"
 
@@ -3202,8 +3170,7 @@ msgstr "IPv4 адресі"
 msgid "IPv6 Address"
 msgstr "IPv6 адресі"
 
-#: panels/network/connection-editor/ce-page-details.c:449 panels/network/connection-editor/ce-page-details.c:450 panels/network/net-device-ethernet.c:149 panels/network/net-device-ethernet.c:151 panels/network/net-device-mobile.c:445
-#: panels/network/net-device-mobile.c:446 panels/network/network-mobile.ui:163
+#: panels/network/connection-editor/ce-page-details.c:449 panels/network/connection-editor/ce-page-details.c:450 panels/network/net-device-ethernet.c:149 panels/network/net-device-ethernet.c:151 panels/network/net-device-mobile.c:445 panels/network/net-device-mobile.c:446 panels/network/network-mobile.ui:163
 msgid "IP Address"
 msgstr "IP адресі"
 
@@ -3215,9 +3182,8 @@ msgstr "DNS4"
 msgid "DNS6"
 msgstr "DNS6"
 
-#: panels/network/connection-editor/ce-page-details.c:457 panels/network/connection-editor/ce-page-details.c:458 panels/network/connection-editor/details-page.blp:188 panels/network/connection-editor/details-page.blp:206
-#: panels/network/connection-editor/ip4-page.blp:166 panels/network/connection-editor/ip6-page.blp:177 panels/network/net-device-ethernet.c:169 panels/network/net-device-ethernet.c:171 panels/network/net-device-mobile.c:453
-#: panels/network/net-device-mobile.c:454 panels/network/network-mobile.ui:206 panels/network/network-mobile.ui:221
+#: panels/network/connection-editor/ce-page-details.c:457 panels/network/connection-editor/ce-page-details.c:458 panels/network/connection-editor/details-page.blp:188 panels/network/connection-editor/details-page.blp:206 panels/network/connection-editor/ip4-page.blp:166 panels/network/connection-editor/ip6-page.blp:177
+#: panels/network/net-device-ethernet.c:169 panels/network/net-device-ethernet.c:171 panels/network/net-device-mobile.c:453 panels/network/net-device-mobile.c:454 panels/network/network-mobile.ui:206 panels/network/network-mobile.ui:221
 msgid "DNS"
 msgstr "DNS"
 
@@ -3303,8 +3269,8 @@ msgid "WireGuard"
 msgstr "WireGuard"
 
 #. Translators: Unknown endpoint host for WireGuard (invalid setting)
-#: panels/network/connection-editor/ce-page-wireguard.c:370 panels/privacy/firmware-security/cc-firmware-security-dialog.c:167 panels/sound/cc-alert-chooser-page.c:350 panels/system/about/cc-about-page.c:73
-#: panels/system/about/cc-system-details-window.c:286 panels/system/about/cc-system-details-window.c:338 panels/system/about/cc-system-details-window.c:837 panels/wwan/cc-wwan-details-dialog.c:101
+#: panels/network/connection-editor/ce-page-wireguard.c:370 panels/privacy/firmware-security/cc-firmware-security-dialog.c:167 panels/sound/cc-alert-chooser-page.c:350 panels/system/about/cc-about-page.c:73 panels/system/about/cc-system-details-window.c:286 panels/system/about/cc-system-details-window.c:338
+#: panels/system/about/cc-system-details-window.c:837 panels/wwan/cc-wwan-details-dialog.c:101
 msgid "Unknown"
 msgstr "Белгісіз"
 
@@ -3615,9 +3581,7 @@ msgstr "Алд_ын-ала бөлісілген кілт"
 
 #: panels/network/connection-editor/wireguard-peer.blp:152
 msgid "A base64 preshared key generated by 'wg genpsk'. Optional, and may be omitted. Adds an additional layer of symmetric-key cryptography to be mixed into the already existing public-key cryptography, for post-quantum resistance."
-msgstr ""
-"'wg genpsk' арқылы жасалған, алдын-ала бөлісілген base64 ашық кілті. Міндетті емес, көрсетпеуге болады. Пост-кванттық төзімділік үшін бұрыннан бар ашық кілт криптографиясына араласатын симметриялық кілт криптографиясының қосымша "
-"қабатын қосады."
+msgstr "'wg genpsk' арқылы жасалған, алдын-ала бөлісілген base64 ашық кілті. Міндетті емес, көрсетпеуге болады. Пост-кванттық төзімділік үшін бұрыннан бар ашық кілт криптографиясына араласатын симметриялық кілт криптографиясының қосымша қабатын қосады."
 
 #: panels/network/connection-editor/wireguard-peer.blp:168
 msgid "Allowed _IP addresses"
@@ -3639,7 +3603,7 @@ msgstr "Қалып-күйі бар брандмауэр немесе NAT сәй�
 msgid "seconds"
 msgstr "секунд"
 
-#: panels/network/connection-editor/wireguard-peer.blp:227
+#: panels/network/connection-editor/wireguard-peer.blp:227 panels/universal-access/cc-ua-seeing-page.blp:115
 msgid "Apply"
 msgstr "Іске асыру"
 
@@ -3647,8 +3611,7 @@ msgstr "Іске асыру"
 msgid "Control how you connect to the Internet"
 msgstr "Интернетке қалай байланысатыныңызды басқару"
 
-#. Translators: Search terms to find the Network panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Network panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/network/gnome-network-panel.desktop.in:14
 msgid "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;"
 msgstr "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;Желі;Сымсыз;Прокси;Кеңжолақты;Модем;"
@@ -3657,8 +3620,7 @@ msgstr "Network;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;vpn;DNS;Желі;Сы
 msgid "Control how you connect to Wi-Fi networks"
 msgstr "Wi-Fi желілеріне қалай байланысатыныңызды басқару"
 
-#. Translators: Search terms to find the Wi-Fi panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Wi-Fi panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/network/gnome-wifi-panel.desktop.in:14
 msgid "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Broadband;DNS;Hotspot;"
 msgstr "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Broadband;DNS;Hotspot;Желі;Сымсыз;Кеңжолақты;Қатынау;"
@@ -3690,6 +3652,7 @@ msgstr "%'d Мб/с"
 #. * details window for ethernet, if there is only a single
 #. * profile. It is also used to display ethernet in the
 #. * device list.
+#.
 #: panels/network/net-device-ethernet.c:265 panels/network/network-bluetooth.blp:6 panels/network/network-ethernet.blp:5
 msgid "Wired"
 msgstr "Сымды"
@@ -4053,8 +4016,7 @@ msgstr "_Хабарламалар"
 msgid "Show in notifications list"
 msgstr "Хабарламалар тізімінде көрсету"
 
-#. Translators: This is the setting to configure sounds associated with
-#. notifications.
+#. Translators: This is the setting to configure sounds associated with notifications.
 #: panels/notifications/cc-app-notifications-page.blp:24
 msgctxt "notifications"
 msgid "_Sound"
@@ -4077,8 +4039,7 @@ msgstr "_Баннерлерді көрсету"
 msgid "Show notifications above apps"
 msgstr "Хабарламаларды қолданбалар үстінен көрсету"
 
-#. Translators: Popups here refers to message tray notifications in the middle
-#. of the screen.
+#. Translators: Popups here refers to message tray notifications in the middle of the screen.
 #: panels/notifications/cc-app-notifications-page.blp:44
 msgctxt "notifications"
 msgid "Show _Content"
@@ -4132,8 +4093,7 @@ msgstr "Қолданба хабарламалары"
 msgid "Control which notifications are displayed and what they show"
 msgstr "Қай хабарламалар және олар нені көрсететінін басқару"
 
-#. Translators: Search terms to find the Notifications panel. Do NOT translate
-#. or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Notifications panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/notifications/gnome-notifications-panel.desktop.in:14
 msgid "Notifications;Banner;Message;Tray;Popup;"
 msgstr "Notifications;Banner;Message;Tray;Popup;Хабарлаулар;Баннер;Хабарлама;Трей;Қалқымалы;"
@@ -4234,8 +4194,7 @@ msgstr "Желілік тіркелгілеріңізге байланыс ор�
 #. Translators: Search terms to find the Online Accounts panel.
 #. Do NOT translate or localize the semicolons!
 #. The list MUST also end with a semicolon!
-#. For ReadItLater and Pocket, see
-#. http://en.wikipedia.org/wiki/Pocket_(application)
+#. For ReadItLater and Pocket, see http://en.wikipedia.org/wiki/Pocket_(application)
 #: panels/online-accounts/gnome-online-accounts-panel.desktop.in:17
 msgid "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
 msgstr "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;Веб;Онлайн;Чат;Күнтізбе;Эл. пошта;Контакт;"
@@ -4376,9 +4335,7 @@ msgctxt "Battery name"
 msgid "Extra"
 msgstr "Қосымша"
 
-#. TRANSLATORS: This is the battery charge level percentage (e.g. 50%). This
-#. could be localized to account for local Percent sign formatting guidelines.
-#. See https://en.wikipedia.org/wiki/Percent_sign#Correct_style
+#. TRANSLATORS: This is the battery charge level percentage (e.g. 50%). This could be localized to account for local Percent sign formatting guidelines. See https://en.wikipedia.org/wiki/Percent_sign#Correct_style
 #: panels/power/cc-battery-row.c:295
 #, c-format
 msgid "%d %%"
@@ -4388,8 +4345,7 @@ msgstr "%d %%"
 msgid "_General"
 msgstr "_Жалпы"
 
-#. Translators: 'battery charging' means the settings to handle the way
-#. battery charges, not that the battery is currently charging.
+#. Translators: 'battery charging' means the settings to handle the way battery charges, not that the battery is currently charging.
 #: panels/power/cc-power-panel.blp:72
 msgid "Battery Charging"
 msgstr "Батарея зарядталуда"
@@ -4494,8 +4450,7 @@ msgstr "Кіді_ріс"
 msgid "Disabling automatic suspend will result in higher power consumption. It is recommended to keep automatic suspend enabled."
 msgstr "Автоматты түрде күту режимін сөндіру жоғарырақ қуат тұтынуына әкеледі. Автоматты түрде күту режимін іске қосулы қалдыру ұсынылады."
 
-#. TRANSLATORS: This is the same title as the title from the .ui file, but
-#. without mnemonic
+#. TRANSLATORS: This is the same title as the title from the .ui file, but without mnemonic
 #: panels/power/cc-power-panel.c:208
 msgid "Power Saving"
 msgstr "Эл. қорегін үнемдеу"
@@ -4593,8 +4548,7 @@ msgstr "Эл. қорегі"
 msgid "View your battery status and change power saving settings"
 msgstr "Батарея қалып-күйін және эл. қорегін сақтауды баптау"
 
-#. Translators: Search terms to find the Power panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Power panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/power/gnome-power-panel.desktop.in:14
 msgid "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;Idle;Energy;"
 msgstr "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;Idle;Energy;Эл. қорегі;Ұйқы;Ұйықтату;Гибернация;Батарея;Жарықтылық;Басу;Бос;Монитор;Іссіз;Энергия;"
@@ -4613,14 +4567,12 @@ msgstr "Принтерлерді іздеу"
 msgid "No Printers"
 msgstr "Принтерлер жоқ"
 
-#. Translators: Title if the CUPS server is not running (we can not connect to
-#. it).
+#. Translators: Title if the CUPS server is not running (we can not connect to it).
 #: panels/printers/cc-printers-panel.blp:134
 msgid "No Print Service"
 msgstr "Баспаға шығару қызметі жоқ"
 
-#. Translators: Description if the CUPS server is not running (we can not
-#. connect to it).
+#. Translators: Description if the CUPS server is not running (we can not connect to it).
 #: panels/printers/cc-printers-panel.blp:137
 msgid "The system printing service doesn’t seem to be available"
 msgstr "Жүйелік баспаға шығару қызметі қолжетімді емес сияқты"
@@ -4643,8 +4595,7 @@ msgstr "Принтерлер"
 msgid "Add printers, view printer jobs and decide how you want to print"
 msgstr "Принтерлерді қосу, принтер тапсырмаларын қарау және баспаға шығарылатын нәрсені таңдау"
 
-#. Translators: Search terms to find the Printers panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Printers panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/printers/gnome-printers-panel.desktop.in:15
 msgid "Printer;Queue;Print;Paper;Ink;Toner;"
 msgstr "Printer;Queue;Print;Paper;Ink;Toner;Принтер;Кезек;Баспаға шығару;Қағаз;Сия;Тонер;"
@@ -4808,20 +4759,17 @@ msgstr "Аяқталған"
 msgid "Active Jobs"
 msgstr "Белсенді тапсырмалар"
 
-#. Translators: this action removes (purges) all the listed jobs from the
-#. list.
+#. Translators: this action removes (purges) all the listed jobs from the list.
 #: panels/printers/pp-jobs-dialog.blp:15
 msgid "_Clear All"
 msgstr "Барлығын та_зарту"
 
-#. Translators: this label describes the dialog empty state, with no jobs
-#. listed.
+#. Translators: this label describes the dialog empty state, with no jobs listed.
 #: panels/printers/pp-jobs-dialog.blp:36
 msgid "No Active Printer Jobs"
 msgstr "Белсенді принтер тапсырмалары жоқ"
 
-#. Translators: This button pop up authentication dialog for print jobs which
-#. need credentials.
+#. Translators: This button pop up authentication dialog for print jobs which need credentials.
 #: panels/printers/pp-jobs-dialog.blp:77
 msgid "_Authenticate"
 msgstr "_Аутентификациялау"
@@ -4848,14 +4796,12 @@ msgstr "Домен"
 msgid "Username"
 msgstr "Пайдаланушы аты"
 
-#. Translators: This button authenticates all print jobs and send them for
-#. printing.
+#. Translators: This button authenticates all print jobs and send them for printing.
 #: panels/printers/pp-jobs-dialog.blp:219
 msgid "A_uthenticate"
 msgstr "Аут_ентификация"
 
-#. Translators: This label shows how many jobs of this printer needs to be
-#. authenticated to be printed.
+#. Translators: This label shows how many jobs of this printer needs to be authenticated to be printed.
 #: panels/printers/pp-jobs-dialog.c:319
 #, c-format
 msgid "%u Job Requires Authentication"
@@ -4882,15 +4828,13 @@ msgstr "Принтерді қосу"
 msgid "Unlock Print Server"
 msgstr "Баспаға шығару серверін блоктаудан босату"
 
-#. Translators: Samba server needs authentication of the user to show list of
-#. its printers.
+#. Translators: Samba server needs authentication of the user to show list of its printers.
 #: panels/printers/pp-new-printer-dialog.c:272
 #, c-format
 msgid "Unlock %s."
 msgstr "%s босату."
 
-#. Translators: Samba server needs authentication of the user to show list of
-#. its printers.
+#. Translators: Samba server needs authentication of the user to show list of its printers.
 #: panels/printers/pp-new-printer-dialog.c:276
 #, c-format
 msgid "Enter username and password to view printers on %s."
@@ -4923,14 +4867,13 @@ msgstr "Орналасуы: %s"
 msgid "Address: %s"
 msgstr "Адресі: %s"
 
-#. Translators: This item is a server which needs authentication to show its
-#. printers
+#. Translators: This item is a server which needs authentication to show its printers
 #: panels/printers/pp-new-printer-dialog.c:1437
 msgid "Server requires authentication"
 msgstr "Сервер аутентификацияны талап етеді"
 
 #. Translators: this is the "go back" action of a button
-#: panels/printers/pp-new-printer-dialog.ui:78 panels/system/users/cc-fingerprint-dialog.blp:24 panels/wacom/cc-wacom-stylus-page.c:425 panels/wwan/cc-wwan-apn-dialog.blp:20
+#: panels/printers/pp-new-printer-dialog.ui:78 panels/system/users/cc-fingerprint-dialog.blp:24 panels/wacom/cc-wacom-stylus-page.c:426 panels/wwan/cc-wwan-apn-dialog.blp:20
 msgid "Back"
 msgstr "Артқа"
 
@@ -4949,8 +4892,7 @@ msgstr "Принтерлер табылмады"
 msgid "Searching for Printers"
 msgstr "Принтерлерді іздеу"
 
-#. Translators: The entered text should contain network address of a printer
-#. or a text which will filter found devices (their names and locations)
+#. Translators: The entered text should contain network address of a printer or a text which will filter found devices (their names and locations)
 #: panels/printers/pp-new-printer-dialog.ui:213
 msgid "Enter a network address or search for a printer"
 msgstr "Желілік адресін енгізіңіз немесе принтерді іздеп көріңіз"
@@ -5022,15 +4964,13 @@ msgctxt "Printer Option Group"
 msgid "General"
 msgstr "Жалпы"
 
-#. Translators: "Page Setup" tab contains settings related to pages (page
-#. size, paper source, etc.)
+#. Translators: "Page Setup" tab contains settings related to pages (page size, paper source, etc.)
 #: panels/printers/pp-options-dialog.c:634
 msgctxt "Printer Option Group"
 msgid "Page Setup"
 msgstr "Парақ баптаулары"
 
-#. Translators: "Installable Options" tab contains settings of presence of
-#. installed options (amount of RAM, duplex unit, etc.)
+#. Translators: "Installable Options" tab contains settings of presence of installed options (amount of RAM, duplex unit, etc.)
 #: panels/printers/pp-options-dialog.c:637
 msgctxt "Printer Option Group"
 msgid "Installable Options"
@@ -5042,8 +4982,7 @@ msgctxt "Printer Option Group"
 msgid "Job"
 msgstr "Тапсырма"
 
-#. Translators: "Image Quality" tab contains settings for quality of output
-#. print (e.g. resolution)
+#. Translators: "Image Quality" tab contains settings for quality of output print (e.g. resolution)
 #: panels/printers/pp-options-dialog.c:643
 msgctxt "Printer Option Group"
 msgid "Image Quality"
@@ -5055,8 +4994,7 @@ msgctxt "Printer Option Group"
 msgid "Color"
 msgstr "Түс"
 
-#. Translators: "Finishing" tab contains finishing settings (e.g. booklet
-#. printing)
+#. Translators: "Finishing" tab contains finishing settings (e.g. booklet printing)
 #: panels/printers/pp-options-dialog.c:649
 msgctxt "Printer Option Group"
 msgid "Finishing"
@@ -5157,8 +5095,7 @@ msgstr "Баспа баптаулары"
 msgid "Use Printer by Default"
 msgstr "Принтерді негізгі ретінде қолдану"
 
-#. Translators: This button executes command which cleans print heads of the
-#. printer.
+#. Translators: This button executes command which cleans print heads of the printer.
 #: panels/printers/pp-printer-entry.blp:239
 msgid "Clean Print Heads"
 msgstr "Баспа бастиектерін тазарту"
@@ -5539,8 +5476,7 @@ msgstr "Мәселелерді хабарлау"
 msgid "_Automatic Problem Reporting"
 msgstr "Мәселелер жөнінде _автохабарлау"
 
-#. translators: The first '%s' is the distributor's name, such as 'Fedora',
-#. the second '%s' is a link to the privacy policy
+#. translators: The first '%s' is the distributor's name, such as 'Fedora', the second '%s' is a link to the privacy policy
 #: panels/privacy/diagnostics/cc-diagnostics-page.c:125
 #, c-format
 msgid "Sending reports of technical problems helps us improve %s. Reports are sent anonymously and are scrubbed of personal data — %s."
@@ -5654,8 +5590,7 @@ msgstr "Бұл құрылғы ағымдағы қауіпсіздік сынақ
 msgid "Checks Unavailable"
 msgstr "Тексеру қолжетімді емес"
 
-#. TRANSLATORS: When the security result is unavailable, this description is
-#. shown.
+#. TRANSLATORS: When the security result is unavailable, this description is shown.
 #: panels/privacy/firmware-security/cc-firmware-security-dialog.c:146
 msgid "Device security checks are not available for this device. It is not possible to tell whether it meets hardware security requirements."
 msgstr "Бұл құрылғы үшін құрылғы қауіпсіздігін тексеру мүмкін емес. Оның құрылғылық қауіпсіздік талаптарына сәйкес келетінін айту мүмкін емес."
@@ -5678,8 +5613,7 @@ msgid ""
 "• how the hardware is configured to protect against security issues;\n"
 "• the security of the software runs directly on the hardware.\n"
 "\n"
-"Security threats which affect hardware include malware and viruses that target the software that runs directly on the hardware. It also includes physical tampering, such as physical connection to the hardware to read data and "
-"implant malware.\n"
+"Security threats which affect hardware include malware and viruses that target the software that runs directly on the hardware. It also includes physical tampering, such as physical connection to the hardware to read data and implant malware.\n"
 "\n"
 "Device security is just one aspect of security, and does not reflect the overall security status of the system and applications."
 msgstr ""
@@ -5691,8 +5625,8 @@ msgstr ""
 "• қауіпсіздік мәселелерінен қорғау үшін құрылғылық құралдың баптауы;\n"
 "• құрылғылық құралда тікелей жұмыс істейтін бағдарламалық қамтаманың қауіпсіздігі.\n"
 "\n"
-"Құрылғылық құралға әсер ететін қауіпсіздік қатерлеріне тікелей құрылғылық құралда жұмыс істейтін бағдарламалық қамтамаға бағытталған зиянды бағдарламалар мен вирустар жатады. Сонымен қатар, ол деректерді оқу және зиянды "
-"бағдарламаны имплантациялау үшін құрылғылық құралға физикалық қосылу сияқты физикалық бұрмалауды қамтиды.\n"
+"Құрылғылық құралға әсер ететін қауіпсіздік қатерлеріне тікелей құрылғылық құралда жұмыс істейтін бағдарламалық қамтамаға бағытталған зиянды бағдарламалар мен вирустар жатады. Сонымен қатар, ол деректерді оқу және зиянды бағдарламаны имплантациялау үшін құрылғылық құралға физикалық қосылу сияқты физикалық бұрмалауды "
+"қамтиды.\n"
 "\n"
 "Құрылғы қауіпсіздігі қауіпсіздіктің бір ғана аспектісі болып табылады және жүйе мен қолданбалардың жалпы қауіпсіздік күйін көрсетпейді."
 
@@ -5758,14 +5692,12 @@ msgstr "Бұл мәселе операциялық жүйе конфигурац
 msgid "%1$s"
 msgstr "%1$s"
 
-#. TRANSLATOR: This is the text event status output when the event status is
-#. "success"
+#. TRANSLATOR: This is the text event status output when the event status is "success"
 #: panels/privacy/firmware-security/cc-firmware-security-page.c:235
 msgid "Pass"
 msgstr "Сәтті"
 
-#. TRANSLATOR: This is the text event status output when the event status is
-#. not "success"
+#. TRANSLATOR: This is the text event status output when the event status is not "success"
 #: panels/privacy/firmware-security/cc-firmware-security-page.c:238
 msgid "! Fail"
 msgstr "! Сәтсіз"
@@ -5796,8 +5728,7 @@ msgstr "Қауіпсіздік тексерулер қолжетімді еме�
 msgid "Security levels are not available for this device."
 msgstr "Қорғаныс деңгейлері бұл құрылғы үшін қолжетімді емес."
 
-#. TRANSLATORS: if the status is valid. For example security check is valid
-#. and key is valid.
+#. TRANSLATORS: if the status is valid. For example security check is valid and key is valid.
 #: panels/privacy/firmware-security/cc-firmware-security-utils.c:35
 msgid "Valid"
 msgstr "Жарамды"
@@ -5818,8 +5749,7 @@ msgstr "Іске қосулы"
 msgid "Not Enabled"
 msgstr "Іске қосылмаған"
 
-#. TRANSLATORS: the memory space or system mode is locked to prevent from
-#. malicious modification.
+#. TRANSLATORS: the memory space or system mode is locked to prevent from malicious modification.
 #: panels/privacy/firmware-security/cc-firmware-security-utils.c:55
 msgid "Locked"
 msgstr "Бұғатталған"
@@ -5873,8 +5803,7 @@ msgstr "Қолдауы жоқ"
 msgid "Control access to your data and hardware, device security"
 msgstr "Сіздің деректер мен құрылғылар, құрылғы қауіпсіздігіне қол жеткізуді басқару"
 
-#. Translators: Search terms to find the Privacy panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Privacy panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/privacy/gnome-privacy-panel.desktop.in:14
 msgid "Privacy;Screen;Lock;Private;Usage;Recent;History;Files;Temporary;Tmp;Trash;Purge;Retain;Diagnostics;Crash;Location;Gps;Camera;Photos;Video;Webcam;Recording;Security;Firmware;Thunderbolt;"
 msgstr ""
@@ -6004,8 +5933,7 @@ msgstr "Уақытша _файлдарды автоматты түрде өші�
 msgid "Automatic Deletion _Period"
 msgstr "Автоматты түрде өшіру _мерзімі"
 
-#. Translators: Option for Automatically Delete Period in Trash and Temporary
-#. Files group
+#. Translators: Option for Automatically Delete Period in Trash and Temporary Files group
 #: panels/privacy/usage/cc-usage-page.blp:74
 msgid "1 hour"
 msgstr "1 сағат"
@@ -6126,8 +6054,7 @@ msgstr "Нәтижелер тізімдік ретке сәйкес көрсет
 msgid "Control which apps show search results in the Activities Overview"
 msgstr "Көріністе қай қолданбалар іздеу нәтижелерін көрсететінінді басқару"
 
-#. Translators: Search terms to find the Search panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Search panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/search/gnome-search-panel.desktop.in:15
 msgid "Search;Find;Index;Hide;Privacy;Results;"
 msgstr "Search;Find;Index;Hide;Privacy;Results;Іздеу;Табу;Индекс;Жасыру;Жекелік;Нәтижелер;"
@@ -6169,9 +6096,8 @@ msgstr "Файлдармен бөлісу"
 msgid "File Sharing _Address"
 msgstr "Файлдармен бөлісу _адресі"
 
-#: panels/sharing/cc-sharing-panel.blp:73 panels/system/remote-desktop/cc-desktop-sharing-page.blp:57 panels/system/remote-desktop/cc-desktop-sharing-page.blp:78 panels/system/remote-desktop/cc-desktop-sharing-page.blp:99
-#: panels/system/remote-desktop/cc-desktop-sharing-page.blp:116 panels/system/remote-desktop/cc-remote-login-page.blp:46 panels/system/remote-desktop/cc-remote-login-page.blp:68
-#: panels/system/remote-desktop/cc-remote-login-page.blp:89 panels/system/remote-desktop/cc-remote-login-page.blp:106 panels/system/secure-shell/cc-secure-shell-page.blp:45
+#: panels/sharing/cc-sharing-panel.blp:73 panels/system/remote-desktop/cc-desktop-sharing-page.blp:57 panels/system/remote-desktop/cc-desktop-sharing-page.blp:78 panels/system/remote-desktop/cc-desktop-sharing-page.blp:99 panels/system/remote-desktop/cc-desktop-sharing-page.blp:116
+#: panels/system/remote-desktop/cc-remote-login-page.blp:46 panels/system/remote-desktop/cc-remote-login-page.blp:68 panels/system/remote-desktop/cc-remote-login-page.blp:89 panels/system/remote-desktop/cc-remote-login-page.blp:106 panels/system/secure-shell/cc-secure-shell-page.blp:45
 msgid "Copy"
 msgstr "Көшіру"
 
@@ -6248,8 +6174,7 @@ msgstr "Бөлісу"
 msgid "Control what you want to share with others"
 msgstr "Басқалармен немен бөлісуді таңдау"
 
-#. Translators: Search terms to find the Sharing panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Sharing panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/sharing/gnome-sharing-panel.desktop.in:14
 msgid "share;sharing;host;name;media;audio;video;pictures;photos;movies;server;renderer;"
 msgstr "share;sharing;host;name;media;audio;video;pictures;photos;movies;server;renderer;бөлісу;хост;аты;медиа;аудио;видео;суреттер;фотолар;кинолар;сервер;өндегіш;"
@@ -6415,8 +6340,7 @@ msgstr "100%"
 msgid "Change sound levels, inputs, outputs, and alert sounds"
 msgstr "Дыбыс деңгейлерін, кіріс, шығыстарын және дыбыспен хабарлауды өзгерту"
 
-#. Translators: Search terms to find the Sound panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Sound panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/sound/gnome-sound-panel.desktop.in:14
 msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;Output;Input;"
 msgstr "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;Output;Input;Карта;Микрофон;Дыбыс;Басылу;Баланс;Құлаққап;Аудио;Шығыс;Кіріс;"
@@ -6676,94 +6600,102 @@ msgstr "_24 сағат"
 msgid "AM / _PM"
 msgstr "AM / _PM"
 
-#: panels/system/datetime/cc-datetime-page.blp:158
+#: panels/system/datetime/cc-datetime-page.blp:157
+msgid "F_irst Day of the Week"
+msgstr "Аптаның бі_рінші күні"
+
+#: panels/system/datetime/cc-datetime-page.blp:168
 msgid "Clock &amp; Calendar"
 msgstr "Сағат және күнтізбе"
 
-#: panels/system/datetime/cc-datetime-page.blp:159
+#: panels/system/datetime/cc-datetime-page.blp:169
 msgid "Control how the time and date is shown in the top bar"
 msgstr "Уақыт пен күннің жоғарғы панельді қалай көрсетілетінін басқарыңыз"
 
-#: panels/system/datetime/cc-datetime-page.blp:162
+#: panels/system/datetime/cc-datetime-page.blp:172
 msgid "_Week Day"
 msgstr "А_пта күні"
 
-#: panels/system/datetime/cc-datetime-page.blp:167
+#: panels/system/datetime/cc-datetime-page.blp:177
 msgid "D_ate"
 msgstr "Кү_н"
 
-#: panels/system/datetime/cc-datetime-page.blp:172
+#: panels/system/datetime/cc-datetime-page.blp:182
 msgid "_Seconds"
 msgstr "_Секунд"
 
-#: panels/system/datetime/cc-datetime-page.blp:177
+#: panels/system/datetime/cc-datetime-page.blp:187
 msgid "Week _Numbers"
 msgstr "Апта _нөмірлері"
 
-#: panels/system/datetime/cc-datetime-page.blp:178
+#: panels/system/datetime/cc-datetime-page.blp:188
 msgid "Shown in the dropdown calendar"
 msgstr "Ашылмалы күнтізбеде көрсетілген"
 
-#: panels/system/datetime/cc-datetime-page.blp:211
+#: panels/system/datetime/cc-datetime-page.blp:221
 msgid "January"
 msgstr "Қаңтар"
 
-#: panels/system/datetime/cc-datetime-page.blp:212
+#: panels/system/datetime/cc-datetime-page.blp:222
 msgid "February"
 msgstr "Ақпан"
 
-#: panels/system/datetime/cc-datetime-page.blp:213
+#: panels/system/datetime/cc-datetime-page.blp:223
 msgid "March"
 msgstr "Наурыз"
 
-#: panels/system/datetime/cc-datetime-page.blp:214
+#: panels/system/datetime/cc-datetime-page.blp:224
 msgid "April"
 msgstr "Сәуір"
 
-#: panels/system/datetime/cc-datetime-page.blp:215
+#: panels/system/datetime/cc-datetime-page.blp:225
 msgid "May"
 msgstr "Мамыр"
 
-#: panels/system/datetime/cc-datetime-page.blp:216
+#: panels/system/datetime/cc-datetime-page.blp:226
 msgid "June"
 msgstr "Маусым"
 
-#: panels/system/datetime/cc-datetime-page.blp:217
+#: panels/system/datetime/cc-datetime-page.blp:227
 msgid "July"
 msgstr "Шілде"
 
-#: panels/system/datetime/cc-datetime-page.blp:218
+#: panels/system/datetime/cc-datetime-page.blp:228
 msgid "August"
 msgstr "Тамыз"
 
-#: panels/system/datetime/cc-datetime-page.blp:219
+#: panels/system/datetime/cc-datetime-page.blp:229
 msgid "September"
 msgstr "Қыркүйек"
 
-#: panels/system/datetime/cc-datetime-page.blp:220
+#: panels/system/datetime/cc-datetime-page.blp:230
 msgid "October"
 msgstr "Қазан"
 
-#: panels/system/datetime/cc-datetime-page.blp:221
+#: panels/system/datetime/cc-datetime-page.blp:231
 msgid "November"
 msgstr "Қараша"
 
-#: panels/system/datetime/cc-datetime-page.blp:222
+#: panels/system/datetime/cc-datetime-page.blp:232
 msgid "December"
 msgstr "Желтоқсан"
 
+#: panels/system/datetime/cc-datetime-page.c:227
+msgid "Locale Default"
+msgstr "Локальдің әдепкі мәні"
+
 #. Translators: This is the full date and time format used in 12-hour mode.
-#: panels/system/datetime/cc-datetime-page.c:237
+#: panels/system/datetime/cc-datetime-page.c:254
 msgid "%e %B %Y, %l:%M %p"
 msgstr "%e %B %Y, %l:%M %p"
 
 #. Translators: This is the full date and time format used in 24-hour mode.
-#: panels/system/datetime/cc-datetime-page.c:242
+#: panels/system/datetime/cc-datetime-page.c:259
 msgid "%e %B %Y, %R"
 msgstr "%e %B %Y, %R"
 
 #. Translators: "city, country"
-#: panels/system/datetime/cc-datetime-page.c:402
+#: panels/system/datetime/cc-datetime-page.c:419
 #, c-format
 msgctxt "timezone loc"
 msgid "%s, %s"
@@ -6771,7 +6703,7 @@ msgstr "%s, %s"
 
 #. Update the timezone on the listbow row
 #. Translators: "timezone (details)"
-#: panels/system/datetime/cc-datetime-page.c:419
+#: panels/system/datetime/cc-datetime-page.c:436
 #, c-format
 msgctxt "timezone desc"
 msgid "%s (%s)"
@@ -6789,8 +6721,7 @@ msgstr "Қалалар ішінен іздеу"
 msgid "Change the date and time, including time zone"
 msgstr "Күн мен уақытты (уақыт белдеуімен қоса) өзгерту"
 
-#. Translators: Search terms to find the Date and Time panel. Do NOT translate
-#. or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Date and Time panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/system/datetime/gnome-datetime-panel.desktop.in:14
 msgid "Clock;Timezone;Location;"
 msgstr "Clock;Timezone;Location;Сағат;Уақыт белдеуі;Орналасу;"
@@ -6807,8 +6738,7 @@ msgstr "Уақыт немесе күн баптауларын өзгерту ү�
 msgid "Language and time settings, system information"
 msgstr "Тіл және уақыт баптаулары, жүйелік ақпарат"
 
-#. Translators: Search terms to find the System panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the System panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/system/gnome-system-panel.desktop.in:14
 msgid "device;system;information;details;hostname;memory;processor;version;software;operating;os;model;language;region;country;formats;numbers;units;clock;timezone;date;location;remote;desktop;rdp;vnc;ssh;"
 msgstr ""
@@ -6863,8 +6793,7 @@ msgstr "Өлшем бірліктері"
 msgid "Paper"
 msgstr "Қағаз"
 
-#. Translators: "US Customary" refers to the measurement system as used in the
-#. USA
+#. Translators: "US Customary" refers to the measurement system as used in the USA
 #: panels/system/region/cc-format-preview.c:149
 msgctxt "measurement format"
 msgid "US Customary"
@@ -6919,9 +6848,7 @@ msgstr "Пішімде_р"
 msgid "Select your display language and formats"
 msgstr "Экран тілі және пішімдерді таңдаңыз"
 
-#. Translators: Search terms to find the Region and Language panel. Do NOT
-#. translate or localize the semicolons! The list MUST also end with a
-#. semicolon!
+#. Translators: Search terms to find the Region and Language panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/system/region/gnome-region-panel.desktop.in:14
 msgid "Language;Layout;Keyboard;Input;"
 msgstr "Language;Layout;Keyboard;Input;Тіл;Жайма;Пернетақта;Енгізу;"
@@ -7232,8 +7159,7 @@ msgstr "Realmd қызметіне хабарласу мүмкін болмады
 msgid "No fingerprint device"
 msgstr "Саусақ ізін оқу құрылғысы жоқ"
 
-#. Translators: This is the empty state page label which states that there are
-#. no devices ready.
+#. Translators: This is the empty state page label which states that there are no devices ready.
 #: panels/system/users/cc-fingerprint-dialog.blp:106
 msgid "No Fingerprint device"
 msgstr "Саусақ ізін оқу құрылғысы жоқ"
@@ -7491,8 +7417,7 @@ msgstr "Пароль қате, қайтадан көріңіз"
 msgid "Couldn’t connect to the %s domain: %s"
 msgstr "%s доменіне байланысу мүмкін емес: %s"
 
-#: panels/system/users/cc-user-page.blp:20 panels/system/users/cc-user-page.blp:74 panels/system/users/cc-user-page.blp:85 panels/system/users/cc-user-page.blp:96 panels/system/users/cc-user-page.blp:111
-#: panels/system/users/cc-user-page.blp:131 panels/system/users/cc-user-page.blp:161
+#: panels/system/users/cc-user-page.blp:20 panels/system/users/cc-user-page.blp:74 panels/system/users/cc-user-page.blp:85 panels/system/users/cc-user-page.blp:96 panels/system/users/cc-user-page.blp:111 panels/system/users/cc-user-page.blp:131 panels/system/users/cc-user-page.blp:161
 msgid "Unlock to Change This Setting"
 msgstr "Бұл баптауды өзгерту үшін бұғаттауын шешіңіз"
 
@@ -7585,8 +7510,7 @@ msgstr "Кә_сіпорындық тіркелгіні қосу"
 msgid "Add or remove users and change your password"
 msgstr "Пайдаланушыларды қосу/өшіру және пароліңізді өзгерту"
 
-#. Translators: Search terms to find the Users panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Users panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/system/users/gnome-users-panel.desktop.in:14
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;Parental;Restrictions;Usage;Kid;Child;"
 msgstr "Login;Name;Fingerprint;Avatar;Logo;Face;Password;Parental;Restrictions;Usage;Kid;Child;Логин;Аты;Саусақ ізі;Аватар;Лого;Бет;Пароль;Ата-ана;Шектеулер;Қолдану;Қолдануды шектеу;Бала;"
@@ -7816,8 +7740,7 @@ msgstr "Терезе толығымен"
 msgid "_Test Flash"
 msgstr "Жарқырауды сы_нау"
 
-#. Translators: This will be presented as the text of a link to the Sound
-#. panel
+#. Translators: This will be presented as the text of a link to the Sound panel
 #: panels/universal-access/cc-ua-hearing-page.c:156
 msgctxt "Sound panel name"
 msgid "Sound"
@@ -7862,14 +7785,14 @@ msgid "_Double-Click Delay"
 msgstr "Қ_ос шерту кідірісі"
 
 #. Translators: This is a mark in the Crosshair Length scale
-#: panels/universal-access/cc-ua-mouse-page.blp:41 panels/universal-access/cc-ua-mouse-page.blp:74 panels/universal-access/cc-ua-mouse-page.blp:103 panels/universal-access/cc-ua-typing-page.blp:118
-#: panels/universal-access/cc-ua-typing-page.blp:163 panels/universal-access/cc-ua-typing-page.blp:203 panels/universal-access/cc-ua-zoom-page.blp:145
+#: panels/universal-access/cc-ua-mouse-page.blp:41 panels/universal-access/cc-ua-mouse-page.blp:74 panels/universal-access/cc-ua-mouse-page.blp:103 panels/universal-access/cc-ua-typing-page.blp:118 panels/universal-access/cc-ua-typing-page.blp:163 panels/universal-access/cc-ua-typing-page.blp:203
+#: panels/universal-access/cc-ua-zoom-page.blp:146
 msgid "Short"
 msgstr "Қысқа"
 
 #. Translators: This is a mark in the Crosshair Length scale
-#: panels/universal-access/cc-ua-mouse-page.blp:43 panels/universal-access/cc-ua-mouse-page.blp:76 panels/universal-access/cc-ua-mouse-page.blp:105 panels/universal-access/cc-ua-typing-page.blp:120
-#: panels/universal-access/cc-ua-typing-page.blp:165 panels/universal-access/cc-ua-typing-page.blp:205 panels/universal-access/cc-ua-zoom-page.blp:147
+#: panels/universal-access/cc-ua-mouse-page.blp:43 panels/universal-access/cc-ua-mouse-page.blp:76 panels/universal-access/cc-ua-mouse-page.blp:105 panels/universal-access/cc-ua-typing-page.blp:120 panels/universal-access/cc-ua-typing-page.blp:165 panels/universal-access/cc-ua-typing-page.blp:205
+#: panels/universal-access/cc-ua-zoom-page.blp:149
 msgid "Long"
 msgstr "Ұзақ"
 
@@ -7909,7 +7832,7 @@ msgstr "Жылжудың табалдырықты мәні"
 msgid "Small"
 msgstr "Кішкентай"
 
-#: panels/universal-access/cc-ua-mouse-page.blp:128
+#: panels/universal-access/cc-ua-mouse-page.blp:128 panels/universal-access/cc-ua-seeing-page.c:123
 msgid "Large"
 msgstr "Үлкен"
 
@@ -7986,65 +7909,82 @@ msgid "Toggle reduced motion animations throughout the user interface"
 msgstr "Пайдаланушы интерфейсіндегі азайтылған қозғалыс анимацияларын қосу/өшіру"
 
 #: panels/universal-access/cc-ua-seeing-page.blp:67
-msgid "_Large Text"
-msgstr "Ү_лкен мәтін"
+msgid "_Text Size"
+msgstr "Мә_тін өлшемі"
 
-#: panels/universal-access/cc-ua-seeing-page.blp:68
-msgid "Increase the size of all text in the user interface"
-msgstr "Пайдаланушы интерфейсінде барлық мәтіннің өлшемін үлкейту"
-
-#: panels/universal-access/cc-ua-seeing-page.blp:73
+#: panels/universal-access/cc-ua-seeing-page.blp:74
 msgid "_Cursor Size"
 msgstr "_Курсор өлшемі"
 
-#: panels/universal-access/cc-ua-seeing-page.blp:74
+#: panels/universal-access/cc-ua-seeing-page.blp:75
 msgid "Increase the size of the cursor"
 msgstr "Курсор өлшемін үлкейту"
 
-#: panels/universal-access/cc-ua-seeing-page.blp:80
+#: panels/universal-access/cc-ua-seeing-page.blp:81
 msgid "_Sound Keys"
 msgstr "_Дыбыс пернелері"
 
-#: panels/universal-access/cc-ua-seeing-page.blp:81
+#: panels/universal-access/cc-ua-seeing-page.blp:82
 msgid "Beep when Num Lock or Caps Lock are turned on or off"
 msgstr "Num Lock немесе Caps Lock іске қосулы/сөндірулі кезінде дыбыс беру"
 
-#: panels/universal-access/cc-ua-seeing-page.blp:86
+#: panels/universal-access/cc-ua-seeing-page.blp:87
 msgid "Always Show Scroll_bars"
 msgstr "Айнал_дыру жолақтарын әрқашан көрсету"
 
-#: panels/universal-access/cc-ua-seeing-page.blp:87
+#: panels/universal-access/cc-ua-seeing-page.blp:88
 msgid "Make scrollbars always visible"
 msgstr "Айналдыру жолақтарын әрқашан көрсету"
 
+#: panels/universal-access/cc-ua-seeing-page.blp:97
+msgid "Text Size"
+msgstr "Мәтін өлшемі"
+
+#: panels/universal-access/cc-ua-seeing-page.blp:109 panels/wwan/cc-wwan-device-page.c:187
+msgid "Cancel"
+msgstr "Болдырмау"
+
+#: panels/universal-access/cc-ua-seeing-page.blp:125
+msgid "Use the slider to adjust the size of user interface text"
+msgstr "Пайдаланушы интерфейсі мәтінің өлшемін реттеу үшін слайдер қолдану"
+
+#. Translators: Single letter next to the text size slider
+#: panels/universal-access/cc-ua-seeing-page.blp:137 panels/universal-access/cc-ua-seeing-page.blp:157
+msgid "A"
+msgstr "А"
+
+#: panels/universal-access/cc-ua-seeing-page.blp:168
+msgid "Sample text"
+msgstr "Үлгі мәтін"
+
 #. translators: the labels will read:
 #. * Cursor Size: Default
-#: panels/universal-access/cc-ua-seeing-page.c:165
+#: panels/universal-access/cc-ua-seeing-page.c:215
 msgctxt "cursor size"
 msgid "Default"
 msgstr "Бастапқы"
 
-#: panels/universal-access/cc-ua-seeing-page.c:168
+#: panels/universal-access/cc-ua-seeing-page.c:218
 msgctxt "cursor size"
 msgid "Medium"
 msgstr "Орташа"
 
-#: panels/universal-access/cc-ua-seeing-page.c:171
+#: panels/universal-access/cc-ua-seeing-page.c:221
 msgctxt "cursor size"
 msgid "Large"
 msgstr "Үлкен"
 
-#: panels/universal-access/cc-ua-seeing-page.c:174
+#: panels/universal-access/cc-ua-seeing-page.c:224
 msgctxt "cursor size"
 msgid "Larger"
 msgstr "Үлкенірек"
 
-#: panels/universal-access/cc-ua-seeing-page.c:177
+#: panels/universal-access/cc-ua-seeing-page.c:227
 msgctxt "cursor size"
 msgid "Largest"
 msgstr "Ең үлкен"
 
-#: panels/universal-access/cc-ua-seeing-page.c:181
+#: panels/universal-access/cc-ua-seeing-page.c:231
 #, c-format
 msgid "%d pixel"
 msgid_plural "%d pixels"
@@ -8319,8 +8259,7 @@ msgstr "Толық"
 msgid "Make it easier to see, hear, type, point and click"
 msgstr "Көру, есту, теру, көрсету және шертуді жеңілдету"
 
-#. Translators: Search terms to find the Accessibility panel. Do NOT translate
-#. or localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Accessibility panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/universal-access/gnome-universal-access-panel.desktop.in:14
 msgid "Keyboard;Mouse;a11y;Accessibility;Universal;Access;Contrast;Cursor;Sound;Zoom;Screen;Reader;big;high;large;text;font;size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;Double;click;Delay;Speed;Assist;Repeat;Blink;Pointer;find;locate;visual;hearing;audio;typing;animations;overamplification;magnify;magnifier;magnification;"
 msgstr ""
@@ -8394,8 +8333,7 @@ msgstr "Сыртқы дисплейге орнатылған планшет"
 msgid "External tablet device"
 msgstr "Сыртқы планшет құрылғысы"
 
-#. Translators: this is a drawing tablet pad, i.e. a collection of buttons and
-#. knobs
+#. Translators: this is a drawing tablet pad, i.e. a collection of buttons and knobs
 #: panels/wacom/cc-wacom-ekr-page.blp:10
 msgid "External pad device"
 msgstr "Сыртқы салынбалы құрылғысы"
@@ -8442,8 +8380,7 @@ msgstr "_Калибрациялау"
 msgid "All Displays"
 msgstr "Барлық экрандар"
 
-#. Translators: %s is a link to the Mouse & Touchpad panel with the label
-#. "Mouse"
+#. Translators: %s is a link to the Mouse & Touchpad panel with the label "Mouse"
 #: panels/wacom/cc-wacom-page.c:714
 #, c-format
 msgid "Mouse devices can be configured in %s settings"
@@ -8457,7 +8394,7 @@ msgstr "Планшет анықталмады"
 msgid "Please plug in or turn on your Wacom tablet"
 msgstr "Wacom планшетіңізді компьютерге жалғаңыз немесе іске қосыңыз"
 
-#: panels/wacom/cc-wacom-stylus-action-dialog.blp:100 panels/wacom/cc-wacom-stylus-action-dialog.blp:132 panels/wacom/cc-wacom-stylus-page.c:432
+#: panels/wacom/cc-wacom-stylus-action-dialog.blp:100 panels/wacom/cc-wacom-stylus-action-dialog.blp:132 panels/wacom/cc-wacom-stylus-page.c:433
 msgid "Assign Keystroke"
 msgstr "Пернені басу оқиғасын тағайындау"
 
@@ -8465,12 +8402,12 @@ msgstr "Пернені басу оқиғасын тағайындау"
 msgid "Press Esc to cancel"
 msgstr "Бас тарту үшін Esc басыңыз"
 
-#: panels/wacom/cc-wacom-stylus-action-dialog.c:248
+#: panels/wacom/cc-wacom-stylus-action-dialog.c:238
 #, c-format
 msgid "Choose an action when button %d on the stylus is pressed"
 msgstr "Стилустағы %d батырмасы басылған кезде орындалатын әрекетті таңдаңыз"
 
-#: panels/wacom/cc-wacom-stylus-action-dialog.c:251
+#: panels/wacom/cc-wacom-stylus-action-dialog.c:241
 #, c-format
 msgid "Button %d Mapping"
 msgstr "Батырма %d сәйкестігі"
@@ -8507,24 +8444,24 @@ msgstr "Батырма _3"
 msgid "_Eraser Pressure Feel"
 msgstr "Ө_шіргіштің қысымға сезімталдылығы"
 
-#: panels/wacom/cc-wacom-stylus-page.c:415
+#: panels/wacom/cc-wacom-stylus-page.c:416
 msgid "Left Mousebutton Click"
 msgstr "Тышқанның сол жақ батырмасын шерту"
 
-#: panels/wacom/cc-wacom-stylus-page.c:418
+#: panels/wacom/cc-wacom-stylus-page.c:419
 msgid "Middle Mousebutton Click"
 msgstr "Тышқанның ортаңғы батырмасын шерту"
 
-#: panels/wacom/cc-wacom-stylus-page.c:421
+#: panels/wacom/cc-wacom-stylus-page.c:422
 msgid "Right Mousebutton Click"
 msgstr "Тышқанның оң жақ батырмасын шерту"
 
 #. Translators: this is the "go forward" action of a button
-#: panels/wacom/cc-wacom-stylus-page.c:429
+#: panels/wacom/cc-wacom-stylus-page.c:430
 msgid "Forward"
 msgstr "Алға"
 
-#: panels/wacom/cc-wacom-stylus-page.c:435
+#: panels/wacom/cc-wacom-stylus-page.c:436
 msgid "Switch Monitor"
 msgstr "Мониторды ауыстыру"
 
@@ -8552,9 +8489,7 @@ msgstr "Графикалық планшеттер"
 msgid "Set button mappings and adjust stylus sensitivity for graphics tablets"
 msgstr "Графикалық планшеттер үшін батырмалар сәйкестіктерін және стилус сезімталдылығын баптау"
 
-#. Translators: Search terms to find the Graphics Tablets panel. Do NOT
-#. translate or localize the semicolons! The list MUST also end with a
-#. semicolon!
+#. Translators: Search terms to find the Graphics Tablets panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/wacom/gnome-wacom-panel.desktop.in:14
 msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
 msgstr "Tablet;Wacom;Stylus;Eraser;Mouse;Планшет;Стилус;Өшіргіш;Тышқан;"
@@ -8633,8 +8568,7 @@ msgctxt "abbreviated weekday name for Saturday"
 msgid "S"
 msgstr "С"
 
-#. Translators: This is a duration in minutes, for example ‘15m’ for 15
-#. minutes.
+#. Translators: This is a duration in minutes, for example ‘15m’ for 15 minutes.
 #. * Use whatever shortest unit label is used for minutes in your locale.
 #: panels/wellbeing/cc-screen-time-statistics-row.c:393
 #, c-format
@@ -8846,8 +8780,7 @@ msgstr "Денсаулық"
 msgid "Review and limit the amount of time you spend at the computer screen"
 msgstr "Компьютер экраны алдында өткізілетін уақытты қарап шығу және шектеу"
 
-#. Translators: Search terms to find the Wellbeing panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the Wellbeing panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/wellbeing/gnome-wellbeing-panel.desktop.in:17
 msgid "Wellbeing;Screen Time;Breaks;Break Reminders;Health Breaks;Daily Usage;Screen Limits;Usage Limit;"
 msgstr "Wellbeing;Screen Time;Breaks;Break Reminders;Health Breaks;Daily Usage;Screen Limits;Usage Limit;Денсаулық;Экран уақыты;Үзілістер;Үзіліс ескертулері;Денсаулық үзілістері;Күнделікті қолдану;Экран шектеулері;Қолдану шектеуі;"
@@ -9185,10 +9118,6 @@ msgstr "SIM карта бұғаттауын шешу"
 msgid "Unlock"
 msgstr "Бұғаттауды шешу"
 
-#: panels/wwan/cc-wwan-device-page.c:187
-msgid "Cancel"
-msgstr "Болдырмау"
-
 #: panels/wwan/cc-wwan-device-page.c:191
 #, c-format
 msgid "Please provide PIN code for SIM %d"
@@ -9404,8 +9333,7 @@ msgstr "Мобильді желі"
 msgid "Configure Telephony and mobile data connections"
 msgstr "Телефония және мобильді деректер байланыстарын баптау"
 
-#. Translators: Search terms to find the WWAN panel. Do NOT translate or
-#. localize the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find the WWAN panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/wwan/gnome-wwan-panel.desktop.in:15
 msgid "cellular;wwan;telephony;sim;mobile;"
 msgstr "cellular;wwan;telephony;sim;mobile;ұялы;телефония;сим;мобильді;"
@@ -9447,8 +9375,7 @@ msgstr "Көрсетілетін панель"
 msgid "[PANEL] [ARGUMENT…]"
 msgstr "[ПАНЕЛЬ] [АРГУМЕНТ…]"
 
-#. Translators should localize the following string which will be displayed in
-#. the About dialog giving credit to the translator(s).
+#. Translators should localize the following string which will be displayed in the About dialog giving credit to the translator(s).
 #: shell/cc-application.c:126
 msgid "translator-credits"
 msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>"
@@ -9494,8 +9421,7 @@ msgstr "Кө_мек"
 msgid "_About Settings"
 msgstr "Баптаулар тур_алы"
 
-#. Translators: Search terms to find this app. Do NOT translate or localize
-#. the semicolons! The list MUST also end with a semicolon!
+#. Translators: Search terms to find this app. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: shell/org.gnome.Settings.desktop.in:14
 msgid "Preferences;Settings;"
 msgstr "Preferences;Settings;Баптаулар;Қалаулар;"
@@ -9583,6 +9509,9 @@ msgstr[0] "%u кіріс"
 #: subprojects/gvc/gvc-mixer-control.c:2910
 msgid "System Sounds"
 msgstr "Жүйелік дыбыстар"
+
+#~ msgid "_Large Text"
+#~ msgstr "Ү_лкен мәтін"
 
 #~ msgid "Add a Shortcut"
 #~ msgstr "Жарлықты қосу"
@@ -11321,9 +11250,6 @@ msgstr "Жүйелік дыбыстар"
 
 #~ msgid "Hypertext Files"
 #~ msgstr "Гипермәтін файлдары"
-
-#~ msgid "Text Files"
-#~ msgstr "Мәтіндік файлдар"
 
 #~ msgid "Image Files"
 #~ msgstr "Сурет файлдары"
