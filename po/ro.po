@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
 "issues\n"
-"POT-Creation-Date: 2026-02-02 08:59+0000\n"
-"PO-Revision-Date: 2026-02-02 11:03+0100\n"
+"POT-Creation-Date: 2026-02-03 08:50+0000\n"
+"PO-Revision-Date: 2026-02-05 11:55+0100\n"
 "Last-Translator: Antonio Marin <gnmer.6qxyg@slmail.me>\n"
 "Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -5455,7 +5455,7 @@ msgstr "Serverul necesită autentificare"
 #. Translators: this is the "go back" action of a button
 #: panels/printers/pp-new-printer-dialog.ui:78
 #: panels/system/users/cc-fingerprint-dialog.blp:24
-#: panels/wacom/cc-wacom-stylus-page.c:425
+#: panels/wacom/cc-wacom-stylus-page.c:426
 #: panels/wwan/cc-wwan-apn-dialog.blp:20
 msgid "Back"
 msgstr "Înapoi"
@@ -7580,7 +7580,7 @@ msgstr "Numere"
 
 #: panels/system/region/cc-format-preview.blp:38
 msgid "Measurement"
-msgstr "Unitate de măsură"
+msgstr "Unitatea de măsură"
 
 #: panels/system/region/cc-format-preview.blp:46
 msgid "Paper"
@@ -7600,11 +7600,11 @@ msgstr "Metric"
 #: panels/system/region/cc-region-page.blp:5
 #: panels/system/region/gnome-region-panel.desktop.in:2
 msgid "Region & Language"
-msgstr "Regiunea și limba"
+msgstr "Regiunea și Limba"
 
 #: panels/system/region/cc-region-page.blp:16
 msgid "Language and format will be changed after next login"
-msgstr "Liimba și formatul vor fi schimbate după următoarea autentificare"
+msgstr "Limba și formatul vor fi schimbate după următoarea autentificare"
 
 #: panels/system/region/cc-region-page.blp:17
 msgid "Log _Out…"
@@ -7633,7 +7633,7 @@ msgstr "_Formate"
 
 #: panels/system/region/cc-region-page.blp:41
 msgid "Login Screen"
-msgstr "Ecran de autentificare"
+msgstr "Pagina de autentificare"
 
 #: panels/system/region/cc-region-page.blp:44
 msgid "L_anguage"
@@ -9358,7 +9358,7 @@ msgstr "Trebuie conectată și pornită tableta Wacom"
 
 #: panels/wacom/cc-wacom-stylus-action-dialog.blp:100
 #: panels/wacom/cc-wacom-stylus-action-dialog.blp:132
-#: panels/wacom/cc-wacom-stylus-page.c:432
+#: panels/wacom/cc-wacom-stylus-page.c:433
 msgid "Assign Keystroke"
 msgstr "Alocă apăsarea tastelor"
 
@@ -9366,12 +9366,12 @@ msgstr "Alocă apăsarea tastelor"
 msgid "Press Esc to cancel"
 msgstr "Apasă Esc pentru a anula"
 
-#: panels/wacom/cc-wacom-stylus-action-dialog.c:248
+#: panels/wacom/cc-wacom-stylus-action-dialog.c:238
 #, c-format
 msgid "Choose an action when button %d on the stylus is pressed"
 msgstr "Alege o acțiune când butonul %d de pe creion este apăsat"
 
-#: panels/wacom/cc-wacom-stylus-action-dialog.c:251
+#: panels/wacom/cc-wacom-stylus-action-dialog.c:241
 #, c-format
 msgid "Button %d Mapping"
 msgstr "Alocarea butonului %d"
@@ -9410,24 +9410,24 @@ msgstr "Buton _3"
 msgid "_Eraser Pressure Feel"
 msgstr "Pr_esiunea simțită pe gumă"
 
-#: panels/wacom/cc-wacom-stylus-page.c:415
+#: panels/wacom/cc-wacom-stylus-page.c:416
 msgid "Left Mousebutton Click"
 msgstr "Clic cu butonul din stânga al mausului"
 
-#: panels/wacom/cc-wacom-stylus-page.c:418
+#: panels/wacom/cc-wacom-stylus-page.c:419
 msgid "Middle Mousebutton Click"
 msgstr "Clic cu butonul din mijloc al mausului"
 
-#: panels/wacom/cc-wacom-stylus-page.c:421
+#: panels/wacom/cc-wacom-stylus-page.c:422
 msgid "Right Mousebutton Click"
 msgstr "Clic cu butonul din dreapta al mausului"
 
 #. Translators: this is the "go forward" action of a button
-#: panels/wacom/cc-wacom-stylus-page.c:429
+#: panels/wacom/cc-wacom-stylus-page.c:430
 msgid "Forward"
 msgstr "Înainte"
 
-#: panels/wacom/cc-wacom-stylus-page.c:435
+#: panels/wacom/cc-wacom-stylus-page.c:436
 msgid "Switch Monitor"
 msgstr "Schimbă monitorul"
 
