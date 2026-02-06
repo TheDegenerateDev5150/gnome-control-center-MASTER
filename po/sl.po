@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/issues\n"
-"POT-Creation-Date: 2026-02-02 09:51+0000\n"
-"PO-Revision-Date: 2026-02-03 07:49+0100\n"
+"POT-Creation-Date: 2026-02-06 11:35+0000\n"
+"PO-Revision-Date: 2026-02-06 23:21+0100\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
@@ -4934,7 +4934,7 @@ msgid "Server requires authentication"
 msgstr "Strežnik zahteva overitev"
 
 #. Translators: this is the "go back" action of a button
-#: panels/printers/pp-new-printer-dialog.ui:78 panels/system/users/cc-fingerprint-dialog.blp:24 panels/wacom/cc-wacom-stylus-page.c:425 panels/wwan/cc-wwan-apn-dialog.blp:20
+#: panels/printers/pp-new-printer-dialog.ui:78 panels/system/users/cc-fingerprint-dialog.blp:24 panels/wacom/cc-wacom-stylus-page.c:426 panels/wwan/cc-wwan-apn-dialog.blp:20
 msgid "Back"
 msgstr "Nazaj"
 
@@ -6972,8 +6972,8 @@ msgid "_Generate New Password"
 msgstr "Ustvari _novo geslo"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.blp:140 panels/system/remote-desktop/cc-remote-login-page.blp:131
-msgid "_Verify Encryption"
-msgstr "_Overi šifriranje"
+msgid "_Verify Fingerprint"
+msgstr "_Preveri prstni odtis"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.c:357 panels/system/remote-desktop/cc-remote-login-page.c:96
 msgid "Device address copied to clipboard"
@@ -8466,7 +8466,7 @@ msgstr "Ni zaznane tablice"
 msgid "Please plug in or turn on your Wacom tablet"
 msgstr "Priklopite in prižgite tablico Wacom."
 
-#: panels/wacom/cc-wacom-stylus-action-dialog.blp:100 panels/wacom/cc-wacom-stylus-action-dialog.blp:132 panels/wacom/cc-wacom-stylus-page.c:432
+#: panels/wacom/cc-wacom-stylus-action-dialog.blp:100 panels/wacom/cc-wacom-stylus-action-dialog.blp:132 panels/wacom/cc-wacom-stylus-page.c:433
 msgid "Assign Keystroke"
 msgstr "Dodeli tipkovno bližnjico"
 
@@ -8474,12 +8474,12 @@ msgstr "Dodeli tipkovno bližnjico"
 msgid "Press Esc to cancel"
 msgstr "Pritisnite ubežnico (Esc) za preklic"
 
-#: panels/wacom/cc-wacom-stylus-action-dialog.c:248
+#: panels/wacom/cc-wacom-stylus-action-dialog.c:238
 #, c-format
 msgid "Choose an action when button %d on the stylus is pressed"
 msgstr "Izbor dejanja, ko je pritisnjen gumb %d pisala"
 
-#: panels/wacom/cc-wacom-stylus-action-dialog.c:251
+#: panels/wacom/cc-wacom-stylus-action-dialog.c:241
 #, c-format
 msgid "Button %d Mapping"
 msgstr "Preslikava gumba %d"
@@ -8516,24 +8516,24 @@ msgstr "Gumb _3"
 msgid "_Eraser Pressure Feel"
 msgstr "Občutek pritiska _radirke"
 
-#: panels/wacom/cc-wacom-stylus-page.c:415
+#: panels/wacom/cc-wacom-stylus-page.c:416
 msgid "Left Mousebutton Click"
 msgstr "Klik levega gumba miške"
 
-#: panels/wacom/cc-wacom-stylus-page.c:418
+#: panels/wacom/cc-wacom-stylus-page.c:419
 msgid "Middle Mousebutton Click"
 msgstr "Klik srednjega gumba miške"
 
-#: panels/wacom/cc-wacom-stylus-page.c:421
+#: panels/wacom/cc-wacom-stylus-page.c:422
 msgid "Right Mousebutton Click"
 msgstr "Klik desnega gumba miške"
 
 #. Translators: this is the "go forward" action of a button
-#: panels/wacom/cc-wacom-stylus-page.c:429
+#: panels/wacom/cc-wacom-stylus-page.c:430
 msgid "Forward"
 msgstr "Naprej"
 
-#: panels/wacom/cc-wacom-stylus-page.c:435
+#: panels/wacom/cc-wacom-stylus-page.c:436
 msgid "Switch Monitor"
 msgstr "Preklopi zaslon"
 
