@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/issues\n"
-"POT-Creation-Date: 2026-02-03 08:50+0000\n"
-"PO-Revision-Date: 2026-02-04 04:32+0100\n"
+"POT-Creation-Date: 2026-02-06 11:35+0000\n"
+"PO-Revision-Date: 2026-02-06 15:45+0100\n"
 "Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <(nothing)>\n"
 "Language: ka\n"
@@ -6924,8 +6924,8 @@ msgid "_Generate New Password"
 msgstr "ახალი პაროლის _გენერაცია"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.blp:140 panels/system/remote-desktop/cc-remote-login-page.blp:131
-msgid "_Verify Encryption"
-msgstr "დაშიფ_ვრის შემოწმება"
+msgid "_Verify Fingerprint"
+msgstr "თითის ანაბეჭდის გადამო_წმება"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.c:357 panels/system/remote-desktop/cc-remote-login-page.c:96
 msgid "Device address copied to clipboard"
@@ -7967,7 +7967,6 @@ msgstr "გამოიყენეთ ჩოჩია მომხმარე�
 
 #. Translators: Single letter next to the text size slider
 #: panels/universal-access/cc-ua-seeing-page.blp:137 panels/universal-access/cc-ua-seeing-page.blp:157
-#| msgid "AM"
 msgid "A"
 msgstr "A"
 
@@ -9531,6 +9530,9 @@ msgstr[1] "%u შეტანა"
 msgid "System Sounds"
 msgstr "სისტემური ხმები"
 
+#~ msgid "_Verify Encryption"
+#~ msgstr "დაშიფ_ვრის შემოწმება"
+
 #~ msgid "_Large Text"
 #~ msgstr "_დიდი ტექსტი"
 
@@ -9660,9 +9662,6 @@ msgstr "სისტემური ხმები"
 
 #~ msgid "Fingerprint Manager"
 #~ msgstr "ანაბეჭდების მმართველი"
-
-#~ msgid "Fingerprint"
-#~ msgstr "თითის ანაბეჭდი"
 
 #~ msgid "The size of the cursor can be increased to make it easier to see"
 #~ msgstr "კურსორის ზომა შეგიძლიათ გაზარდოთ, რომ ის უფრო იოლი დასანახი გახდეს"
