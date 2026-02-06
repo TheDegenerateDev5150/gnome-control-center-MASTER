@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center HEAD\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/issues\n"
-"POT-Creation-Date: 2026-02-02 09:51+0000\n"
-"PO-Revision-Date: 2026-02-02 17:52+0100\n"
+"POT-Creation-Date: 2026-02-06 11:35+0000\n"
+"PO-Revision-Date: 2026-02-06 14:08+0100\n"
 "Last-Translator: Quentin PAGÈS\n"
 "Language-Team: Tot en òc\n"
 "Language: oc\n"
@@ -4891,7 +4891,7 @@ msgid "Server requires authentication"
 msgstr "Lo servidor requerís una autentificacion"
 
 #. Translators: this is the "go back" action of a button
-#: panels/printers/pp-new-printer-dialog.ui:78 panels/system/users/cc-fingerprint-dialog.blp:24 panels/wacom/cc-wacom-stylus-page.c:425 panels/wwan/cc-wwan-apn-dialog.blp:20
+#: panels/printers/pp-new-printer-dialog.ui:78 panels/system/users/cc-fingerprint-dialog.blp:24 panels/wacom/cc-wacom-stylus-page.c:426 panels/wwan/cc-wwan-apn-dialog.blp:20
 msgid "Back"
 msgstr "Precedent"
 
@@ -6921,8 +6921,8 @@ msgid "_Generate New Password"
 msgstr "_Generar un senhal novèl"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.blp:140 panels/system/remote-desktop/cc-remote-login-page.blp:131
-msgid "_Verify Encryption"
-msgstr "_Verificar lo chiframent"
+msgid "_Verify Fingerprint"
+msgstr "_Verificar l’emprenta"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.c:357 panels/system/remote-desktop/cc-remote-login-page.c:96
 msgid "Device address copied to clipboard"
@@ -8407,7 +8407,7 @@ msgstr "Cap de tauleta  pas detectada"
 msgid "Please plug in or turn on your Wacom tablet"
 msgstr "Connectatz o alucatz vòstra tauleta Wacom"
 
-#: panels/wacom/cc-wacom-stylus-action-dialog.blp:100 panels/wacom/cc-wacom-stylus-action-dialog.blp:132 panels/wacom/cc-wacom-stylus-page.c:432
+#: panels/wacom/cc-wacom-stylus-action-dialog.blp:100 panels/wacom/cc-wacom-stylus-action-dialog.blp:132 panels/wacom/cc-wacom-stylus-page.c:433
 msgid "Assign Keystroke"
 msgstr "Mandar las quichadas sus las tòcas"
 
@@ -8415,12 +8415,12 @@ msgstr "Mandar las quichadas sus las tòcas"
 msgid "Press Esc to cancel"
 msgstr "Quichar Escap per anullar"
 
-#: panels/wacom/cc-wacom-stylus-action-dialog.c:248
+#: panels/wacom/cc-wacom-stylus-action-dialog.c:238
 #, c-format
 msgid "Choose an action when button %d on the stylus is pressed"
 msgstr "Causir una accion quand lo boton %d es quichat de l’estilet"
 
-#: panels/wacom/cc-wacom-stylus-action-dialog.c:251
+#: panels/wacom/cc-wacom-stylus-action-dialog.c:241
 #, c-format
 msgid "Button %d Mapping"
 msgstr "Assignacion del boton %d"
@@ -8457,24 +8457,24 @@ msgstr "Boton _3"
 msgid "_Eraser Pressure Feel"
 msgstr "Pression ressentida sus la _goma"
 
-#: panels/wacom/cc-wacom-stylus-page.c:415
+#: panels/wacom/cc-wacom-stylus-page.c:416
 msgid "Left Mousebutton Click"
 msgstr "Clic del boton esquèrre de la mirga"
 
-#: panels/wacom/cc-wacom-stylus-page.c:418
+#: panels/wacom/cc-wacom-stylus-page.c:419
 msgid "Middle Mousebutton Click"
 msgstr "Clic del boton central de la mirga"
 
-#: panels/wacom/cc-wacom-stylus-page.c:421
+#: panels/wacom/cc-wacom-stylus-page.c:422
 msgid "Right Mousebutton Click"
 msgstr "Clic del boton drech de la mirga"
 
 #. Translators: this is the "go forward" action of a button
-#: panels/wacom/cc-wacom-stylus-page.c:429
+#: panels/wacom/cc-wacom-stylus-page.c:430
 msgid "Forward"
 msgstr "Seguent"
 
-#: panels/wacom/cc-wacom-stylus-page.c:435
+#: panels/wacom/cc-wacom-stylus-page.c:436
 msgid "Switch Monitor"
 msgstr "Cambiar d’ecran"
 
@@ -9529,6 +9529,9 @@ msgstr[1] "%u entradas"
 msgid "System Sounds"
 msgstr "Sons sistèma"
 
+#~ msgid "_Verify Encryption"
+#~ msgstr "_Verificar lo chiframent"
+
 #~ msgid "_Large Text"
 #~ msgstr "_Grand tèxte"
 
@@ -9668,9 +9671,6 @@ msgstr "Sons sistèma"
 
 #~ msgid "Fingerprint Manager"
 #~ msgstr "Gestionari de detadas"
-
-#~ msgid "Fingerprint"
-#~ msgstr "Emprentas"
 
 #~ msgid "_No"
 #~ msgstr "_Non"
