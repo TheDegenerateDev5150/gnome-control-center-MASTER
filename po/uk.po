@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/iss"
 "ues\n"
-"POT-Creation-Date: 2026-02-02 09:51+0000\n"
-"PO-Revision-Date: 2026-02-03 05:43+0200\n"
+"POT-Creation-Date: 2026-02-06 11:35+0000\n"
+"PO-Revision-Date: 2026-02-07 22:52+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -5476,7 +5476,7 @@ msgstr "Сервер потребує засвідчення"
 #. Translators: this is the "go back" action of a button
 #: panels/printers/pp-new-printer-dialog.ui:78
 #: panels/system/users/cc-fingerprint-dialog.blp:24
-#: panels/wacom/cc-wacom-stylus-page.c:425
+#: panels/wacom/cc-wacom-stylus-page.c:426
 #: panels/wwan/cc-wwan-apn-dialog.blp:20
 msgid "Back"
 msgstr "Назад"
@@ -7525,7 +7525,6 @@ msgid "December"
 msgstr "Грудень"
 
 #: panels/system/datetime/cc-datetime-page.c:227
-#| msgid "Layout Default"
 msgid "Locale Default"
 msgstr "Типове для локалі"
 
@@ -7785,8 +7784,9 @@ msgstr "С_творити пароль"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.blp:140
 #: panels/system/remote-desktop/cc-remote-login-page.blp:131
-msgid "_Verify Encryption"
-msgstr "П_еревірити шифрування"
+#| msgid "Fingerprint"
+msgid "_Verify Fingerprint"
+msgstr "П_еревірити відбиток"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.c:357
 #: panels/system/remote-desktop/cc-remote-login-page.c:96
@@ -8948,22 +8948,18 @@ msgid "Cancel"
 msgstr "Скасувати"
 
 #: panels/universal-access/cc-ua-seeing-page.blp:125
-#| msgid "Increase the size of all text in the user interface"
 msgid "Use the slider to adjust the size of user interface text"
 msgstr ""
-"Скористайтеся повзунком для коригування розміру шрифту в інтерфейсі"
-" користувача"
+"Скористайтеся повзунком для коригування розміру шрифту в інтерфейсі "
+"користувача"
 
 #. Translators: Single letter next to the text size slider
 #: panels/universal-access/cc-ua-seeing-page.blp:137
 #: panels/universal-access/cc-ua-seeing-page.blp:157
-#| msgid "AM"
 msgid "A"
 msgstr "А"
 
 #: panels/universal-access/cc-ua-seeing-page.blp:168
-#| msgctxt "Fingerprint enroll state"
-#| msgid "Complete"
 msgid "Sample text"
 msgstr "Зразок тексту"
 
@@ -9438,7 +9434,7 @@ msgstr "Під'єднайте або ввімкніть планшет Wacom"
 
 #: panels/wacom/cc-wacom-stylus-action-dialog.blp:100
 #: panels/wacom/cc-wacom-stylus-action-dialog.blp:132
-#: panels/wacom/cc-wacom-stylus-page.c:432
+#: panels/wacom/cc-wacom-stylus-page.c:433
 msgid "Assign Keystroke"
 msgstr "Призначити клавішу"
 
@@ -9446,12 +9442,12 @@ msgstr "Призначити клавішу"
 msgid "Press Esc to cancel"
 msgstr "Натисніть Esc, щоб скасувати"
 
-#: panels/wacom/cc-wacom-stylus-action-dialog.c:248
+#: panels/wacom/cc-wacom-stylus-action-dialog.c:238
 #, c-format
 msgid "Choose an action when button %d on the stylus is pressed"
 msgstr "Виберіть дію у відповідь на натискання кнопки %d на стилі"
 
-#: panels/wacom/cc-wacom-stylus-action-dialog.c:251
+#: panels/wacom/cc-wacom-stylus-action-dialog.c:241
 #, c-format
 msgid "Button %d Mapping"
 msgstr "Прив'язка кнопки %d"
@@ -9490,24 +9486,24 @@ msgstr "Кнопка _3"
 msgid "_Eraser Pressure Feel"
 msgstr "Ч_утливість гумки"
 
-#: panels/wacom/cc-wacom-stylus-page.c:415
+#: panels/wacom/cc-wacom-stylus-page.c:416
 msgid "Left Mousebutton Click"
 msgstr "Клацання лівою кнопкою миші"
 
-#: panels/wacom/cc-wacom-stylus-page.c:418
+#: panels/wacom/cc-wacom-stylus-page.c:419
 msgid "Middle Mousebutton Click"
 msgstr "Клацання середньою кнопкою миші"
 
-#: panels/wacom/cc-wacom-stylus-page.c:421
+#: panels/wacom/cc-wacom-stylus-page.c:422
 msgid "Right Mousebutton Click"
 msgstr "Клацання правою кнопкою миші"
 
 #. Translators: this is the "go forward" action of a button
-#: panels/wacom/cc-wacom-stylus-page.c:429
+#: panels/wacom/cc-wacom-stylus-page.c:430
 msgid "Forward"
 msgstr "Вперед"
 
-#: panels/wacom/cc-wacom-stylus-page.c:435
+#: panels/wacom/cc-wacom-stylus-page.c:436
 msgid "Switch Monitor"
 msgstr "Перемкнути монітор"
 
@@ -10614,6 +10610,9 @@ msgstr[3] "%u вхід"
 msgid "System Sounds"
 msgstr "Системні звуки"
 
+#~ msgid "_Verify Encryption"
+#~ msgstr "П_еревірити шифрування"
+
 #~ msgid "_Large Text"
 #~ msgstr "Ве_ликий текст"
 
@@ -10754,9 +10753,6 @@ msgstr "Системні звуки"
 
 #~ msgid "Fingerprint Manager"
 #~ msgstr "Керування відбитками"
-
-#~ msgid "Fingerprint"
-#~ msgstr "Відбиток"
 
 #~ msgid "The size of the cursor can be increased to make it easier to see"
 #~ msgstr "Можна збільшити розмір вказівника, щоб він став помітнішим"
