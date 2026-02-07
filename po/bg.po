@@ -22,8 +22,8 @@ msgstr ""
 "Project-Id-Version: gnome-control-center main\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
 "issues\n"
-"POT-Creation-Date: 2026-02-03 08:50+0000\n"
-"PO-Revision-Date: 2026-02-06 10:53+0100\n"
+"POT-Creation-Date: 2026-02-06 11:35+0000\n"
+"PO-Revision-Date: 2026-02-07 14:41+0100\n"
 "Last-Translator: twlvnn kraftwerk <kraft_werk@tutanota.com>\n"
 "Language-Team: Bulgarian <dict-notifications@fsa-bg.org>\n"
 "Language: bg\n"
@@ -7258,7 +7258,7 @@ msgstr "Извеждане на информация за компютъра"
 #. sure that you use the same "translation" for those keywords
 #: panels/system/about/gnome-about-panel.desktop.in:18
 msgid "device;system;information;hostname;memory;processor;version;default;application;preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;winver;"
-msgstr "устройство;система;информация;име;хост;памет;процесор;версия;стандартна;програма;предпочитана;cd;dvd;usb;звук;видео;диск;преносим;носител;автоматично;стартиране;device;system;information;hostname;memory;processor;version;default;application;preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;winver;"
+msgstr "устройство;система;информация;име;хост;памет;процесор;версия;стандартна;програма;предпочитана;cd;dvd;usb;звук;видео;диск;преносим;носител;автоматично;стартиране;версия;device;system;information;hostname;memory;processor;version;default;application;preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;winver;"
 
 #: panels/system/cc-system-panel.blp:16
 msgid "_Region &amp; Language"
@@ -7565,7 +7565,7 @@ msgstr "Хартия"
 #: panels/system/region/cc-format-preview.c:149
 msgctxt "measurement format"
 msgid "US Customary"
-msgstr "Обичайни единици на САЩ"
+msgstr "Мерни единици в САЩ"
 
 #: panels/system/region/cc-format-preview.c:151
 msgctxt "measurement format"
@@ -7701,8 +7701,8 @@ msgstr "_Генериране на нова парола"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.blp:140
 #: panels/system/remote-desktop/cc-remote-login-page.blp:131
-msgid "_Verify Encryption"
-msgstr "Криптографска _проверка"
+msgid "_Verify Fingerprint"
+msgstr "_Проверка на отпечатъците"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.c:357
 #: panels/system/remote-desktop/cc-remote-login-page.c:96
@@ -8553,7 +8553,7 @@ msgid ""
 "Password does not meet your organization's security policies. Try a "
 "different password or contact your system administrator."
 msgstr ""
-"Паролата не отговаря на политиките за сигурност на вашата организация. "
+"Паролата не отговаря на политиките за сигурност на организацията ви. "
 "Опитайте с друга парола или се свържете със системния администратор."
 
 #: panels/system/users/run-passwd.c:507 panels/wwan/cc-wwan-errors-private.h:72
@@ -9182,7 +9182,7 @@ msgstr "По-лесно да се вижда, чува, въвежда текс�
 #. Translators: Search terms to find the Accessibility panel. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: panels/universal-access/gnome-universal-access-panel.desktop.in:14
 msgid "Keyboard;Mouse;a11y;Accessibility;Universal;Access;Contrast;Cursor;Sound;Zoom;Screen;Reader;big;high;large;text;font;size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;Double;click;Delay;Speed;Assist;Repeat;Blink;Pointer;find;locate;visual;hearing;audio;typing;animations;overamplification;magnify;magnifier;magnification;"
-msgstr "клавиатура;мишка;достъпност;универсален;достъп;контраст;курсор;показалец;звук;увеличение;мащаб;четец;голям;едър;екран;текст;шрифт;размер;лепкави;бавни;подскачащи;клавиши;бутони;мишка;двойно;натискане;забавяне;скорост;повтаряне;мигане;слух;аудио;набиране;анимации;слух;писане;анимации;търсене;мащабиране;лупа;забавяне;Keyboard;Mouse;a11y;Accessibility;Universal;Access;Contrast;Cursor;Sound;Zoom;Screen;Reader;big;high;large;text;font;size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;Double;click;Delay;Speed;Assist;Repeat;Blink;Pointer;find;locate;visual;hearing;audio;typing;animations;overamplification;magnify;magnifier;magnification;"
+msgstr "клавиатура;мишка;достъпност;универсален;достъп;контраст;курсор;показалец;звук;увеличение;мащаб;четец;голям;едър;екран;текст;шрифт;размер;лепкави;бавни;подскачащи;клавиши;бутони;мишка;двойно;натискане;забавяне;скорост;повтаряне;мигане;слух;аудио;набиране;анимации;слух;писане;анимации;търсене;мащабиране;лупа;забавяне;опростяване;прост;увеличение;Keyboard;Mouse;a11y;Accessibility;Universal;Access;Contrast;Cursor;Sound;Zoom;Screen;Reader;big;high;large;text;font;size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;Double;click;Delay;Speed;Assist;Repeat;Blink;Pointer;find;locate;visual;hearing;audio;typing;animations;overamplification;magnify;magnifier;magnification;"
 
 #: panels/wacom/button-mapping.blp:6
 msgid "Map Buttons"
