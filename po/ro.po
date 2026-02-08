@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
 "issues\n"
-"POT-Creation-Date: 2026-02-03 08:50+0000\n"
-"PO-Revision-Date: 2026-02-05 11:55+0100\n"
+"POT-Creation-Date: 2026-02-06 11:35+0000\n"
+"PO-Revision-Date: 2026-02-08 11:22+0100\n"
 "Last-Translator: Antonio Marin <gnmer.6qxyg@slmail.me>\n"
 "Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
 "Language: ro\n"
@@ -7687,9 +7687,9 @@ msgid ""
 "Use a remote desktop app to connect using the RDP protocol. Additional "
 "information about the device’s network location may also be required."
 msgstr ""
-"Trebuie folosită o aplicație pentru utilizarea de la distanță a "
-"computerului, pentru conectarea utilizând protocolul RDP. Pot fi necesare "
-"informații suplimentare privind calea de rețea a aparatului."
+"Este necesară o aplicație pentru utilizarea de la distanță a computerului "
+"folosind protocolul RDP. Pot fi necesare informații suplimentare privind "
+"calea de rețea a aparatului."
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.blp:48
 #: panels/system/remote-desktop/cc-remote-login-page.blp:37
@@ -7725,8 +7725,8 @@ msgstr "_Generează o parolă nouă"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.blp:140
 #: panels/system/remote-desktop/cc-remote-login-page.blp:131
-msgid "_Verify Encryption"
-msgstr "_Verifică cifrarea"
+msgid "_Verify Fingerprint"
+msgstr "_Verifică amprenta"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.c:357
 #: panels/system/remote-desktop/cc-remote-login-page.c:96
