@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/issues\n"
-"POT-Creation-Date: 2026-02-03 08:50+0000\n"
-"PO-Revision-Date: 2026-02-04 21:33+0500\n"
+"POT-Creation-Date: 2026-02-09 08:54+0000\n"
+"PO-Revision-Date: 2026-02-09 21:34+0500\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
 "Language: kk\n"
@@ -166,7 +166,7 @@ msgstr "Жүйелік іздеулерді алу және нәтижелерд
 #. translators:
 #. * The device has been disabled
 #: panels/applications/cc-applications-panel.blp:227 panels/applications/cc-applications-panel.blp:269 panels/applications/cc-applications-panel.blp:290 panels/applications/cc-applications-panel.blp:304 panels/applications/cc-applications-panel.blp:318 panels/keyboard/cc-keyboard-panel.c:87
-#: panels/keyboard/cc-keyboard-shortcut-editor.blp:120 panels/keyboard/keyboard-shortcuts.c:367 panels/network/panel-common.c:336 panels/system/users/cc-user-page.c:368 panels/system/users/cc-user-page.c:753 panels/wwan/cc-wwan-device-page.c:475 subprojects/gvc/gvc-mixer-control.c:1910
+#: panels/keyboard/cc-keyboard-shortcut-editor.blp:120 panels/keyboard/keyboard-shortcuts.c:367 panels/network/panel-common.c:336 panels/system/users/cc-user-page.c:368 panels/system/users/cc-user-page.c:753 panels/wwan/cc-wwan-device-page.c:483 subprojects/gvc/gvc-mixer-control.c:1910
 msgid "Disabled"
 msgstr "Сөндірулі"
 
@@ -4261,7 +4261,7 @@ msgid "Not charging"
 msgstr "Зарядталуда емес"
 
 #. TRANSLATORS: primary battery
-#: panels/power/cc-battery-row.c:142 panels/power/cc-battery-row.c:172
+#: panels/power/cc-battery-row.c:142 panels/power/cc-battery-row.c:172 panels/wwan/cc-wwan-device-page.c:514
 msgid "Empty"
 msgstr "Бос"
 
@@ -5740,7 +5740,7 @@ msgstr "Жарамды емес"
 
 #. TRANSLATORS: if the function is enabled through BIOS or OS settings.
 #. TRANSLATORS: Status of Parental Controls setup
-#: panels/privacy/firmware-security/cc-firmware-security-utils.c:45 panels/system/users/cc-user-page.c:366 panels/system/users/cc-user-page.c:753 panels/wwan/cc-wwan-device-page.c:473
+#: panels/privacy/firmware-security/cc-firmware-security-utils.c:45 panels/system/users/cc-user-page.c:366 panels/system/users/cc-user-page.c:753 panels/wwan/cc-wwan-device-page.c:481
 msgid "Enabled"
 msgstr "Іске қосулы"
 
@@ -6906,8 +6906,8 @@ msgid "_Generate New Password"
 msgstr "Жаңа парольді _генерациялау"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.blp:140 panels/system/remote-desktop/cc-remote-login-page.blp:131
-msgid "_Verify Encryption"
-msgstr "Шифрлеуді _тексеру"
+msgid "_Verify Fingerprint"
+msgstr "Саусақ ізін _растау"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.c:357 panels/system/remote-desktop/cc-remote-login-page.c:96
 msgid "Device address copied to clipboard"
@@ -7940,7 +7940,7 @@ msgstr "Айналдыру жолақтарын әрқашан көрсету"
 msgid "Text Size"
 msgstr "Мәтін өлшемі"
 
-#: panels/universal-access/cc-ua-seeing-page.blp:109 panels/wwan/cc-wwan-device-page.c:187
+#: panels/universal-access/cc-ua-seeing-page.blp:109 panels/wwan/cc-wwan-device-page.c:191
 msgid "Cancel"
 msgstr "Болдырмау"
 
@@ -8877,179 +8877,179 @@ msgstr "Іздеу"
 msgid "Denied"
 msgstr "Рұқсат етілмеген"
 
-#: panels/wwan/cc-wwan-device.c:988
+#: panels/wwan/cc-wwan-device.c:1019
 msgid "2G Only"
 msgstr "Тек 2G"
 
-#: panels/wwan/cc-wwan-device.c:991
+#: panels/wwan/cc-wwan-device.c:1022
 msgid "3G Only"
 msgstr "Тек 3G"
 
-#: panels/wwan/cc-wwan-device.c:994
+#: panels/wwan/cc-wwan-device.c:1025
 msgid "4G Only"
 msgstr "Тек 4G"
 
-#: panels/wwan/cc-wwan-device.c:997
+#: panels/wwan/cc-wwan-device.c:1028
 msgid "5G Only"
 msgstr "Тек 5G"
 
-#: panels/wwan/cc-wwan-device.c:1007
+#: panels/wwan/cc-wwan-device.c:1038
 msgid "2G, 3G, 4G, 5G (Preferred)"
 msgstr "2G, 3G, 4G, 5G (таңдамалы)"
 
-#: panels/wwan/cc-wwan-device.c:1009
+#: panels/wwan/cc-wwan-device.c:1040
 msgid "2G, 3G, 4G (Preferred), 5G"
 msgstr "2G, 3G, 4G (таңдамалы), 5G"
 
-#: panels/wwan/cc-wwan-device.c:1011
+#: panels/wwan/cc-wwan-device.c:1042
 msgid "2G, 3G (Preferred), 4G, 5G"
 msgstr "2G, 3G (таңдамалы), 4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1013
+#: panels/wwan/cc-wwan-device.c:1044
 msgid "2G (Preferred), 3G, 4G, 5G"
 msgstr "2G (таңдамалы), 3G, 4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1015
+#: panels/wwan/cc-wwan-device.c:1046
 msgid "2G, 3G, 4G, 5G"
 msgstr "2G, 3G, 4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1022
+#: panels/wwan/cc-wwan-device.c:1053
 msgid "2G, 3G, 4G (Preferred)"
 msgstr "2G, 3G, 4G (таңдамалы)"
 
-#: panels/wwan/cc-wwan-device.c:1024
+#: panels/wwan/cc-wwan-device.c:1055
 msgid "2G, 3G (Preferred), 4G"
 msgstr "2G, 3G (таңдамалы), 4G"
 
-#: panels/wwan/cc-wwan-device.c:1026
+#: panels/wwan/cc-wwan-device.c:1057
 msgid "2G (Preferred), 3G, 4G"
 msgstr "2G (таңдамалы), 3G, 4G"
 
-#: panels/wwan/cc-wwan-device.c:1028
+#: panels/wwan/cc-wwan-device.c:1059
 msgid "2G, 3G, 4G"
 msgstr "2G, 3G, 4G"
 
-#: panels/wwan/cc-wwan-device.c:1035
+#: panels/wwan/cc-wwan-device.c:1066
 msgid "3G, 4G, 5G (Preferred)"
 msgstr "3G, 4G, 5G (таңдамалы)"
 
-#: panels/wwan/cc-wwan-device.c:1037
+#: panels/wwan/cc-wwan-device.c:1068
 msgid "3G, 4G (Preferred), 5G"
 msgstr "3G, 4G (таңдамалы), 5G"
 
-#: panels/wwan/cc-wwan-device.c:1039
+#: panels/wwan/cc-wwan-device.c:1070
 msgid "3G (Preferred), 4G, 5G"
 msgstr "3G (таңдамалы), 4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1041
+#: panels/wwan/cc-wwan-device.c:1072
 msgid "3G, 4G, 5G"
 msgstr "3G, 4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1048
+#: panels/wwan/cc-wwan-device.c:1079
 msgid "2G, 4G, 5G (Preferred)"
 msgstr "2G, 3G, 5G (таңдамалы)"
 
-#: panels/wwan/cc-wwan-device.c:1050
+#: panels/wwan/cc-wwan-device.c:1081
 msgid "2G, 4G (Preferred), 5G"
 msgstr "2G, 4G (таңдамалы), 5G"
 
-#: panels/wwan/cc-wwan-device.c:1052
+#: panels/wwan/cc-wwan-device.c:1083
 msgid "2G (Preferred), 4G, 5G"
 msgstr "2G (таңдамалы), 4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1054
+#: panels/wwan/cc-wwan-device.c:1085
 msgid "2G, 4G, 5G"
 msgstr "2G, 4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1061
+#: panels/wwan/cc-wwan-device.c:1092
 msgid "2G, 3G, 5G (Preferred)"
 msgstr "2G, 3G, 5G (таңдамалы)"
 
-#: panels/wwan/cc-wwan-device.c:1063
+#: panels/wwan/cc-wwan-device.c:1094
 msgid "2G, 3G (Preferred), 5G"
 msgstr "2G, 3G (таңдамалы), 5G"
 
-#: panels/wwan/cc-wwan-device.c:1065
+#: panels/wwan/cc-wwan-device.c:1096
 msgid "2G (Preferred), 3G, 5G"
 msgstr "2G (таңдамалы), 3G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1067
+#: panels/wwan/cc-wwan-device.c:1098
 msgid "2G, 3G, 5G"
 msgstr "2G, 3G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1073
+#: panels/wwan/cc-wwan-device.c:1104
 msgid "3G, 4G (Preferred)"
 msgstr "3G, 4G (таңдамалы)"
 
-#: panels/wwan/cc-wwan-device.c:1075
+#: panels/wwan/cc-wwan-device.c:1106
 msgid "3G (Preferred), 4G"
 msgstr "3G (таңдамалы), 4G"
 
-#: panels/wwan/cc-wwan-device.c:1077
+#: panels/wwan/cc-wwan-device.c:1108
 msgid "3G, 4G"
 msgstr "3G, 4G"
 
-#: panels/wwan/cc-wwan-device.c:1083
+#: panels/wwan/cc-wwan-device.c:1114
 msgid "2G, 4G (Preferred)"
 msgstr "2G, 4G (таңдамалы)"
 
-#: panels/wwan/cc-wwan-device.c:1085
+#: panels/wwan/cc-wwan-device.c:1116
 msgid "2G (Preferred), 4G"
 msgstr "2G (таңдамалы), 4G"
 
-#: panels/wwan/cc-wwan-device.c:1087
+#: panels/wwan/cc-wwan-device.c:1118
 msgid "2G, 4G"
 msgstr "2G, 4G"
 
-#: panels/wwan/cc-wwan-device.c:1093
+#: panels/wwan/cc-wwan-device.c:1124
 msgid "2G, 3G (Preferred)"
 msgstr "2G, 3G (таңдамалы)"
 
-#: panels/wwan/cc-wwan-device.c:1095
+#: panels/wwan/cc-wwan-device.c:1126
 msgid "2G (Preferred), 3G"
 msgstr "2G (таңдамалы), 3G"
 
-#: panels/wwan/cc-wwan-device.c:1097
+#: panels/wwan/cc-wwan-device.c:1128
 msgid "2G, 3G"
 msgstr "2G, 3G"
 
-#: panels/wwan/cc-wwan-device.c:1103
+#: panels/wwan/cc-wwan-device.c:1134
 msgid "2G, 5G (Preferred)"
 msgstr "2G, 5G (таңдамалы)"
 
-#: panels/wwan/cc-wwan-device.c:1105
+#: panels/wwan/cc-wwan-device.c:1136
 msgid "2G (Preferred), 5G"
 msgstr "2G (таңдамалы), 5G"
 
-#: panels/wwan/cc-wwan-device.c:1107
+#: panels/wwan/cc-wwan-device.c:1138
 msgid "2G, 5G"
 msgstr "2G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1113
+#: panels/wwan/cc-wwan-device.c:1144
 msgid "3G, 5G (Preferred)"
 msgstr "3G, 5G (таңдамалы)"
 
-#: panels/wwan/cc-wwan-device.c:1115
+#: panels/wwan/cc-wwan-device.c:1146
 msgid "3G (Preferred), 5G"
 msgstr "3G (таңдамалы), 5G"
 
-#: panels/wwan/cc-wwan-device.c:1117
+#: panels/wwan/cc-wwan-device.c:1148
 msgid "3G, 5G"
 msgstr "3G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1123
+#: panels/wwan/cc-wwan-device.c:1154
 msgid "4G, 5G (Preferred)"
 msgstr "4G, 5G (таңдамалы)"
 
-#: panels/wwan/cc-wwan-device.c:1125
+#: panels/wwan/cc-wwan-device.c:1156
 msgid "4G (Preferred), 5G"
 msgstr "4G (таңдамалы), 5G"
 
-#: panels/wwan/cc-wwan-device.c:1127
+#: panels/wwan/cc-wwan-device.c:1158
 msgid "4G, 5G"
 msgstr "4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1131
+#: panels/wwan/cc-wwan-device.c:1162
 msgctxt "Network mode"
 msgid "Unknown"
 msgstr "Белгісіз"
@@ -9110,63 +9110,76 @@ msgstr "SIM картаны PIN кодымен бұғаттау"
 msgid "M_odem Details"
 msgstr "М_одем ақпараты"
 
-#: panels/wwan/cc-wwan-device-page.c:185
+#: panels/wwan/cc-wwan-device-page.blp:128
+msgid "Primary S_IM Slot"
+msgstr "Н_егізгі SIM слоты"
+
+#: panels/wwan/cc-wwan-device-page.c:189
 msgid "Unlock SIM card"
 msgstr "SIM карта бұғаттауын шешу"
 
-#: panels/wwan/cc-wwan-device-page.c:186 panels/wwan/cc-wwan-device-page.c:234
+#: panels/wwan/cc-wwan-device-page.c:190 panels/wwan/cc-wwan-device-page.c:238
 msgid "Unlock"
 msgstr "Бұғаттауды шешу"
 
-#: panels/wwan/cc-wwan-device-page.c:191
+#: panels/wwan/cc-wwan-device-page.c:195
 #, c-format
 msgid "Please provide PIN code for SIM %d"
 msgstr "%d SIM картасы үшін PIN кодын енгізіңіз"
 
-#: panels/wwan/cc-wwan-device-page.c:192
+#: panels/wwan/cc-wwan-device-page.c:196
 msgid "Enter PIN to unlock your SIM card"
 msgstr "SIM картаңыздың бұғаттауын шешу үшін PIN кодын енгізіңіз"
 
-#: panels/wwan/cc-wwan-device-page.c:196
+#: panels/wwan/cc-wwan-device-page.c:200
 #, c-format
 msgid "Please provide PUK code for SIM %d"
 msgstr "%d SIM картасы үшін PUK кодын енгізіңіз"
 
-#: panels/wwan/cc-wwan-device-page.c:197
+#: panels/wwan/cc-wwan-device-page.c:201
 msgid "Enter PUK to unlock your SIM card"
 msgstr "SIM картаңыздың бұғаттауын шешу үшін PUK кодын енгізіңіз"
 
-#: panels/wwan/cc-wwan-device-page.c:215
+#: panels/wwan/cc-wwan-device-page.c:219
 #, c-format
 msgid "Wrong password entered. You have %1$u try left"
 msgid_plural "Wrong password entered. You have %1$u tries left"
 msgstr[0] "Қате пароль енгізілген. Сізде %1$u қайталау талабы қалды"
 
-#: panels/wwan/cc-wwan-device-page.c:218
+#: panels/wwan/cc-wwan-device-page.c:222
 #, c-format
 msgid "You have %u try left"
 msgid_plural "You have %u tries left"
 msgstr[0] "Сізде %1$u қайталау талабы қалды"
 
-#: panels/wwan/cc-wwan-device-page.c:223
+#: panels/wwan/cc-wwan-device-page.c:227
 msgid "Wrong password entered."
 msgstr "Қате пароль енгізілген."
 
-#: panels/wwan/cc-wwan-device-page.c:268
+#: panels/wwan/cc-wwan-device-page.c:272
 msgid "PUK code should be an 8 digit number"
 msgstr "PUK коды 8 цифрлық сан болуы тиіс"
 
-#: panels/wwan/cc-wwan-device-page.c:292
+#: panels/wwan/cc-wwan-device-page.c:296
 msgid "Enter New PIN"
 msgstr "Жаңа PIN кодын енгізіңіз"
 
-#: panels/wwan/cc-wwan-device-page.c:296
+#: panels/wwan/cc-wwan-device-page.c:300
 msgid "PIN code should be a 4-8 digit number"
 msgstr "PIN коды 4-8 цифрлық сан болуы тиіс"
 
-#: panels/wwan/cc-wwan-device-page.c:314
+#: panels/wwan/cc-wwan-device-page.c:318
 msgid "Unlocking…"
 msgstr "Бұғаттауды шешу…"
+
+#. Translators: This refers to a sim slot in a modem.
+#. * For example: "Slot 1 [Operator Name]", "Slot 1" or "Slot 2 [Empty]".
+#. * Notice that all variations above are valid. Sometimes "Operator Name"
+#. * will be ommitted.
+#: panels/wwan/cc-wwan-device-page.c:527
+#, c-format
+msgid "Slot %d %s"
+msgstr "Слот %d %s"
 
 #: panels/wwan/cc-wwan-errors-private.h:40
 msgid "Phone failure"
@@ -9288,15 +9301,19 @@ msgstr "Сізде сымсыз Wan/ұялы құрылғының бар бол�
 msgid "Wireless Wan is disabled when airplane mode is on"
 msgstr "Ұшақтағы режим іске қосулы кезінде сымсыз Wan сөндірілген болады"
 
-#: panels/wwan/cc-wwan-panel.blp:90
+#: panels/wwan/cc-wwan-panel.blp:74
+msgid "Loading Devices"
+msgstr "Құрылғыларды жүктеу"
+
+#: panels/wwan/cc-wwan-panel.blp:99
 msgid "Data Connection"
 msgstr "Деректер байланысы"
 
-#: panels/wwan/cc-wwan-panel.blp:91
+#: panels/wwan/cc-wwan-panel.blp:100
 msgid "SIM card used for internet"
 msgstr "Интернет үшін қолданылатын SIM картасы"
 
-#: panels/wwan/cc-wwan-panel.c:366 panels/wwan/cc-wwan-panel.c:397
+#: panels/wwan/cc-wwan-panel.c:366 panels/wwan/cc-wwan-panel.c:399
 #, c-format
 msgid "SIM %d"
 msgstr "SIM %d"
@@ -9510,6 +9527,9 @@ msgstr[0] "%u кіріс"
 msgid "System Sounds"
 msgstr "Жүйелік дыбыстар"
 
+#~ msgid "_Verify Encryption"
+#~ msgstr "Шифрлеуді _тексеру"
+
 #~ msgid "_Large Text"
 #~ msgstr "Ү_лкен мәтін"
 
@@ -9610,9 +9630,6 @@ msgstr "Жүйелік дыбыстар"
 
 #~ msgid "Fingerprint Manager"
 #~ msgstr "Саусақ іздерін басқарушы"
-
-#~ msgid "Fingerprint"
-#~ msgstr "Саусақ ізі"
 
 #~ msgid "_No"
 #~ msgstr "_Жоқ"
@@ -11187,9 +11204,6 @@ msgstr "Жүйелік дыбыстар"
 
 #~ msgid "Unlock to add a user account."
 #~ msgstr "Пайдаланушы тіркелгісін жасау үшін босатыңыз."
-
-#~ msgid "Primary Menu"
-#~ msgstr "Басты мәзір"
 
 #~ msgid "Light"
 #~ msgstr "Ашық түсті"
