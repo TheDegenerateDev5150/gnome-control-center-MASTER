@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/iss"
 "ues\n"
-"POT-Creation-Date: 2026-02-06 11:35+0000\n"
-"PO-Revision-Date: 2026-02-07 22:52+0200\n"
+"POT-Creation-Date: 2026-02-09 08:54+0000\n"
+"PO-Revision-Date: 2026-02-09 17:53+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -240,7 +240,7 @@ msgstr "Отримання сигналів системи про пошук і 
 #: panels/keyboard/cc-keyboard-shortcut-editor.blp:120
 #: panels/keyboard/keyboard-shortcuts.c:367 panels/network/panel-common.c:336
 #: panels/system/users/cc-user-page.c:368
-#: panels/system/users/cc-user-page.c:753 panels/wwan/cc-wwan-device-page.c:475
+#: panels/system/users/cc-user-page.c:753 panels/wwan/cc-wwan-device-page.c:483
 #: subprojects/gvc/gvc-mixer-control.c:1910
 msgid "Disabled"
 msgstr "Вимкнено"
@@ -4815,6 +4815,7 @@ msgstr "Не заряджається"
 
 #. TRANSLATORS: primary battery
 #: panels/power/cc-battery-row.c:142 panels/power/cc-battery-row.c:172
+#: panels/wwan/cc-wwan-device-page.c:514
 msgid "Empty"
 msgstr "Вичерпано"
 
@@ -6483,7 +6484,7 @@ msgstr "Нечинний"
 #. TRANSLATORS: Status of Parental Controls setup
 #: panels/privacy/firmware-security/cc-firmware-security-utils.c:45
 #: panels/system/users/cc-user-page.c:366
-#: panels/system/users/cc-user-page.c:753 panels/wwan/cc-wwan-device-page.c:473
+#: panels/system/users/cc-user-page.c:753 panels/wwan/cc-wwan-device-page.c:481
 msgid "Enabled"
 msgstr "Увімкнено"
 
@@ -7784,7 +7785,6 @@ msgstr "С_творити пароль"
 
 #: panels/system/remote-desktop/cc-desktop-sharing-page.blp:140
 #: panels/system/remote-desktop/cc-remote-login-page.blp:131
-#| msgid "Fingerprint"
 msgid "_Verify Fingerprint"
 msgstr "П_еревірити відбиток"
 
@@ -8943,7 +8943,7 @@ msgid "Text Size"
 msgstr "Розмір шрифту"
 
 #: panels/universal-access/cc-ua-seeing-page.blp:109
-#: panels/wwan/cc-wwan-device-page.c:187
+#: panels/wwan/cc-wwan-device-page.c:191
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -9944,179 +9944,179 @@ msgstr "Пошук"
 msgid "Denied"
 msgstr "Відмовлено"
 
-#: panels/wwan/cc-wwan-device.c:988
+#: panels/wwan/cc-wwan-device.c:1019
 msgid "2G Only"
 msgstr "Лише 2G"
 
-#: panels/wwan/cc-wwan-device.c:991
+#: panels/wwan/cc-wwan-device.c:1022
 msgid "3G Only"
 msgstr "Лише 3G"
 
-#: panels/wwan/cc-wwan-device.c:994
+#: panels/wwan/cc-wwan-device.c:1025
 msgid "4G Only"
 msgstr "Лише 4G"
 
-#: panels/wwan/cc-wwan-device.c:997
+#: panels/wwan/cc-wwan-device.c:1028
 msgid "5G Only"
 msgstr "Лише 5G"
 
-#: panels/wwan/cc-wwan-device.c:1007
+#: panels/wwan/cc-wwan-device.c:1038
 msgid "2G, 3G, 4G, 5G (Preferred)"
 msgstr "2G, 3G, 4G? 5G (бажаний)"
 
-#: panels/wwan/cc-wwan-device.c:1009
+#: panels/wwan/cc-wwan-device.c:1040
 msgid "2G, 3G, 4G (Preferred), 5G"
 msgstr "2G, 3G, 4G (бажаний), 5G"
 
-#: panels/wwan/cc-wwan-device.c:1011
+#: panels/wwan/cc-wwan-device.c:1042
 msgid "2G, 3G (Preferred), 4G, 5G"
 msgstr "2G, 3G (бажаний), 4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1013
+#: panels/wwan/cc-wwan-device.c:1044
 msgid "2G (Preferred), 3G, 4G, 5G"
 msgstr "2G (бажаний), 3G, 4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1015
+#: panels/wwan/cc-wwan-device.c:1046
 msgid "2G, 3G, 4G, 5G"
 msgstr "2G, 3G, 4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1022
+#: panels/wwan/cc-wwan-device.c:1053
 msgid "2G, 3G, 4G (Preferred)"
 msgstr "2G, 3G, 4G (бажаний)"
 
-#: panels/wwan/cc-wwan-device.c:1024
+#: panels/wwan/cc-wwan-device.c:1055
 msgid "2G, 3G (Preferred), 4G"
 msgstr "2G, 3G (бажаний), 4G"
 
-#: panels/wwan/cc-wwan-device.c:1026
+#: panels/wwan/cc-wwan-device.c:1057
 msgid "2G (Preferred), 3G, 4G"
 msgstr "2G (бажаний), 3G, 4G"
 
-#: panels/wwan/cc-wwan-device.c:1028
+#: panels/wwan/cc-wwan-device.c:1059
 msgid "2G, 3G, 4G"
 msgstr "2G, 3G, 4G"
 
-#: panels/wwan/cc-wwan-device.c:1035
+#: panels/wwan/cc-wwan-device.c:1066
 msgid "3G, 4G, 5G (Preferred)"
 msgstr "3G, 4G, 5G (бажаний)"
 
-#: panels/wwan/cc-wwan-device.c:1037
+#: panels/wwan/cc-wwan-device.c:1068
 msgid "3G, 4G (Preferred), 5G"
 msgstr "3G, 4G (бажаний), 5G"
 
-#: panels/wwan/cc-wwan-device.c:1039
+#: panels/wwan/cc-wwan-device.c:1070
 msgid "3G (Preferred), 4G, 5G"
 msgstr "3G (бажаний), 4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1041
+#: panels/wwan/cc-wwan-device.c:1072
 msgid "3G, 4G, 5G"
 msgstr "3G, 4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1048
+#: panels/wwan/cc-wwan-device.c:1079
 msgid "2G, 4G, 5G (Preferred)"
 msgstr "2G, 4G, 5G (бажаний)"
 
-#: panels/wwan/cc-wwan-device.c:1050
+#: panels/wwan/cc-wwan-device.c:1081
 msgid "2G, 4G (Preferred), 5G"
 msgstr "2G, 4G (бажаний), 5G"
 
-#: panels/wwan/cc-wwan-device.c:1052
+#: panels/wwan/cc-wwan-device.c:1083
 msgid "2G (Preferred), 4G, 5G"
 msgstr "2G (бажаний), 4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1054
+#: panels/wwan/cc-wwan-device.c:1085
 msgid "2G, 4G, 5G"
 msgstr "2G, 4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1061
+#: panels/wwan/cc-wwan-device.c:1092
 msgid "2G, 3G, 5G (Preferred)"
 msgstr "2G, 3G, 5G (бажаний)"
 
-#: panels/wwan/cc-wwan-device.c:1063
+#: panels/wwan/cc-wwan-device.c:1094
 msgid "2G, 3G (Preferred), 5G"
 msgstr "2G, 3G (бажаний), 5G"
 
-#: panels/wwan/cc-wwan-device.c:1065
+#: panels/wwan/cc-wwan-device.c:1096
 msgid "2G (Preferred), 3G, 5G"
 msgstr "2G (бажаний), 3G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1067
+#: panels/wwan/cc-wwan-device.c:1098
 msgid "2G, 3G, 5G"
 msgstr "2G, 3G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1073
+#: panels/wwan/cc-wwan-device.c:1104
 msgid "3G, 4G (Preferred)"
 msgstr "3G, 4G (бажаний)"
 
-#: panels/wwan/cc-wwan-device.c:1075
+#: panels/wwan/cc-wwan-device.c:1106
 msgid "3G (Preferred), 4G"
 msgstr "3G (бажаний), 4G"
 
-#: panels/wwan/cc-wwan-device.c:1077
+#: panels/wwan/cc-wwan-device.c:1108
 msgid "3G, 4G"
 msgstr "3G, 4G"
 
-#: panels/wwan/cc-wwan-device.c:1083
+#: panels/wwan/cc-wwan-device.c:1114
 msgid "2G, 4G (Preferred)"
 msgstr "2G, 4G (бажаний)"
 
-#: panels/wwan/cc-wwan-device.c:1085
+#: panels/wwan/cc-wwan-device.c:1116
 msgid "2G (Preferred), 4G"
 msgstr "2G (бажаний), 4G"
 
-#: panels/wwan/cc-wwan-device.c:1087
+#: panels/wwan/cc-wwan-device.c:1118
 msgid "2G, 4G"
 msgstr "2G, 4G"
 
-#: panels/wwan/cc-wwan-device.c:1093
+#: panels/wwan/cc-wwan-device.c:1124
 msgid "2G, 3G (Preferred)"
 msgstr "2G, 3G (бажаний)"
 
-#: panels/wwan/cc-wwan-device.c:1095
+#: panels/wwan/cc-wwan-device.c:1126
 msgid "2G (Preferred), 3G"
 msgstr "2G (бажаний), 3G"
 
-#: panels/wwan/cc-wwan-device.c:1097
+#: panels/wwan/cc-wwan-device.c:1128
 msgid "2G, 3G"
 msgstr "2G, 3G"
 
-#: panels/wwan/cc-wwan-device.c:1103
+#: panels/wwan/cc-wwan-device.c:1134
 msgid "2G, 5G (Preferred)"
 msgstr "2G, 5G (бажаний)"
 
-#: panels/wwan/cc-wwan-device.c:1105
+#: panels/wwan/cc-wwan-device.c:1136
 msgid "2G (Preferred), 5G"
 msgstr "2G (бажаний), 5G"
 
-#: panels/wwan/cc-wwan-device.c:1107
+#: panels/wwan/cc-wwan-device.c:1138
 msgid "2G, 5G"
 msgstr "2G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1113
+#: panels/wwan/cc-wwan-device.c:1144
 msgid "3G, 5G (Preferred)"
 msgstr "3G, 5G (бажаний)"
 
-#: panels/wwan/cc-wwan-device.c:1115
+#: panels/wwan/cc-wwan-device.c:1146
 msgid "3G (Preferred), 5G"
 msgstr "3G (бажаний), 5G"
 
-#: panels/wwan/cc-wwan-device.c:1117
+#: panels/wwan/cc-wwan-device.c:1148
 msgid "3G, 5G"
 msgstr "3G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1123
+#: panels/wwan/cc-wwan-device.c:1154
 msgid "4G, 5G (Preferred)"
 msgstr "4G, 5G (бажаний)"
 
-#: panels/wwan/cc-wwan-device.c:1125
+#: panels/wwan/cc-wwan-device.c:1156
 msgid "4G (Preferred), 5G"
 msgstr "4G (бажаний), 5G"
 
-#: panels/wwan/cc-wwan-device.c:1127
+#: panels/wwan/cc-wwan-device.c:1158
 msgid "4G, 5G"
 msgstr "4G, 5G"
 
-#: panels/wwan/cc-wwan-device.c:1131
+#: panels/wwan/cc-wwan-device.c:1162
 msgctxt "Network mode"
 msgid "Unknown"
 msgstr "Невідомий"
@@ -10177,33 +10177,38 @@ msgstr "Заблокувати SIM-картку за допомогою пінк
 msgid "M_odem Details"
 msgstr "Параметри м_одему"
 
-#: panels/wwan/cc-wwan-device-page.c:185
+#: panels/wwan/cc-wwan-device-page.blp:128
+#| msgid "Primary Menu"
+msgid "Primary S_IM Slot"
+msgstr "Основний слот S_IM"
+
+#: panels/wwan/cc-wwan-device-page.c:189
 msgid "Unlock SIM card"
 msgstr "Розблокувати SIM-картку"
 
-#: panels/wwan/cc-wwan-device-page.c:186 panels/wwan/cc-wwan-device-page.c:234
+#: panels/wwan/cc-wwan-device-page.c:190 panels/wwan/cc-wwan-device-page.c:238
 msgid "Unlock"
 msgstr "Розблокувати"
 
-#: panels/wwan/cc-wwan-device-page.c:191
+#: panels/wwan/cc-wwan-device-page.c:195
 #, c-format
 msgid "Please provide PIN code for SIM %d"
 msgstr "Будь ласка, вкажіть пінкод для SIM-картки %d"
 
-#: panels/wwan/cc-wwan-device-page.c:192
+#: panels/wwan/cc-wwan-device-page.c:196
 msgid "Enter PIN to unlock your SIM card"
 msgstr "Введіть пінкод для розблокування вашої SIM-картки"
 
-#: panels/wwan/cc-wwan-device-page.c:196
+#: panels/wwan/cc-wwan-device-page.c:200
 #, c-format
 msgid "Please provide PUK code for SIM %d"
 msgstr "Будь ласка, вкажіть PUK-код для SIM-картки %d"
 
-#: panels/wwan/cc-wwan-device-page.c:197
+#: panels/wwan/cc-wwan-device-page.c:201
 msgid "Enter PUK to unlock your SIM card"
 msgstr "Введіть PUK-код для розблокування вашої SIM-картки"
 
-#: panels/wwan/cc-wwan-device-page.c:215
+#: panels/wwan/cc-wwan-device-page.c:219
 #, c-format
 msgid "Wrong password entered. You have %1$u try left"
 msgid_plural "Wrong password entered. You have %1$u tries left"
@@ -10212,7 +10217,7 @@ msgstr[1] "Введено помилковий пароль. У вас лиши�
 msgstr[2] "Введено помилковий пароль. У вас лишилося %1$u спроб"
 msgstr[3] "Введено помилковий пароль. У вас лишилася %1$u спроба"
 
-#: panels/wwan/cc-wwan-device-page.c:218
+#: panels/wwan/cc-wwan-device-page.c:222
 #, c-format
 msgid "You have %u try left"
 msgid_plural "You have %u tries left"
@@ -10221,25 +10226,34 @@ msgstr[1] "У вас лишилося %u спроби"
 msgstr[2] "У вас лишилося %u спроб"
 msgstr[3] "У вас лишилася одна спроба"
 
-#: panels/wwan/cc-wwan-device-page.c:223
+#: panels/wwan/cc-wwan-device-page.c:227
 msgid "Wrong password entered."
 msgstr "Введено помилковий пароль."
 
-#: panels/wwan/cc-wwan-device-page.c:268
+#: panels/wwan/cc-wwan-device-page.c:272
 msgid "PUK code should be an 8 digit number"
 msgstr "PUK-код має бути 8-цифровим числом"
 
-#: panels/wwan/cc-wwan-device-page.c:292
+#: panels/wwan/cc-wwan-device-page.c:296
 msgid "Enter New PIN"
 msgstr "Введіть новий пінкод"
 
-#: panels/wwan/cc-wwan-device-page.c:296
+#: panels/wwan/cc-wwan-device-page.c:300
 msgid "PIN code should be a 4-8 digit number"
 msgstr "Пінкод має бути числом, у якому має бути від 4 до 8 цифр"
 
-#: panels/wwan/cc-wwan-device-page.c:314
+#: panels/wwan/cc-wwan-device-page.c:318
 msgid "Unlocking…"
 msgstr "Розблокування…"
+
+#. Translators: This refers to a sim slot in a modem.
+#. * For example: "Slot 1 [Operator Name]", "Slot 1" or "Slot 2 [Empty]".
+#. * Notice that all variations above are valid. Sometimes "Operator Name"
+#. * will be ommitted.
+#: panels/wwan/cc-wwan-device-page.c:527
+#, c-format
+msgid "Slot %d %s"
+msgstr "Слот %d %s"
 
 #: panels/wwan/cc-wwan-errors-private.h:40
 msgid "Phone failure"
@@ -10362,15 +10376,20 @@ msgstr ""
 msgid "Wireless Wan is disabled when airplane mode is on"
 msgstr "Бездротову WAN вимкнено, коли увімкнено режим польоту"
 
-#: panels/wwan/cc-wwan-panel.blp:90
+#: panels/wwan/cc-wwan-panel.blp:74
+#| msgid "Pending Devices"
+msgid "Loading Devices"
+msgstr "Завантаження пристроїв"
+
+#: panels/wwan/cc-wwan-panel.blp:99
 msgid "Data Connection"
 msgstr "З'єднання із передаванням даних"
 
-#: panels/wwan/cc-wwan-panel.blp:91
+#: panels/wwan/cc-wwan-panel.blp:100
 msgid "SIM card used for internet"
 msgstr "SIM-картка для інтернету"
 
-#: panels/wwan/cc-wwan-panel.c:366 panels/wwan/cc-wwan-panel.c:397
+#: panels/wwan/cc-wwan-panel.c:366 panels/wwan/cc-wwan-panel.c:399
 #, c-format
 msgid "SIM %d"
 msgstr "SIM-картка %d"
@@ -11900,9 +11919,6 @@ msgstr "Системні звуки"
 
 #~ msgid "Test Your _Settings"
 #~ msgstr "Випробувати ваші _параметри"
-
-#~ msgid "Primary Menu"
-#~ msgstr "Основне меню"
 
 #~ msgid "Try clicking, double clicking, scrolling"
 #~ msgstr "Випробувати клацання, подвійне клацання, гортання"
