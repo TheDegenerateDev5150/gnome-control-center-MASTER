@@ -29,18 +29,18 @@
 # Enrico Nicoletto <hiko@duck.com>, 2012-2016, 2018-2019, 2021-2022.
 # Leônidas Araújo <leorusvellt@hotmail.com>, 2022-2024.
 # Jhonata Fernandes <fjhonata14@gmail.com>, 2024.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2012-2026.
 # Juliano de Souza Camargo <julianosc@pm.me>, 2025-2026.
 # Álvaro Burns <>, 2025-2026.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2012-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-control-center/"
 "issues\n"
-"POT-Creation-Date: 2026-07-31 08:43+0000\n"
-"PO-Revision-Date: 2026-08-01 11:10-0300\n"
-"Last-Translator: Álvaro Burns <>\n"
+"POT-Creation-Date: 2026-08-31 11:11+0000\n"
+"PO-Revision-Date: 2026-09-03 16:52-0300\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <https://br.gnome.org/traducao/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +63,7 @@ msgid "Add Keyboard Shortcuts"
 msgstr "Adicionar atalhos de teclado"
 
 #: global-shortcuts-provider/cc-global-shortcut-dialog.blp:17
-#: panels/applications/cc-application-shortcut-dialog.c:121
+#: panels/applications/cc-application-shortcut-dialog.c:128
 #: panels/color/cc-color-calibrate.blp:22
 #: panels/common/cc-language-chooser.blp:17
 #: panels/display/cc-display-panel.blp:26
@@ -87,8 +87,7 @@ msgstr "Adicionar atalhos de teclado"
 #: panels/system/users/cc-add-user-dialog.blp:19
 #: panels/system/users/cc-avatar-chooser.c:90
 #: panels/system/users/cc-enterprise-login-dialog.blp:39
-#: panels/system/users/cc-fingerprint-dialog.blp:18
-#: panels/system/users/cc-fingerprint-dialog.c:1217
+#: panels/system/users/cc-fingerprint-dialog.blp:168
 #: panels/system/users/cc-password-dialog.blp:17
 #: panels/system/users/cc-user-page.blp:196
 #: panels/wwan/cc-wwan-mode-dialog.blp:27
@@ -121,11 +120,11 @@ msgstr ""
 msgid "Global Shortcuts"
 msgstr "Atalhos globais"
 
-#: panels/applications/cc-application-shortcut-dialog.c:114
+#: panels/applications/cc-application-shortcut-dialog.c:121
 msgid "Remove All Shortcuts?"
 msgstr "Remover todos os atalhos?"
 
-#: panels/applications/cc-application-shortcut-dialog.c:118
+#: panels/applications/cc-application-shortcut-dialog.c:125
 #, c-format
 msgid ""
 "All actions from %s that have been registered for global shortcuts will be "
@@ -134,18 +133,18 @@ msgstr ""
 "Todas as ações de %s que foram registradas para atalhos globais serão "
 "removidas."
 
-#: panels/applications/cc-application-shortcut-dialog.c:121
+#: panels/applications/cc-application-shortcut-dialog.c:128
 #: panels/keyboard/cc-keyboard-shortcut-editor.blp:156
 #: panels/system/users/cc-user-page.blp:197
 msgid "_Remove"
 msgstr "_Remover"
 
-#: panels/applications/cc-application-shortcut-dialog.c:142
+#: panels/applications/cc-application-shortcut-dialog.c:149
 msgid "_Remove All Shortcuts"
 msgstr "_Remover todos os atalhos"
 
 #. TRANSLATORS: %s is an app name.
-#: panels/applications/cc-application-shortcut-dialog.c:210
+#: panels/applications/cc-application-shortcut-dialog.c:217
 #, c-format
 msgid "%s has registered the following global shortcuts"
 msgstr "%s registrou os seguintes atalhos globais"
@@ -258,7 +257,7 @@ msgstr "Recebe pesquisa do sistema e envia resultados"
 #: panels/keyboard/cc-keyboard-panel.c:83
 #: panels/keyboard/keyboard-shortcuts.c:327 panels/network/panel-common.c:331
 #: panels/system/users/cc-user-page.c:365
-#: panels/system/users/cc-user-page.c:705 panels/wwan/cc-wwan-device-page.c:423
+#: panels/system/users/cc-user-page.c:721 panels/wwan/cc-wwan-device-page.c:414
 #: subprojects/gvc/gvc-mixer-control.c:1919
 msgid "Disabled"
 msgstr "Desabilitado"
@@ -455,7 +454,7 @@ msgid "Session Bus"
 msgstr "Barramento da sessão"
 
 #: panels/applications/cc-applications-panel.c:817
-#: panels/color/cc-color-panel.ui:451 panels/privacy/bolt/cc-bolt-page.blp:118
+#: panels/color/cc-color-panel.ui:452 panels/privacy/bolt/cc-bolt-page.blp:118
 #: panels/privacy/bolt/cc-bolt-page.blp:143
 #: panels/privacy/cc-privacy-panel.blp:55
 msgid "Devices"
@@ -468,7 +467,7 @@ msgstr "Acesso completo a /dev"
 #: panels/applications/cc-applications-panel.c:821
 #: panels/network/cc-network-panel.blp:5
 #: panels/network/gnome-network-panel.desktop.in:2
-#: panels/network/network-mobile.ui:235 panels/wwan/cc-wwan-device-page.blp:49
+#: panels/network/network-mobile.ui:235 panels/wwan/cc-wwan-device-page.blp:50
 #: panels/wwan/cc-wwan-network-dialog.blp:5
 msgid "Network"
 msgstr "Rede"
@@ -497,7 +496,7 @@ msgstr "Sistema de arquivos"
 #: panels/applications/cc-applications-panel.c:839
 #: panels/keyboard/01-launchers.xml.in:6
 #: shell/appdata/org.gnome.Settings.metainfo.xml.in.in:8 shell/cc-window.blp:20
-#: shell/cc-window.c:815 shell/org.gnome.Settings.desktop.in:2
+#: shell/cc-window.c:827 shell/org.gnome.Settings.desktop.in:2
 msgid "Settings"
 msgstr "Configurações"
 
@@ -623,7 +622,7 @@ msgstr "Inicialização automática de míd_ia"
 msgid "Start apps or prompt when media is connected"
 msgstr "Inicia aplicativos ou pergunta quando a mídia é conectada"
 
-#: panels/applications/cc-default-apps-row.c:128
+#: panels/applications/cc-default-apps-row.c:248
 msgid "No Apps Available"
 msgstr "Nenhum aplicativo disponível"
 
@@ -1173,7 +1172,7 @@ msgstr "_Retomar"
 #. Translators: This button returns the user back to the color control panel
 #: panels/color/cc-color-calibrate.blp:40
 #: panels/keyboard/cc-keyboard-shortcut-editor.blp:34
-#: panels/system/users/cc-fingerprint-dialog.blp:39
+#: panels/system/users/cc-fingerprint-dialog.blp:179
 msgid "_Done"
 msgstr "Concluí_do"
 
@@ -1532,137 +1531,137 @@ msgstr ""
 "Problemas detectados. O perfil pode não funcionar corretamente. <a "
 "href=\"\">Mostrar detalhes.</a>"
 
-#: panels/color/cc-color-panel.ui:469
+#: panels/color/cc-color-panel.ui:470
 msgid "_Set for All Users"
 msgstr "_Definir para todos os usuários"
 
-#: panels/color/cc-color-panel.ui:470
+#: panels/color/cc-color-panel.ui:471
 msgid "Set this profile for all users on this device"
 msgstr "Define este perfil para todos os usuários neste dispositivo"
 
-#: panels/color/cc-color-panel.ui:477
+#: panels/color/cc-color-panel.ui:478
 msgid "_Enable"
 msgstr "_Habilitar"
 
-#: panels/color/cc-color-panel.ui:478
+#: panels/color/cc-color-panel.ui:479
 msgid "Enable profile"
 msgstr "Habilita o perfil"
 
-#: panels/color/cc-color-panel.ui:492
+#: panels/color/cc-color-panel.ui:493
 msgid "_Add Profile"
 msgstr "_Adicionar perfil"
 
-#: panels/color/cc-color-panel.ui:499
+#: panels/color/cc-color-panel.ui:500
 msgid "_Calibrate…"
 msgstr "_Calibrar…"
 
-#: panels/color/cc-color-panel.ui:500
+#: panels/color/cc-color-panel.ui:501
 msgid "Calibrate the device"
 msgstr "Calibra o dispositivo"
 
-#: panels/color/cc-color-panel.ui:507
+#: panels/color/cc-color-panel.ui:508
 msgid "_Remove Profile"
 msgstr "_Remover perfil"
 
-#: panels/color/cc-color-panel.ui:514
+#: panels/color/cc-color-panel.ui:515
 msgid "_View Details"
 msgstr "_Ver detalhes"
 
-#: panels/color/cc-color-panel.ui:542
+#: panels/color/cc-color-panel.ui:543
 msgid "No Devices"
 msgstr "Nenhum dispositivo"
 
-#: panels/color/cc-color-panel.ui:543
+#: panels/color/cc-color-panel.ui:544
 msgid "Unable to detect any devices that can be color managed"
 msgstr ""
 "Não foi possível detectar quaisquer dispositivos que podem ter gerenciamento "
 "de cor"
 
-#: panels/color/cc-color-panel.ui:564
+#: panels/color/cc-color-panel.ui:565
 msgid "LCD"
 msgstr "LCD"
 
-#: panels/color/cc-color-panel.ui:569
+#: panels/color/cc-color-panel.ui:570
 msgid "LED"
 msgstr "LED"
 
-#: panels/color/cc-color-panel.ui:574
+#: panels/color/cc-color-panel.ui:575
 msgid "CRT"
 msgstr "CRT"
 
-#: panels/color/cc-color-panel.ui:579
+#: panels/color/cc-color-panel.ui:580
 msgid "Projector"
 msgstr "Projetor"
 
-#: panels/color/cc-color-panel.ui:584
+#: panels/color/cc-color-panel.ui:585
 msgid "Plasma"
 msgstr "Plasma"
 
-#: panels/color/cc-color-panel.ui:589
+#: panels/color/cc-color-panel.ui:590
 msgid "LCD (CCFL backlight)"
 msgstr "LCD (luz de fundo CCFL)"
 
-#: panels/color/cc-color-panel.ui:594
+#: panels/color/cc-color-panel.ui:595
 msgid "LCD (RGB LED backlight)"
 msgstr "LCD (luz de fundo LED RGB)"
 
-#: panels/color/cc-color-panel.ui:599
+#: panels/color/cc-color-panel.ui:600
 msgid "LCD (white LED backlight)"
 msgstr "LCD (luz de fundo LED branco)"
 
 # Referências: http://blog.geraldogarcia.com/index.php/2011/08/avaliacao-do-monitor-dell-u2410-um-campeao-temperamental/#axzz2QrMzWtDy
-#: panels/color/cc-color-panel.ui:604
+#: panels/color/cc-color-panel.ui:605
 msgid "Wide gamut LCD (CCFL backlight)"
 msgstr "LCD de ampla gama (luz de fundo CCFL)"
 
-#: panels/color/cc-color-panel.ui:609
+#: panels/color/cc-color-panel.ui:610
 msgid "Wide gamut LCD (RGB LED backlight)"
 msgstr "LCD de ampla gama (luz de fundo LED RGB)"
 
-#: panels/color/cc-color-panel.ui:626
+#: panels/color/cc-color-panel.ui:627
 msgctxt "Calibration quality"
 msgid "High"
 msgstr "Alta"
 
-#: panels/color/cc-color-panel.ui:627
+#: panels/color/cc-color-panel.ui:628
 msgid "40 minutes"
 msgstr "40 minutos"
 
-#: panels/color/cc-color-panel.ui:631
+#: panels/color/cc-color-panel.ui:632
 msgctxt "Calibration quality"
 msgid "Medium"
 msgstr "Média"
 
-#: panels/color/cc-color-panel.ui:632
+#: panels/color/cc-color-panel.ui:633
 msgid "30 minutes"
 msgstr "30 minutos"
 
-#: panels/color/cc-color-panel.ui:636
+#: panels/color/cc-color-panel.ui:637
 msgctxt "Calibration quality"
 msgid "Low"
 msgstr "Baixa"
 
-#: panels/color/cc-color-panel.ui:637
+#: panels/color/cc-color-panel.ui:638
 msgid "15 minutes"
 msgstr "15 minutos"
 
-#: panels/color/cc-color-panel.ui:659
+#: panels/color/cc-color-panel.ui:660
 msgid "Native to display"
 msgstr "Nativo do monitor"
 
-#: panels/color/cc-color-panel.ui:663
+#: panels/color/cc-color-panel.ui:664
 msgid "D50 (Printing and publishing)"
 msgstr "D50 (impressão e publicação)"
 
-#: panels/color/cc-color-panel.ui:667
+#: panels/color/cc-color-panel.ui:668
 msgid "D55"
 msgstr "D55"
 
-#: panels/color/cc-color-panel.ui:671
+#: panels/color/cc-color-panel.ui:672
 msgid "D65 (Photography and graphics)"
 msgstr "D65 (fotografia e gráficos)"
 
-#: panels/color/cc-color-panel.ui:675
+#: panels/color/cc-color-panel.ui:676
 msgid "D75"
 msgstr "D75"
 
@@ -2607,7 +2606,7 @@ msgstr ""
 #: panels/sound/cc-alert-chooser-page.blp:14
 #: panels/sound/cc-alert-chooser-page.c:314
 #: panels/universal-access/cc-ua-zoom-page.blp:240
-#: panels/wwan/cc-wwan-apn-dialog.blp:226
+#: panels/wwan/cc-wwan-apn-dialog.blp:224
 msgid "None"
 msgstr "Nenhum"
 
@@ -2616,7 +2615,7 @@ msgid "Shortcut Disabled"
 msgstr "Atalhos do teclado desabilitado"
 
 #: panels/keyboard/cc-keyboard-shortcut-editor.blp:125
-#: panels/wwan/cc-wwan-apn-dialog.blp:77
+#: panels/wwan/cc-wwan-apn-dialog.blp:75
 msgid "Name"
 msgstr "Nome"
 
@@ -3078,7 +3077,7 @@ msgid "Proxy"
 msgstr "Proxy"
 
 #: panels/network/cc-net-proxy-page.blp:24
-#: panels/wwan/cc-wwan-apn-dialog.blp:39
+#: panels/wwan/cc-wwan-apn-dialog.blp:37
 msgid "_Save"
 msgstr "_Salvar"
 
@@ -3210,7 +3209,7 @@ msgstr "Nome da rede"
 #: panels/printers/pp-jobs-dialog.blp:171
 #: panels/printers/pp-new-printer-dialog.ui:300
 #: panels/system/users/cc-add-user-dialog.blp:89
-#: panels/wwan/cc-wwan-apn-dialog.blp:152
+#: panels/wwan/cc-wwan-apn-dialog.blp:150
 msgid "Password"
 msgstr "Senha"
 
@@ -4722,6 +4721,7 @@ msgid "Other"
 msgstr "Outro"
 
 #: panels/online-accounts/cc-online-account-row.blp:25
+#: panels/system/users/cc-fingerprint-dialog.blp:26
 msgid "Error"
 msgstr "Erro"
 
@@ -4831,7 +4831,7 @@ msgstr "Não está carregando"
 
 #. TRANSLATORS: primary battery
 #: panels/power/cc-battery-row.c:130 panels/power/cc-battery-row.c:157
-#: panels/wwan/cc-wwan-device-page.c:454
+#: panels/wwan/cc-wwan-device-page.c:445
 msgid "Empty"
 msgstr "Vazia"
 
@@ -5393,7 +5393,7 @@ msgstr "Domínio"
 #. Translators: This is a username on a print server.
 #: panels/printers/pp-jobs-dialog.blp:157
 #: panels/printers/pp-new-printer-dialog.ui:280
-#: panels/wwan/cc-wwan-apn-dialog.blp:129
+#: panels/wwan/cc-wwan-apn-dialog.blp:127
 msgid "Username"
 msgstr "Nome de usuário"
 
@@ -5477,9 +5477,9 @@ msgstr "O servidor requer autenticação"
 
 #. Translators: this is the "go back" action of a button
 #: panels/printers/pp-new-printer-dialog.ui:78
-#: panels/system/users/cc-fingerprint-dialog.blp:24
+#: panels/system/users/cc-fingerprint-dialog.blp:15
 #: panels/wacom/cc-wacom-stylus-page.c:389
-#: panels/wwan/cc-wwan-apn-dialog.blp:20
+#: panels/wwan/cc-wwan-apn-dialog.blp:18
 msgid "Back"
 msgstr "Voltar"
 
@@ -5487,7 +5487,7 @@ msgstr "Voltar"
 #. Translators: This buttons submits the credentials for the selected server.
 #: panels/printers/pp-new-printer-dialog.ui:113
 #: panels/printers/pp-new-printer-dialog.ui:128
-#: panels/wwan/cc-wwan-device-page.blp:31
+#: panels/wwan/cc-wwan-device-page.blp:32
 msgid "_Unlock"
 msgstr "_Desbloquear"
 
@@ -6490,7 +6490,7 @@ msgstr "Inválido"
 #. TRANSLATORS: Status of Parental Controls setup
 #: panels/privacy/firmware-security/cc-firmware-security-utils.c:42
 #: panels/system/users/cc-user-page.c:363
-#: panels/system/users/cc-user-page.c:704 panels/wwan/cc-wwan-device-page.c:421
+#: panels/system/users/cc-user-page.c:720 panels/wwan/cc-wwan-device-page.c:412
 msgid "Enabled"
 msgstr "Habilitado"
 
@@ -8049,168 +8049,194 @@ msgstr "Verificando domínio…"
 msgid "Failed to contact realmd service"
 msgstr "Falha ao entrar em contato com o serviço realmd"
 
-#: panels/system/users/cc-fingerprint-dialog.blp:90
+#. Translators: This is the empty state page label which states that there are no devices ready.
+#: panels/system/users/cc-fingerprint-dialog.blp:34
 msgid "No fingerprint device"
 msgstr "Nenhum dispositivo de impressão digital"
 
-#. Translators: This is the empty state page label which states that there are no devices ready.
-#: panels/system/users/cc-fingerprint-dialog.blp:106
-msgid "No Fingerprint device"
-msgstr "Nenhum dispositivo de impressão digital"
-
-#: panels/system/users/cc-fingerprint-dialog.blp:116
+#: panels/system/users/cc-fingerprint-dialog.blp:37
 msgid "Ensure the device is properly connected"
 msgstr "Certifique-se de que o dispositivo esteja conectado corretamente"
 
-#: panels/system/users/cc-fingerprint-dialog.blp:124
+#: panels/system/users/cc-fingerprint-dialog.blp:45
+#: panels/system/users/cc-fingerprint-dialog.blp:91
+msgid "Fingerprint Authentication"
+msgstr "Autenticação por impressão digital"
+
+#: panels/system/users/cc-fingerprint-dialog.blp:46
+msgid ""
+"Use fingerprints to unlock the screen and identify yourself when prompted"
+msgstr ""
+"Use impressões digitais para desbloquear a tela e se identificar quando "
+"solicitado"
+
+#: panels/system/users/cc-fingerprint-dialog.blp:54
+msgid "_Scan Finger"
+msgstr "_Ler digital"
+
+#: panels/system/users/cc-fingerprint-dialog.blp:67
 msgid "Fingerprint Device"
 msgstr "Dispositivo de impressão digital"
 
-#: panels/system/users/cc-fingerprint-dialog.blp:134
+#: panels/system/users/cc-fingerprint-dialog.blp:70
 msgid "Choose the fingerprint device you want to configure"
 msgstr "Escolha o dispositivo de impressão digital que você deseja configurar"
 
-#: panels/system/users/cc-fingerprint-dialog.blp:162
-msgid "Fingerprint Login"
-msgstr "Início de sessão por impressão digital"
+#: panels/system/users/cc-fingerprint-dialog.blp:78
+msgid "Select Finger"
+msgstr "Selecionar dedo"
 
-#: panels/system/users/cc-fingerprint-dialog.blp:170
-msgid ""
-"Fingerprint login allows you to unlock and log into your device with your "
-"finger"
+#: panels/system/users/cc-fingerprint-dialog.blp:82
+msgid "Right Hand"
+msgstr "Mão direita"
+
+#: panels/system/users/cc-fingerprint-dialog.blp:85
+msgid "Left Hand"
+msgstr "Mão esquerda"
+
+#: panels/system/users/cc-fingerprint-dialog.blp:95
+msgid "The following fingerprints can be used for authentication"
+msgstr "As seguintes impressões digitais podem ser usadas para autenticação"
+
+#: panels/system/users/cc-fingerprint-dialog.blp:100
+msgid "Fingerprints"
+msgstr "Impressões digitais"
+
+#: panels/system/users/cc-fingerprint-dialog.blp:105
+msgid "Add Fingerprint"
+msgstr "Adicionar impressão digital"
+
+#: panels/system/users/cc-fingerprint-dialog.blp:137
+msgid "Touch the fingerprint reader to check the scanned fingers"
 msgstr ""
-"O início de sessão por impressão digital permite desbloquear e iniciar a "
-"sessão no seu dispositivo com seu dedo"
+"Toque no leitor de impressão digital para verificar os dedos registrados"
 
-#: panels/system/users/cc-fingerprint-dialog.blp:196
-msgid "_Delete Fingerprints"
-msgstr "E_xcluir impressões digitais"
-
-#: panels/system/users/cc-fingerprint-dialog.blp:209
-msgid "Fingerprint Enroll"
-msgstr "Registro de impressão digital"
-
-#: panels/system/users/cc-fingerprint-dialog.c:208
+#: panels/system/users/cc-fingerprint-dialog.c:240
 msgid "the device needs to be claimed to perform this action"
 msgstr "o dispositivo precisa ser reivindicado para executar esta ação"
 
-#: panels/system/users/cc-fingerprint-dialog.c:210
+#: panels/system/users/cc-fingerprint-dialog.c:242
 msgid "the device is already claimed by another process"
 msgstr "o dispositivo já foi reivindicado por outro processo"
 
-#: panels/system/users/cc-fingerprint-dialog.c:212
+#: panels/system/users/cc-fingerprint-dialog.c:244
 msgid "you do not have permission to perform the action"
 msgstr "você não tem permissão para executar a ação"
 
-#: panels/system/users/cc-fingerprint-dialog.c:214
+#: panels/system/users/cc-fingerprint-dialog.c:246
 msgid "no prints have been enrolled"
 msgstr "nenhuma impressão foi registrada"
 
-#: panels/system/users/cc-fingerprint-dialog.c:221
+#: panels/system/users/cc-fingerprint-dialog.c:253
 msgid "Failed to communicate with the device during enrollment"
 msgstr "Falha ao se comunicar com o dispositivo durante o registro"
 
-#: panels/system/users/cc-fingerprint-dialog.c:224
+#: panels/system/users/cc-fingerprint-dialog.c:256
 msgid "Failed to communicate with the fingerprint reader"
 msgstr "Falha ao se comunicar com o leitor de impressão digital"
 
-#: panels/system/users/cc-fingerprint-dialog.c:226
+#: panels/system/users/cc-fingerprint-dialog.c:258
 msgid "Failed to communicate with the fingerprint daemon"
 msgstr "Falha ao se comunicar com o daemon de impressão digital"
 
-#: panels/system/users/cc-fingerprint-dialog.c:452
+#: panels/system/users/cc-fingerprint-dialog.c:313
+msgid "Left thumb"
+msgstr "Polegar esquerdo"
+
+#: panels/system/users/cc-fingerprint-dialog.c:315
+msgid "Left middle finger"
+msgstr "Dedo médio esquerdo"
+
+#: panels/system/users/cc-fingerprint-dialog.c:317
+msgid "_Left index finger"
+msgstr "Dedo indicador _esquerdo"
+
+#: panels/system/users/cc-fingerprint-dialog.c:319
+msgid "Left ring finger"
+msgstr "Dedo anelar esquerdo"
+
+#: panels/system/users/cc-fingerprint-dialog.c:321
+msgid "Left little finger"
+msgstr "Dedo pequeno esquerdo"
+
+#: panels/system/users/cc-fingerprint-dialog.c:323
+msgid "Right thumb"
+msgstr "Polegar direito"
+
+#: panels/system/users/cc-fingerprint-dialog.c:325
+msgid "Right middle finger"
+msgstr "Dedo médio direito"
+
+#: panels/system/users/cc-fingerprint-dialog.c:327
+msgid "_Right index finger"
+msgstr "Dedo indicador _direito"
+
+#: panels/system/users/cc-fingerprint-dialog.c:329
+msgid "Right ring finger"
+msgstr "Dedo anelar direito"
+
+#: panels/system/users/cc-fingerprint-dialog.c:331
+msgid "Right little finger"
+msgstr "Dedo pequeno direito"
+
+#: panels/system/users/cc-fingerprint-dialog.c:333
+msgid "Unknown Finger"
+msgstr "Dedo desconhecido"
+
+#: panels/system/users/cc-fingerprint-dialog.c:351
+#, c-format
+msgid "Failed to delete fingerprint: %s"
+msgstr "Falha ao excluir impressão digital: %s"
+
+#: panels/system/users/cc-fingerprint-dialog.c:648
 #, c-format
 msgid "Failed to list fingerprints: %s"
 msgstr "Falha ao lista impressões digitais: %s"
 
-#: panels/system/users/cc-fingerprint-dialog.c:510
-#, c-format
-msgid "Failed to delete saved fingerprints: %s"
-msgstr "Falha ao excluir impressões digitais salvas: %s"
+#: panels/system/users/cc-fingerprint-dialog.c:733
+msgid "Scan Complete!"
+msgstr "Leitura concluída!"
 
-#: panels/system/users/cc-fingerprint-dialog.c:538
-msgid "Left thumb"
-msgstr "Polegar esquerdo"
+#: panels/system/users/cc-fingerprint-dialog.c:746
+msgid "Touch finger on reader"
+msgstr "Toque o dedo no leitor"
 
-#: panels/system/users/cc-fingerprint-dialog.c:540
-msgid "Left middle finger"
-msgstr "Dedo médio esquerdo"
+#: panels/system/users/cc-fingerprint-dialog.c:800
+msgid "Scan Complete"
+msgstr "Leitura concluída"
 
-#: panels/system/users/cc-fingerprint-dialog.c:542
-msgid "_Left index finger"
-msgstr "De_do indicador esquerdo"
-
-#: panels/system/users/cc-fingerprint-dialog.c:544
-msgid "Left ring finger"
-msgstr "Dedo anelar esquerdo"
-
-#: panels/system/users/cc-fingerprint-dialog.c:546
-msgid "Left little finger"
-msgstr "Dedo pequeno esquerdo"
-
-#: panels/system/users/cc-fingerprint-dialog.c:548
-msgid "Right thumb"
-msgstr "Polegar direito"
-
-#: panels/system/users/cc-fingerprint-dialog.c:550
-msgid "Right middle finger"
-msgstr "Dedo médio direito"
-
-#: panels/system/users/cc-fingerprint-dialog.c:552
-msgid "_Right index finger"
-msgstr "Dedo indicador di_reito"
-
-#: panels/system/users/cc-fingerprint-dialog.c:554
-msgid "Right ring finger"
-msgstr "Dedo anelar direito"
-
-#: panels/system/users/cc-fingerprint-dialog.c:556
-msgid "Right little finger"
-msgstr "Dedo pequeno direito"
-
-#: panels/system/users/cc-fingerprint-dialog.c:558
-msgid "Unknown Finger"
-msgstr "Dedo desconhecido"
-
-#. TRANSLATORS: This is the message shown when the fingerprint
-#. * enrollment has been completed successfully
-#: panels/system/users/cc-fingerprint-dialog.c:670
-msgctxt "Fingerprint enroll state"
-msgid "Complete"
-msgstr "Concluído"
-
-#: panels/system/users/cc-fingerprint-dialog.c:678
+#: panels/system/users/cc-fingerprint-dialog.c:823
 msgid "Fingerprint device disconnected"
 msgstr "Dispositivo de impressão digital desconectado"
 
-#: panels/system/users/cc-fingerprint-dialog.c:681
-msgid "Fingerprint device storage is full"
-msgstr "O armazenamento do dispositivo de impressão digital está cheio"
+#: panels/system/users/cc-fingerprint-dialog.c:826
+msgid "Fingerprint Storage is Full"
+msgstr "O armazenamento de impressão digital está cheio"
 
-#: panels/system/users/cc-fingerprint-dialog.c:683
-msgid "Fingerprint is duplicate"
-msgstr "A impressão digital está duplicada"
+#: panels/system/users/cc-fingerprint-dialog.c:828
+msgid "Finger Already Scanned"
+msgstr "Dedo já registrado"
 
-#: panels/system/users/cc-fingerprint-dialog.c:685
-msgid "Failed to enroll new fingerprint"
-msgstr "Falha ao registar nova impressão digital"
+#: panels/system/users/cc-fingerprint-dialog.c:830
+msgid "Failed to Scan Finger"
+msgstr "Falha ao ler o dedo"
 
-#: panels/system/users/cc-fingerprint-dialog.c:713
+#: panels/system/users/cc-fingerprint-dialog.c:881
 #, c-format
 msgid "Failed to start enrollment: %s"
 msgstr "Falha ao iniciar registro: %s"
 
-#: panels/system/users/cc-fingerprint-dialog.c:719
+#: panels/system/users/cc-fingerprint-dialog.c:887
 msgctxt "Fingerprint enroll state"
 msgid "Failed to enroll new fingerprint"
 msgstr "Falha ao registrar nova impressão digital"
 
-#: panels/system/users/cc-fingerprint-dialog.c:746
+#: panels/system/users/cc-fingerprint-dialog.c:914
 #, c-format
 msgid "Failed to stop enrollment: %s"
 msgstr "Falha ao parar registro: %s"
 
-#: panels/system/users/cc-fingerprint-dialog.c:789
+#: panels/system/users/cc-fingerprint-dialog.c:958
 msgid ""
 "Repeatedly lift and place your finger on the reader to enroll your "
 "fingerprint"
@@ -8218,51 +8244,25 @@ msgstr ""
 "Levante e coloque repetidamente o dedo no leitor para registrar sua "
 "impressão digital"
 
-#: panels/system/users/cc-fingerprint-dialog.c:890
-msgid "_Re-enroll this finger…"
-msgstr "_Registrar novamente este dedo…"
-
-#. TRANSLATORS: This is the label for the button to enroll a new finger
-#: panels/system/users/cc-fingerprint-dialog.c:902
-msgid "Scan new fingerprint"
-msgstr "Registrar nova impressão digital"
-
-#: panels/system/users/cc-fingerprint-dialog.c:934
+#: panels/system/users/cc-fingerprint-dialog.c:1011
 #, c-format
 msgid "Failed to release fingerprint device %s: %s"
 msgstr "Falha ao liberar o dispositivo de impressão digital %s: %s"
 
-#: panels/system/users/cc-fingerprint-dialog.c:990
+#: panels/system/users/cc-fingerprint-dialog.c:1167
 msgctxt "Fingerprint enroll state"
 msgid "Problem Reading Device"
 msgstr "Problema ao ler o dispositivo"
 
-#: panels/system/users/cc-fingerprint-dialog.c:1023
+#: panels/system/users/cc-fingerprint-dialog.c:1200
 #, c-format
 msgid "Failed to claim fingerprint device %s: %s"
 msgstr "Falha ao reivindicar o dispositivo de impressão digital %s: %s"
 
-#: panels/system/users/cc-fingerprint-dialog.c:1146
+#: panels/system/users/cc-fingerprint-dialog.c:1329
 #, c-format
 msgid "Failed to get fingerprint devices: %s"
 msgstr "Falha ao obter dispositivo de impressão digital: %s"
-
-#: panels/system/users/cc-fingerprint-dialog.c:1212
-msgid "Delete All Fingerprints?"
-msgstr "Excluir impressões digitais?"
-
-#: panels/system/users/cc-fingerprint-dialog.c:1213
-msgid ""
-"Deleting all enrolled fingerprints will disable Fingerprint Login. To re-"
-"enable Fingerprint Login at least one fingerprint will have to be enrolled."
-msgstr ""
-"Excluir todas as impressões digitais registradas desabilitará o início de "
-"sessão por impressão digital. Para reabilitar o início de sessão por "
-"impressão digital, pelo menos uma impressão digital terá que ser registrada."
-
-#: panels/system/users/cc-fingerprint-dialog.c:1217
-msgid "_Delete All"
-msgstr "_Excluir tudo"
 
 #: panels/system/users/cc-password-dialog.blp:5
 msgid "Change Password"
@@ -8351,8 +8351,8 @@ msgid "Pa_ssword"
 msgstr "_Senha"
 
 #: panels/system/users/cc-user-page.blp:98
-msgid "_Fingerprint Login"
-msgstr "Início de sessão por _impressão digital"
+msgid "_Fingerprint Authentication"
+msgstr "Autenticação por impressão _digital"
 
 #: panels/system/users/cc-user-page.blp:106
 msgid "A_utomatic Login"
@@ -8404,12 +8404,12 @@ msgid "None"
 msgstr "Nenhum"
 
 #. TODO: Handle enterprise accounts
-#: panels/system/users/cc-user-page.c:414
+#: panels/system/users/cc-user-page.c:430
 #, c-format
 msgid "Remove %s?"
 msgstr "Remover %s?"
 
-#: panels/system/users/cc-user-page.c:419
+#: panels/system/users/cc-user-page.c:435
 msgid ""
 "The user's files and settings will be deleted, and they will not be able to "
 "use this device once their account has been removed"
@@ -8417,7 +8417,7 @@ msgstr ""
 "Os arquivos e configurações do usuário serão deletados e não poderão ser "
 "usados neste dispositivo depois que sua conta for removida"
 
-#: panels/system/users/cc-user-page.c:423
+#: panels/system/users/cc-user-page.c:439
 msgid ""
 "The user will not be able to use this device once their account has been "
 "removed"
@@ -8701,13 +8701,13 @@ msgid "_Test Flash"
 msgstr "_Testar flash"
 
 #. Translators: This will be presented as the text of a link to the Sound panel
-#: panels/universal-access/cc-ua-hearing-page.c:154
+#: panels/universal-access/cc-ua-hearing-page.c:152
 msgctxt "Sound panel name"
 msgid "Sound"
 msgstr "Som"
 
 #. Translators: %s is a link to the Sound panel with the label "Sound"
-#: panels/universal-access/cc-ua-hearing-page.c:156
+#: panels/universal-access/cc-ua-hearing-page.c:154
 #, c-format
 msgid "System volume can be adjusted in %s settings"
 msgstr "O volume do sistema pode ser ajustado nas configurações de %s"
@@ -8923,7 +8923,7 @@ msgid "Text Size"
 msgstr "Tamanho do texto"
 
 #: panels/universal-access/cc-ua-seeing-page.blp:109
-#: panels/wwan/cc-wwan-device-page.c:184
+#: panels/wwan/cc-wwan-device-page.c:175
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -9823,31 +9823,31 @@ msgstr ""
 "Bem-estar;Tempo de tela;Pausas;Intervalos;Lembretes de intervalos;Saúde;Uso "
 "diário;Diário;Limites de tela;Tela;Limites de uso;"
 
-#: panels/wwan/cc-wwan-apn-dialog.blp:8
+#: panels/wwan/cc-wwan-apn-dialog.blp:7
 msgid "Access Points"
 msgstr "Pontos de acesso"
 
-#: panels/wwan/cc-wwan-apn-dialog.blp:31
+#: panels/wwan/cc-wwan-apn-dialog.blp:29
 msgid "Add"
 msgstr "Adicionar"
 
-#: panels/wwan/cc-wwan-apn-dialog.blp:103
+#: panels/wwan/cc-wwan-apn-dialog.blp:101
 msgid "APN"
 msgstr "APN"
 
-#: panels/wwan/cc-wwan-apn-dialog.blp:177
+#: panels/wwan/cc-wwan-apn-dialog.blp:175
 msgid "APN Type"
 msgstr "Tipo de APN"
 
-#: panels/wwan/cc-wwan-apn-dialog.blp:193
+#: panels/wwan/cc-wwan-apn-dialog.blp:191
 msgid "Internet"
 msgstr "Internet"
 
-#: panels/wwan/cc-wwan-apn-dialog.blp:194
+#: panels/wwan/cc-wwan-apn-dialog.blp:192
 msgid "Attach"
 msgstr "Anexar"
 
-#: panels/wwan/cc-wwan-apn-dialog.blp:208
+#: panels/wwan/cc-wwan-apn-dialog.blp:206
 msgid "Auth Type"
 msgstr "Tipo de autenticação"
 
@@ -10100,115 +10100,115 @@ msgstr "Nenhum SIM"
 msgid "Insert a SIM card to use this modem"
 msgstr "Insira um cartão SIM para usar esse modem"
 
-#: panels/wwan/cc-wwan-device-page.blp:26
+#: panels/wwan/cc-wwan-device-page.blp:27
 msgid "SIM Locked"
 msgstr "SIM Bloqueado"
 
-#: panels/wwan/cc-wwan-device-page.blp:61
+#: panels/wwan/cc-wwan-device-page.blp:62
 msgid "_Mobile Data"
 msgstr "Dados _móveis"
 
-#: panels/wwan/cc-wwan-device-page.blp:62
+#: panels/wwan/cc-wwan-device-page.blp:63
 msgid "Access data using mobile network"
 msgstr "Acessar dados usando a rede móvel"
 
-#: panels/wwan/cc-wwan-device-page.blp:68
+#: panels/wwan/cc-wwan-device-page.blp:69
 msgid "_Data Roaming"
 msgstr "Roaming de _dados"
 
-#: panels/wwan/cc-wwan-device-page.blp:69
+#: panels/wwan/cc-wwan-device-page.blp:70
 msgid "Use mobile data when roaming"
 msgstr "Use dados móveis quando estiver em roaming"
 
-#: panels/wwan/cc-wwan-device-page.blp:88
+#: panels/wwan/cc-wwan-device-page.blp:89
 msgid "_Network Mode"
 msgstr "Modo de _rede"
 
-#: panels/wwan/cc-wwan-device-page.blp:93
+#: panels/wwan/cc-wwan-device-page.blp:94
 msgid "N_etwork"
 msgstr "Re_de"
 
-#: panels/wwan/cc-wwan-device-page.blp:99
+#: panels/wwan/cc-wwan-device-page.blp:100
 msgid "Advanced"
 msgstr "Avançado"
 
-#: panels/wwan/cc-wwan-device-page.blp:112
+#: panels/wwan/cc-wwan-device-page.blp:113
 msgid "_Access Point Names"
 msgstr "Nomes de ponto de _acesso"
 
-#: panels/wwan/cc-wwan-device-page.blp:117
+#: panels/wwan/cc-wwan-device-page.blp:118
 msgid "_SIM Lock"
 msgstr "Bloqueio _SIM"
 
-#: panels/wwan/cc-wwan-device-page.blp:118
+#: panels/wwan/cc-wwan-device-page.blp:119
 msgid "Lock SIM with PIN"
 msgstr "Bloquear SIM com PIN"
 
-#: panels/wwan/cc-wwan-device-page.blp:123
+#: panels/wwan/cc-wwan-device-page.blp:124
 msgid "M_odem Details"
 msgstr "Detalhes do M_odem"
 
-#: panels/wwan/cc-wwan-device-page.blp:128
+#: panels/wwan/cc-wwan-device-page.blp:129
 msgid "Primary S_IM Slot"
 msgstr "Slot S_IM primário"
 
-#: panels/wwan/cc-wwan-device-page.c:182
+#: panels/wwan/cc-wwan-device-page.c:173
 msgid "Unlock SIM card"
 msgstr "Desbloquear cartão SIM"
 
-#: panels/wwan/cc-wwan-device-page.c:183 panels/wwan/cc-wwan-device-page.c:223
+#: panels/wwan/cc-wwan-device-page.c:174 panels/wwan/cc-wwan-device-page.c:214
 msgid "Unlock"
 msgstr "Desbloquear"
 
-#: panels/wwan/cc-wwan-device-page.c:187
+#: panels/wwan/cc-wwan-device-page.c:178
 #, c-format
 msgid "Please provide PIN code for SIM %d"
 msgstr "Por gentileza forneça o código PIN para o SIM %d"
 
-#: panels/wwan/cc-wwan-device-page.c:188
+#: panels/wwan/cc-wwan-device-page.c:179
 msgid "Enter PIN to unlock your SIM card"
 msgstr "Digite o PIN para desbloquear seu cartão SIM"
 
-#: panels/wwan/cc-wwan-device-page.c:190
+#: panels/wwan/cc-wwan-device-page.c:181
 #, c-format
 msgid "Please provide PUK code for SIM %d"
 msgstr "Por gentileza forneça o código PUK para o SIM %d"
 
-#: panels/wwan/cc-wwan-device-page.c:191
+#: panels/wwan/cc-wwan-device-page.c:182
 msgid "Enter PUK to unlock your SIM card"
 msgstr "Digite o PUK para desbloquear seu cartão SIM"
 
-#: panels/wwan/cc-wwan-device-page.c:206
+#: panels/wwan/cc-wwan-device-page.c:197
 #, c-format
 msgid "Wrong password entered. You have %1$u try left"
 msgid_plural "Wrong password entered. You have %1$u tries left"
 msgstr[0] "Informada senha incorreta. Você tem %1$u tentativa restante"
 msgstr[1] "Informada senha incorreta. Você tem %1$u tentativas restantes"
 
-#: panels/wwan/cc-wwan-device-page.c:210
+#: panels/wwan/cc-wwan-device-page.c:201
 #, c-format
 msgid "You have %u try left"
 msgid_plural "You have %u tries left"
 msgstr[0] "Você tem %u tentativa restante"
 msgstr[1] "Você tem %u tentativas restantes"
 
-#: panels/wwan/cc-wwan-device-page.c:212
+#: panels/wwan/cc-wwan-device-page.c:203
 msgid "Wrong password entered."
 msgstr "Informada senha incorreta."
 
-#: panels/wwan/cc-wwan-device-page.c:253
+#: panels/wwan/cc-wwan-device-page.c:244
 msgid "PUK code should be an 8 digit number"
 msgstr "Código PUK deve ser um número de 8 dígitos"
 
-#: panels/wwan/cc-wwan-device-page.c:275
+#: panels/wwan/cc-wwan-device-page.c:266
 msgid "Enter New PIN"
 msgstr "Digite novo PIN"
 
-#: panels/wwan/cc-wwan-device-page.c:279
+#: panels/wwan/cc-wwan-device-page.c:270
 msgid "PIN code should be a 4-8 digit number"
 msgstr "Código PIN deve ser um número entre 4-8 dígitos"
 
-#: panels/wwan/cc-wwan-device-page.c:296
+#: panels/wwan/cc-wwan-device-page.c:287
 msgid "Unlocking…"
 msgstr "Desbloqueando…"
 
@@ -10216,7 +10216,7 @@ msgstr "Desbloqueando…"
 #. * For example: "Slot 1 [Operator Name]", "Slot 1" or "Slot 2 [Empty]".
 #. * Notice that all variations above are valid. Sometimes "Operator Name"
 #. * will be ommitted.
-#: panels/wwan/cc-wwan-device-page.c:467
+#: panels/wwan/cc-wwan-device-page.c:458
 #, c-format
 msgid "Slot %d %s"
 msgstr "Slot %d %s"
@@ -10597,6 +10597,53 @@ msgstr[1] "%u entradas"
 #: subprojects/gvc/gvc-mixer-control.c:2919
 msgid "System Sounds"
 msgstr "Sons do sistema"
+
+#~ msgid "No Fingerprint device"
+#~ msgstr "Nenhum dispositivo de impressão digital"
+
+#~ msgid ""
+#~ "Fingerprint login allows you to unlock and log into your device with your "
+#~ "finger"
+#~ msgstr ""
+#~ "O início de sessão por impressão digital permite desbloquear e iniciar a "
+#~ "sessão no seu dispositivo com seu dedo"
+
+#~ msgid "_Delete Fingerprints"
+#~ msgstr "E_xcluir impressões digitais"
+
+#~ msgid "Fingerprint Enroll"
+#~ msgstr "Registro de impressão digital"
+
+#~ msgid "Fingerprint is duplicate"
+#~ msgstr "A impressão digital está duplicada"
+
+#~ msgid "Failed to enroll new fingerprint"
+#~ msgstr "Falha ao registar nova impressão digital"
+
+#~ msgid "_Re-enroll this finger…"
+#~ msgstr "_Registrar novamente este dedo…"
+
+#~ msgid "Scan new fingerprint"
+#~ msgstr "Registrar nova impressão digital"
+
+#~ msgid "Delete All Fingerprints?"
+#~ msgstr "Excluir impressões digitais?"
+
+#~ msgid ""
+#~ "Deleting all enrolled fingerprints will disable Fingerprint Login. To re-"
+#~ "enable Fingerprint Login at least one fingerprint will have to be "
+#~ "enrolled."
+#~ msgstr ""
+#~ "Excluir todas as impressões digitais registradas desabilitará o início de "
+#~ "sessão por impressão digital. Para reabilitar o início de sessão por "
+#~ "impressão digital, pelo menos uma impressão digital terá que ser "
+#~ "registrada."
+
+#~ msgid "_Delete All"
+#~ msgstr "_Excluir tudo"
+
+#~ msgid "_Fingerprint Login"
+#~ msgstr "Início de sessão por _impressão digital"
 
 #~ msgid "DNS search domain(s)"
 #~ msgstr "Pesquisar Domínio(s) DNS"
