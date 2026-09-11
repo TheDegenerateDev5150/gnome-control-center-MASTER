@@ -31,7 +31,7 @@ cd _build
 ninja
 ```
 
-At the first time you do this you should also run `sudo ninja install` so that gsettings and other resources are installed in system paths.
+The first time you do this you should also run `sudo ninja install` so that gsettings and other resources are installed in system paths.
 
 If you have an old clone of the project, you might run into build issues with subprojects (libraries bundled with our sources). Updating them from the repository root often fixes it:
 
@@ -68,7 +68,7 @@ sudo dnf install -y rygel gnome-user-share gnome-shell flatpak \
 
 ## Keeping your toolbox updated
 
-You can update you toolbox with:
+You can update your toolbox with:
 
 ```bash
 sudo dnf update
