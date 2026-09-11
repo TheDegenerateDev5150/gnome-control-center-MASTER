@@ -33,6 +33,12 @@ ninja
 
 At the first time you do this you should also run `sudo ninja install` so that gsettings and other resources are installed in system paths.
 
+If you have an old clone of the project, you might run into build issues with subprojects (libraries bundled with our sources). Updating them from the repository root often fixes it:
+
+```bash
+meson subprojects update
+```
+
 ## Running
 
 With that, you can run GNOME Settings from its executable:
